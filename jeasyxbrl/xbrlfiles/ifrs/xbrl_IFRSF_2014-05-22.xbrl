@@ -1,0 +1,4753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xbrli:xbrl xmlns:IFRSF="http://www.ifrs.org/xbrl/IFRSFannualreport2013" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2014-03-05/ifrs-full" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrldi="http://xbrl.org/2006/xbrldi">
+  <link:schemaRef xlink:type="simple" xlink:href="IFRSF_2014-05-22.xsd"/>
+  <xbrli:context id="e2012">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="y2012">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2012-01-01</xbrli:startDate>
+      <xbrli:endDate>2012-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="e2012_GrossCarryingAmountMember_LeaseholdImprovementsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:GrossCarryingAmountMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-full:LeaseholdImprovementsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember_LeaseholdImprovementsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-full:LeaseholdImprovementsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_LeaseholdImprovementsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-full:LeaseholdImprovementsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_GrossCarryingAmountMember_FurnitureEquipmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:GrossCarryingAmountMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">IFRSF:FurnitureEquipmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember_FurnitureEquipmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">IFRSF:FurnitureEquipmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_FurnitureEquipmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">IFRSF:FurnitureEquipmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_GrossCarryingAmountMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:GrossCarryingAmountMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_NotLaterThanOneYearMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:MaturityAxis">ifrs-full:NotLaterThanOneYearMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_LaterThanOneYearAndNotLaterThanFiveYearsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:MaturityAxis">ifrs-full:LaterThanOneYearAndNotLaterThanFiveYearsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_LaterThanFiveYearsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:MaturityAxis">ifrs-full:LaterThanFiveYearsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_ForwardContractsUSDollarMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="IFRSF:ForwardContractsAxis">IFRSF:ForwardContractsUSDollarMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_ForwardContractsEuroMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="IFRSF:ForwardContractsAxis">IFRSF:ForwardContractsEuroMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="y2013">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="y2013_ComputerEquipmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-full:ComputerEquipmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2013_OtherPropertyPlantAndEquipmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-full:OtherPropertyPlantAndEquipmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2013_BottomOfRangeMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:RangeAxis">ifrs-full:BottomOfRangeMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2013_TopOfRangeMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:RangeAxis">ifrs-full:TopOfRangeMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2013_GrossCarryingAmountMember_LeaseholdImprovementsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:GrossCarryingAmountMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-full:LeaseholdImprovementsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2013_AccumulatedDepreciationAmortisationAndImpairmentMember_LeaseholdImprovementsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-full:LeaseholdImprovementsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2013_GrossCarryingAmountMember_FurnitureEquipmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:GrossCarryingAmountMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">IFRSF:FurnitureEquipmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2013_AccumulatedDepreciationAmortisationAndImpairmentMember_FurnitureEquipmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">IFRSF:FurnitureEquipmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2013_GrossCarryingAmountMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:GrossCarryingAmountMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2013_AccumulatedDepreciationAmortisationAndImpairmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_NotLaterThanOneYearMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:MaturityAxis">ifrs-full:NotLaterThanOneYearMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_LaterThanOneYearAndNotLaterThanFiveYearsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:MaturityAxis">ifrs-full:LaterThanOneYearAndNotLaterThanFiveYearsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_LaterThanFiveYearsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:MaturityAxis">ifrs-full:LaterThanFiveYearsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_ForwardContractsUSDollarMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="IFRSF:ForwardContractsAxis">IFRSF:ForwardContractsUSDollarMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_ForwardContractsEuroMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="IFRSF:ForwardContractsAxis">IFRSF:ForwardContractsEuroMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2013_ContributionsNotCoveredByForwardContractsInUSD">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="IFRSF:ForeignCurrencySensitivityAxis">IFRSF:ContributionsNotCoveredByForwardContractsInUSD</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2013_ContributionsNotCoveredByForwardContractsInEUR">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="IFRSF:ForeignCurrencySensitivityAxis">IFRSF:ContributionsNotCoveredByForwardContractsInEUR</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_BondsMember_Level1OfFairValueHierarchyMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfFinancialInstrumentsAxis">IFRSF:BondsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level1OfFairValueHierarchyMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_ForwardContractsEuroMember_Level2OfFairValueHierarchyMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfFinancialInstrumentsAxis">IFRSF:ForwardContractsEuroMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level2OfFairValueHierarchyMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2012_ForwardContractsUSDollarMember_Level2OfFairValueHierarchyMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2012-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfFinancialInstrumentsAxis">IFRSF:ForwardContractsUSDollarMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level2OfFairValueHierarchyMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_GrossCarryingAmountMember_LeaseholdImprovementsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:GrossCarryingAmountMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-full:LeaseholdImprovementsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_AccumulatedDepreciationAmortisationAndImpairmentMember_LeaseholdImprovementsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-full:LeaseholdImprovementsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_LeaseholdImprovementsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-full:LeaseholdImprovementsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_GrossCarryingAmountMember_FurnitureEquipmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:GrossCarryingAmountMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">IFRSF:FurnitureEquipmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_AccumulatedDepreciationAmortisationAndImpairmentMember_FurnitureEquipmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">IFRSF:FurnitureEquipmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_FurnitureEquipmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">IFRSF:FurnitureEquipmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_GrossCarryingAmountMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:GrossCarryingAmountMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_AccumulatedDepreciationAmortisationAndImpairmentMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:CarryingAmountAccumulatedDepreciationAmortisationAndImpairmentAndGrossCarryingAmountAxis">ifrs-full:AccumulatedDepreciationAmortisationAndImpairmentMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_BondsMember_Level1OfFairValueHierarchyMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfFinancialInstrumentsAxis">IFRSF:BondsMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level1OfFairValueHierarchyMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_ForwardContractsUSDollarMember_Level2OfFairValueHierarchyMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfFinancialInstrumentsAxis">IFRSF:ForwardContractsUSDollarMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level2OfFairValueHierarchyMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2013_ForwardContractsEuroMember_Level2OfFairValueHierarchyMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2013-12-31</xbrli:instant>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfFinancialInstrumentsAxis">IFRSF:ForwardContractsEuroMember</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="ifrs-full:LevelsOfFairValueHierarchyAxis">ifrs-full:Level2OfFairValueHierarchyMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="y2013_LeaseholdImprovementsMember">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2013-01-01</xbrli:startDate>
+      <xbrli:endDate>2013-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="ifrs-full:ClassesOfPropertyPlantAndEquipmentAxis">ifrs-full:LeaseholdImprovementsMember</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="e2011">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.ifrs.org/xbrl/IFRSFannualreport2013">IFRSF</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2011-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="Sterling">
+    <xbrli:measure>iso4217:GBP</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="USD">
+    <xbrli:measure>iso4217:USD</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="EUR">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="Pure">
+    <xbrli:measure>xbrli:pure</xbrli:measure>
+  </xbrli:unit>
+  <xbrli:unit id="USD.GBP">
+    <xbrli:divide>
+      <xbrli:unitNumerator>
+        <xbrli:measure>iso4217:USD</xbrli:measure>
+      </xbrli:unitNumerator>
+      <xbrli:unitDenominator>
+        <xbrli:measure>iso4217:GBP</xbrli:measure>
+      </xbrli:unitDenominator>
+    </xbrli:divide>
+  </xbrli:unit>
+  <xbrli:unit id="EUR.GBP">
+    <xbrli:divide>
+      <xbrli:unitNumerator>
+        <xbrli:measure>iso4217:EUR</xbrli:measure>
+      </xbrli:unitNumerator>
+      <xbrli:unitDenominator>
+        <xbrli:measure>iso4217:GBP</xbrli:measure>
+      </xbrli:unitDenominator>
+    </xbrli:divide>
+  </xbrli:unit>
+  <xbrli:unit id="JPY">
+    <xbrli:measure>iso4217:JPY</xbrli:measure>
+  </xbrli:unit>
+  <IFRSF:Contributions decimals="-3" contextRef="y2013" unitRef="Sterling">21372000</IFRSF:Contributions>
+  <IFRSF:Contributions decimals="-3" contextRef="y2012" unitRef="Sterling">20030000</IFRSF:Contributions>
+  <ifrs-full:OtherIncome decimals="-3" contextRef="y2013" unitRef="Sterling">374000</ifrs-full:OtherIncome>
+  <ifrs-full:OtherIncome decimals="-3" contextRef="y2012" unitRef="Sterling">149000</ifrs-full:OtherIncome>
+  <IFRSF:TotalStandardSettingAndRelatedActivitiesIncome decimals="-3" contextRef="y2013" unitRef="Sterling">21746000</IFRSF:TotalStandardSettingAndRelatedActivitiesIncome>
+  <IFRSF:TotalStandardSettingAndRelatedActivitiesIncome decimals="-3" contextRef="y2012" unitRef="Sterling">20179000</IFRSF:TotalStandardSettingAndRelatedActivitiesIncome>
+  <IFRSF:RevenueFromPublicationsAndRelatedActivities decimals="-3" contextRef="y2013" unitRef="Sterling">5621000</IFRSF:RevenueFromPublicationsAndRelatedActivities>
+  <IFRSF:RevenueFromPublicationsAndRelatedActivities decimals="-3" contextRef="y2012" unitRef="Sterling">5324000</IFRSF:RevenueFromPublicationsAndRelatedActivities>
+  <ifrs-full:RevenueAndOperatingIncome decimals="-3" contextRef="y2013" unitRef="Sterling">27367000</ifrs-full:RevenueAndOperatingIncome>
+  <ifrs-full:RevenueAndOperatingIncome decimals="-3" contextRef="y2012" unitRef="Sterling">25503000</ifrs-full:RevenueAndOperatingIncome>
+  <IFRSF:SalariesWagesAndBenefits decimals="-3" contextRef="y2013" unitRef="Sterling">16947000</IFRSF:SalariesWagesAndBenefits>
+  <IFRSF:SalariesWagesAndBenefits decimals="-3" contextRef="y2012" unitRef="Sterling">15571000</IFRSF:SalariesWagesAndBenefits>
+  <IFRSF:TrusteesFees decimals="-3" contextRef="y2013" unitRef="Sterling">653000</IFRSF:TrusteesFees>
+  <IFRSF:TrusteesFees decimals="-3" contextRef="y2012" unitRef="Sterling">631000</IFRSF:TrusteesFees>
+  <IFRSF:CostOfMeetingsAssociatedTravelAndAccomodation decimals="-3" contextRef="y2013" unitRef="Sterling">1858000</IFRSF:CostOfMeetingsAssociatedTravelAndAccomodation>
+  <IFRSF:CostOfMeetingsAssociatedTravelAndAccomodation decimals="-3" contextRef="y2012" unitRef="Sterling">2113000</IFRSF:CostOfMeetingsAssociatedTravelAndAccomodation>
+  <IFRSF:Accommodation decimals="-3" contextRef="y2013" unitRef="Sterling">1400000</IFRSF:Accommodation>
+  <IFRSF:Accommodation decimals="-3" contextRef="y2012" unitRef="Sterling">1367000</IFRSF:Accommodation>
+  <ifrs-full:OtherExpenseByNature decimals="-3" contextRef="y2013" unitRef="Sterling">1046000</ifrs-full:OtherExpenseByNature>
+  <ifrs-full:OtherExpenseByNature decimals="-3" contextRef="y2012" unitRef="Sterling">1236000</ifrs-full:OtherExpenseByNature>
+  <IFRSF:ProvisionForHMRCTaxSettlement decimals="-3" contextRef="y2013" unitRef="Sterling">-88000</IFRSF:ProvisionForHMRCTaxSettlement>
+  <IFRSF:ProvisionForHMRCTaxSettlement decimals="-3" contextRef="y2012" unitRef="Sterling">-290000</IFRSF:ProvisionForHMRCTaxSettlement>
+  <IFRSF:ExpenseForStandardsettingAndRelatedActivities decimals="-3" contextRef="y2013" unitRef="Sterling">21816000</IFRSF:ExpenseForStandardsettingAndRelatedActivities>
+  <IFRSF:ExpenseForStandardsettingAndRelatedActivities decimals="-3" contextRef="y2012" unitRef="Sterling">20628000</IFRSF:ExpenseForStandardsettingAndRelatedActivities>
+  <IFRSF:DirectCostOfPublicationsAndRelatedActivities decimals="-3" contextRef="y2013" unitRef="Sterling">3399000</IFRSF:DirectCostOfPublicationsAndRelatedActivities>
+  <IFRSF:DirectCostOfPublicationsAndRelatedActivities decimals="-3" contextRef="y2012" unitRef="Sterling">3208000</IFRSF:DirectCostOfPublicationsAndRelatedActivities>
+  <IFRSF:TotalExpense decimals="-3" contextRef="y2013" unitRef="Sterling">25215000</IFRSF:TotalExpense>
+  <IFRSF:TotalExpense decimals="-3" contextRef="y2012" unitRef="Sterling">23836000</IFRSF:TotalExpense>
+  <ifrs-full:ProfitLossFromOperatingActivities decimals="-3" contextRef="y2013" unitRef="Sterling">2152000</ifrs-full:ProfitLossFromOperatingActivities>
+  <ifrs-full:ProfitLossFromOperatingActivities decimals="-3" contextRef="y2012" unitRef="Sterling">1667000</ifrs-full:ProfitLossFromOperatingActivities>
+  <ifrs-full:FinanceIncome decimals="-3" contextRef="y2013" unitRef="Sterling">390000</ifrs-full:FinanceIncome>
+  <ifrs-full:FinanceIncome decimals="-3" contextRef="y2012" unitRef="Sterling">883000</ifrs-full:FinanceIncome>
+  <ifrs-full:FinanceCosts decimals="-3" contextRef="y2013" unitRef="Sterling">162000</ifrs-full:FinanceCosts>
+  <ifrs-full:FinanceCosts decimals="-3" contextRef="y2012" unitRef="Sterling">126000</ifrs-full:FinanceCosts>
+  <ifrs-full:ProfitLossBeforeTax decimals="-3" contextRef="y2013" unitRef="Sterling">2380000</ifrs-full:ProfitLossBeforeTax>
+  <ifrs-full:ProfitLossBeforeTax decimals="-3" contextRef="y2012" unitRef="Sterling">2424000</ifrs-full:ProfitLossBeforeTax>
+  <ifrs-full:ComprehensiveIncome decimals="-3" contextRef="y2013" unitRef="Sterling">2380000</ifrs-full:ComprehensiveIncome>
+  <ifrs-full:ComprehensiveIncome decimals="-3" contextRef="y2012" unitRef="Sterling">2424000</ifrs-full:ComprehensiveIncome>
+  <ifrs-full:RetainedEarnings decimals="-3" contextRef="e2012" unitRef="Sterling">10839000</ifrs-full:RetainedEarnings>
+  <ifrs-full:RetainedEarnings decimals="-3" contextRef="e2011" unitRef="Sterling">8415000</ifrs-full:RetainedEarnings>
+  <ifrs-full:ComprehensiveIncome decimals="-3" contextRef="y2013" unitRef="Sterling">2380000</ifrs-full:ComprehensiveIncome>
+  <ifrs-full:ComprehensiveIncome decimals="-3" contextRef="y2012" unitRef="Sterling">2424000</ifrs-full:ComprehensiveIncome>
+  <ifrs-full:RetainedEarnings decimals="-3" contextRef="e2013" unitRef="Sterling">13219000</ifrs-full:RetainedEarnings>
+  <ifrs-full:RetainedEarnings decimals="-3" contextRef="e2012" unitRef="Sterling">10839000</ifrs-full:RetainedEarnings>
+  <ifrs-full:CashAndCashEquivalents decimals="-3" contextRef="e2013" unitRef="Sterling">7048000</ifrs-full:CashAndCashEquivalents>
+  <ifrs-full:CashAndCashEquivalents decimals="-3" contextRef="e2012" unitRef="Sterling">8379000</ifrs-full:CashAndCashEquivalents>
+  <IFRSF:ContributionsReceivable decimals="-3" contextRef="e2013" unitRef="Sterling">1339000</IFRSF:ContributionsReceivable>
+  <IFRSF:ContributionsReceivable decimals="-3" contextRef="e2012" unitRef="Sterling">1674000</IFRSF:ContributionsReceivable>
+  <ifrs-full:TradeAndOtherCurrentReceivables decimals="-3" contextRef="e2013" unitRef="Sterling">688000</ifrs-full:TradeAndOtherCurrentReceivables>
+  <ifrs-full:TradeAndOtherCurrentReceivables decimals="-3" contextRef="e2012" unitRef="Sterling">716000</ifrs-full:TradeAndOtherCurrentReceivables>
+  <ifrs-full:CurrentPrepaidExpenses decimals="-3" contextRef="e2013" unitRef="Sterling">603000</ifrs-full:CurrentPrepaidExpenses>
+  <ifrs-full:CurrentPrepaidExpenses decimals="-3" contextRef="e2012" unitRef="Sterling">668000</ifrs-full:CurrentPrepaidExpenses>
+  <ifrs-full:Inventories decimals="-3" contextRef="e2013" unitRef="Sterling">137000</ifrs-full:Inventories>
+  <ifrs-full:Inventories decimals="-3" contextRef="e2012" unitRef="Sterling">153000</ifrs-full:Inventories>
+  <IFRSF:CurrentBonds decimals="-3" contextRef="e2013" unitRef="Sterling">672000</IFRSF:CurrentBonds>
+  <IFRSF:CurrentBonds decimals="-3" contextRef="e2012" unitRef="Sterling">760000</IFRSF:CurrentBonds>
+  <ifrs-full:CurrentDerivativeFinancialAssets decimals="-3" contextRef="e2013" unitRef="Sterling">157000</ifrs-full:CurrentDerivativeFinancialAssets>
+  <ifrs-full:CurrentDerivativeFinancialAssets decimals="-3" contextRef="e2012" unitRef="Sterling">371000</ifrs-full:CurrentDerivativeFinancialAssets>
+  <ifrs-full:CurrentAssets decimals="-3" contextRef="e2013" unitRef="Sterling">10644000</ifrs-full:CurrentAssets>
+  <ifrs-full:CurrentAssets decimals="-3" contextRef="e2012" unitRef="Sterling">12721000</ifrs-full:CurrentAssets>
+  <IFRSF:NonCurrentBonds decimals="-3" contextRef="e2013" unitRef="Sterling">5685000</IFRSF:NonCurrentBonds>
+  <IFRSF:NonCurrentBonds decimals="-3" contextRef="e2012" unitRef="Sterling">4023000</IFRSF:NonCurrentBonds>
+  <ifrs-full:NoncurrentDerivativeFinancialAssets decimals="-3" contextRef="e2013" unitRef="Sterling">373000</ifrs-full:NoncurrentDerivativeFinancialAssets>
+  <ifrs-full:NoncurrentDerivativeFinancialAssets decimals="-3" contextRef="e2012" unitRef="Sterling">40000</ifrs-full:NoncurrentDerivativeFinancialAssets>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2013" unitRef="Sterling">709000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2012" unitRef="Sterling">793000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:NoncurrentAssets decimals="-3" contextRef="e2013" unitRef="Sterling">6767000</ifrs-full:NoncurrentAssets>
+  <ifrs-full:NoncurrentAssets decimals="-3" contextRef="e2012" unitRef="Sterling">4856000</ifrs-full:NoncurrentAssets>
+  <ifrs-full:Assets decimals="-3" contextRef="e2013" unitRef="Sterling">17411000</ifrs-full:Assets>
+  <ifrs-full:Assets decimals="-3" contextRef="e2012" unitRef="Sterling">17577000</ifrs-full:Assets>
+  <ifrs-full:TradeAndOtherCurrentPayables decimals="-3" contextRef="e2013" unitRef="Sterling">338000</ifrs-full:TradeAndOtherCurrentPayables>
+  <ifrs-full:TradeAndOtherCurrentPayables decimals="-3" contextRef="e2012" unitRef="Sterling">265000</ifrs-full:TradeAndOtherCurrentPayables>
+  <IFRSF:PayrollTaxesPayable decimals="-3" contextRef="e2013" unitRef="Sterling">581000</IFRSF:PayrollTaxesPayable>
+  <IFRSF:PayrollTaxesPayable decimals="-3" contextRef="e2012" unitRef="Sterling">627000</IFRSF:PayrollTaxesPayable>
+  <ifrs-full:AccrualsClassifiedAsCurrent decimals="-3" contextRef="e2013" unitRef="Sterling">1124000</ifrs-full:AccrualsClassifiedAsCurrent>
+  <ifrs-full:AccrualsClassifiedAsCurrent decimals="-3" contextRef="e2012" unitRef="Sterling">1285000</ifrs-full:AccrualsClassifiedAsCurrent>
+  <IFRSF:LiabilityForHMRCTaxSettlement decimals="-3" contextRef="e2012" unitRef="Sterling">94000</IFRSF:LiabilityForHMRCTaxSettlement>
+  <IFRSF:ContributionsReceivedInAdvance decimals="-3" contextRef="e2013" unitRef="Sterling">350000</IFRSF:ContributionsReceivedInAdvance>
+  <IFRSF:ContributionsReceivedInAdvance decimals="-3" contextRef="e2012" unitRef="Sterling">2695000</IFRSF:ContributionsReceivedInAdvance>
+  <IFRSF:CurrentRentIncentive decimals="-3" contextRef="e2013" unitRef="Sterling">82000</IFRSF:CurrentRentIncentive>
+  <IFRSF:CurrentRentIncentive decimals="-3" contextRef="e2012" unitRef="Sterling">82000</IFRSF:CurrentRentIncentive>
+  <IFRSF:PublicationsRevenueReceivedInAdvance decimals="-3" contextRef="e2013" unitRef="Sterling">780000</IFRSF:PublicationsRevenueReceivedInAdvance>
+  <IFRSF:PublicationsRevenueReceivedInAdvance decimals="-3" contextRef="e2012" unitRef="Sterling">871000</IFRSF:PublicationsRevenueReceivedInAdvance>
+  <ifrs-full:CurrentDerivativeFinancialLiabilities decimals="-3" contextRef="e2013" unitRef="Sterling">66000</ifrs-full:CurrentDerivativeFinancialLiabilities>
+  <ifrs-full:CurrentLiabilities decimals="-3" contextRef="e2013" unitRef="Sterling">3321000</ifrs-full:CurrentLiabilities>
+  <ifrs-full:CurrentLiabilities decimals="-3" contextRef="e2012" unitRef="Sterling">5919000</ifrs-full:CurrentLiabilities>
+  <ifrs-full:NoncurrentDerivativeFinancialLiabilities decimals="-3" contextRef="e2012" unitRef="Sterling">15000</ifrs-full:NoncurrentDerivativeFinancialLiabilities>
+  <IFRSF:ReinstatementProvision decimals="-3" contextRef="e2013" unitRef="Sterling">562000</IFRSF:ReinstatementProvision>
+  <IFRSF:ReinstatementProvision decimals="-3" contextRef="e2012" unitRef="Sterling">413000</IFRSF:ReinstatementProvision>
+  <IFRSF:NonCurrentRentIncentive decimals="-3" contextRef="e2013" unitRef="Sterling">309000</IFRSF:NonCurrentRentIncentive>
+  <IFRSF:NonCurrentRentIncentive decimals="-3" contextRef="e2012" unitRef="Sterling">391000</IFRSF:NonCurrentRentIncentive>
+  <ifrs-full:NoncurrentLiabilities decimals="-3" contextRef="e2013" unitRef="Sterling">871000</ifrs-full:NoncurrentLiabilities>
+  <ifrs-full:NoncurrentLiabilities decimals="-3" contextRef="e2012" unitRef="Sterling">819000</ifrs-full:NoncurrentLiabilities>
+  <ifrs-full:Liabilities decimals="-3" contextRef="e2013" unitRef="Sterling">4192000</ifrs-full:Liabilities>
+  <ifrs-full:Liabilities decimals="-3" contextRef="e2012" unitRef="Sterling">6738000</ifrs-full:Liabilities>
+  <ifrs-full:NetAssetsLiabilities decimals="-3" contextRef="e2013" unitRef="Sterling">13219000</ifrs-full:NetAssetsLiabilities>
+  <ifrs-full:NetAssetsLiabilities decimals="-3" contextRef="e2012" unitRef="Sterling">10839000</ifrs-full:NetAssetsLiabilities>
+  <IFRSF:ContributionsReceived decimals="-3" contextRef="y2013" unitRef="Sterling">19497000</IFRSF:ContributionsReceived>
+  <IFRSF:ContributionsReceived decimals="-3" contextRef="y2012" unitRef="Sterling">19385000</IFRSF:ContributionsReceived>
+  <IFRSF:PublicationsAndRelatedActivities decimals="-3" contextRef="y2013" unitRef="Sterling">5604000</IFRSF:PublicationsAndRelatedActivities>
+  <IFRSF:PublicationsAndRelatedActivities decimals="-3" contextRef="y2012" unitRef="Sterling">5276000</IFRSF:PublicationsAndRelatedActivities>
+  <IFRSF:FundingForTokyoOffice decimals="-3" contextRef="y2013" unitRef="Sterling">315000</IFRSF:FundingForTokyoOffice>
+  <IFRSF:FundingForTokyoOffice decimals="-3" contextRef="y2012" unitRef="Sterling">613000</IFRSF:FundingForTokyoOffice>
+  <ifrs-full:InterestReceivedClassifiedAsOperatingActivities decimals="-3" contextRef="y2013" unitRef="Sterling">129000</ifrs-full:InterestReceivedClassifiedAsOperatingActivities>
+  <ifrs-full:InterestReceivedClassifiedAsOperatingActivities decimals="-3" contextRef="y2012" unitRef="Sterling">259000</ifrs-full:InterestReceivedClassifiedAsOperatingActivities>
+  <IFRSF:CashReceivedForForeignExchangeSettlements decimals="-3" contextRef="y2013" unitRef="Sterling">142000</IFRSF:CashReceivedForForeignExchangeSettlements>
+  <IFRSF:CashReceivedForForeignExchangeSettlements decimals="-3" contextRef="y2012" unitRef="Sterling">88000</IFRSF:CashReceivedForForeignExchangeSettlements>
+  <ifrs-full:OtherCashReceiptsFromOperatingActivities decimals="-3" contextRef="y2013" unitRef="Sterling">25000</ifrs-full:OtherCashReceiptsFromOperatingActivities>
+  <ifrs-full:OtherCashReceiptsFromOperatingActivities decimals="-3" contextRef="y2012" unitRef="Sterling">29000</ifrs-full:OtherCashReceiptsFromOperatingActivities>
+  <ifrs-full:PaymentsToAndOnBehalfOfEmployees decimals="-3" contextRef="y2013" unitRef="Sterling">16162000</ifrs-full:PaymentsToAndOnBehalfOfEmployees>
+  <ifrs-full:PaymentsToAndOnBehalfOfEmployees decimals="-3" contextRef="y2012" unitRef="Sterling">15994000</ifrs-full:PaymentsToAndOnBehalfOfEmployees>
+  <IFRSF:CashPaymentsForPublicationsDirectCosts decimals="-3" contextRef="y2013" unitRef="Sterling">3444000</IFRSF:CashPaymentsForPublicationsDirectCosts>
+  <IFRSF:CashPaymentsForPublicationsDirectCosts decimals="-3" contextRef="y2012" unitRef="Sterling">2942000</IFRSF:CashPaymentsForPublicationsDirectCosts>
+  <IFRSF:CashPaymentsForTrusteesFees decimals="-3" contextRef="y2013" unitRef="Sterling">612000</IFRSF:CashPaymentsForTrusteesFees>
+  <IFRSF:CashPaymentsForTrusteesFees decimals="-3" contextRef="y2012" unitRef="Sterling">724000</IFRSF:CashPaymentsForTrusteesFees>
+  <ifrs-full:OtherCashPaymentsFromOperatingActivities decimals="-3" contextRef="y2013" unitRef="Sterling">4975000</ifrs-full:OtherCashPaymentsFromOperatingActivities>
+  <ifrs-full:OtherCashPaymentsFromOperatingActivities decimals="-3" contextRef="y2012" unitRef="Sterling">4025000</ifrs-full:OtherCashPaymentsFromOperatingActivities>
+  <ifrs-full:CashFlowsFromUsedInOperatingActivities decimals="-3" contextRef="y2013" unitRef="Sterling">519000</ifrs-full:CashFlowsFromUsedInOperatingActivities>
+  <ifrs-full:CashFlowsFromUsedInOperatingActivities decimals="-3" contextRef="y2012" unitRef="Sterling">1965000</ifrs-full:CashFlowsFromUsedInOperatingActivities>
+  <IFRSF:MaturedBondsReceipts decimals="-3" contextRef="y2013" unitRef="Sterling">700000</IFRSF:MaturedBondsReceipts>
+  <IFRSF:MaturedBondsReceipts decimals="-3" contextRef="y2012" unitRef="Sterling">3226000</IFRSF:MaturedBondsReceipts>
+  <IFRSF:PurchaseOfBonds decimals="-3" contextRef="y2013" unitRef="Sterling">2385000</IFRSF:PurchaseOfBonds>
+  <IFRSF:PurchaseOfBonds decimals="-3" contextRef="y2012" unitRef="Sterling">3307000</IFRSF:PurchaseOfBonds>
+  <ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities decimals="-3" contextRef="y2013" unitRef="Sterling">66000</ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities>
+  <ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities decimals="-3" contextRef="y2012" unitRef="Sterling">488000</ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities>
+  <ifrs-full:CashFlowsFromUsedInInvestingActivities decimals="-3" contextRef="y2013" unitRef="Sterling">-1751000</ifrs-full:CashFlowsFromUsedInInvestingActivities>
+  <ifrs-full:CashFlowsFromUsedInInvestingActivities decimals="-3" contextRef="y2012" unitRef="Sterling">-569000</ifrs-full:CashFlowsFromUsedInInvestingActivities>
+  <ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents decimals="-3" contextRef="y2013" unitRef="Sterling">-99000</ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents>
+  <ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents decimals="-3" contextRef="y2012" unitRef="Sterling">-14000</ifrs-full:EffectOfExchangeRateChangesOnCashAndCashEquivalents>
+  <ifrs-full:IncreaseDecreaseInCashAndCashEquivalents decimals="-3" contextRef="y2013" unitRef="Sterling">-1331000</ifrs-full:IncreaseDecreaseInCashAndCashEquivalents>
+  <ifrs-full:IncreaseDecreaseInCashAndCashEquivalents decimals="-3" contextRef="y2012" unitRef="Sterling">1382000</ifrs-full:IncreaseDecreaseInCashAndCashEquivalents>
+  <ifrs-full:CashAndCashEquivalents decimals="-3" contextRef="e2012" unitRef="Sterling">8379000</ifrs-full:CashAndCashEquivalents>
+  <ifrs-full:CashAndCashEquivalents decimals="-3" contextRef="e2011" unitRef="Sterling">6997000</ifrs-full:CashAndCashEquivalents>
+  <ifrs-full:CashAndCashEquivalents decimals="-3" contextRef="e2013" unitRef="Sterling">7048000</ifrs-full:CashAndCashEquivalents>
+  <ifrs-full:CashAndCashEquivalents decimals="-3" contextRef="e2012" unitRef="Sterling">8379000</ifrs-full:CashAndCashEquivalents>
+  <IFRSF:ContributionsReceivedInAdvance decimals="-3" contextRef="e2013" unitRef="Sterling">350000</IFRSF:ContributionsReceivedInAdvance>
+  <IFRSF:ContributionsReceivedInAdvance decimals="-3" contextRef="e2012" unitRef="Sterling">2695000</IFRSF:ContributionsReceivedInAdvance>
+  <IFRSF:ContributionsReceivable decimals="-3" contextRef="e2013" unitRef="Sterling">1339000</IFRSF:ContributionsReceivable>
+  <IFRSF:ContributionsReceivable decimals="-3" contextRef="e2012" unitRef="Sterling">1674000</IFRSF:ContributionsReceivable>
+  <IFRSF:FundingForTokyoOffice decimals="-3" contextRef="y2013" unitRef="Sterling">315000</IFRSF:FundingForTokyoOffice>
+  <IFRSF:FundingForTokyoOffice decimals="-3" contextRef="y2013" unitRef="JPY">50000000</IFRSF:FundingForTokyoOffice>
+  <IFRSF:FundingForTokyoOffice decimals="-3" contextRef="y2012" unitRef="Sterling">613000</IFRSF:FundingForTokyoOffice>
+  <IFRSF:FundingForTokyoOffice decimals="-3" contextRef="y2012" unitRef="JPY">81000000</IFRSF:FundingForTokyoOffice>
+  <IFRSF:FundingForTokyoOfficeRecegnisedAsIncome decimals="0" contextRef="y2013" unitRef="Sterling">352000</IFRSF:FundingForTokyoOfficeRecegnisedAsIncome>
+  <IFRSF:FundingForTokyoOfficeRecegnisedAsIncome decimals="0" contextRef="y2012" unitRef="Sterling">130000</IFRSF:FundingForTokyoOfficeRecegnisedAsIncome>
+  <IFRSF:SalesOfSubscriptionsAndPublications decimals="-3" contextRef="y2013" unitRef="Sterling">3238000</IFRSF:SalesOfSubscriptionsAndPublications>
+  <IFRSF:SalesOfSubscriptionsAndPublications decimals="-3" contextRef="y2012" unitRef="Sterling">3065000</IFRSF:SalesOfSubscriptionsAndPublications>
+  <ifrs-full:RevenueFromRoyalties decimals="-3" contextRef="y2013" unitRef="Sterling">2137000</ifrs-full:RevenueFromRoyalties>
+  <ifrs-full:RevenueFromRoyalties decimals="-3" contextRef="y2012" unitRef="Sterling">2031000</ifrs-full:RevenueFromRoyalties>
+  <IFRSF:OtherRelatedActivities decimals="-3" contextRef="y2013" unitRef="Sterling">246000</IFRSF:OtherRelatedActivities>
+  <IFRSF:OtherRelatedActivities decimals="-3" contextRef="y2012" unitRef="Sterling">228000</IFRSF:OtherRelatedActivities>
+  <IFRSF:RevenueFromPublicationsAndRelatedActivities decimals="-3" contextRef="y2013" unitRef="Sterling">5621000</IFRSF:RevenueFromPublicationsAndRelatedActivities>
+  <IFRSF:RevenueFromPublicationsAndRelatedActivities decimals="-3" contextRef="y2012" unitRef="Sterling">5324000</IFRSF:RevenueFromPublicationsAndRelatedActivities>
+  <IFRSF:EmployeeRelatedCostsInPublicationsAndRelatedCost decimals="-3" contextRef="y2013" unitRef="Sterling">1954000</IFRSF:EmployeeRelatedCostsInPublicationsAndRelatedCost>
+  <IFRSF:EmployeeRelatedCostsInPublicationsAndRelatedCost decimals="-3" contextRef="y2012" unitRef="Sterling">1717000</IFRSF:EmployeeRelatedCostsInPublicationsAndRelatedCost>
+  <IFRSF:CostsOfGoodsSoldInPublicationsAndRelatedCost decimals="-3" contextRef="y2013" unitRef="Sterling">451000</IFRSF:CostsOfGoodsSoldInPublicationsAndRelatedCost>
+  <IFRSF:CostsOfGoodsSoldInPublicationsAndRelatedCost decimals="-3" contextRef="y2012" unitRef="Sterling">542000</IFRSF:CostsOfGoodsSoldInPublicationsAndRelatedCost>
+  <IFRSF:DepreciationnPublicationsAndRelatedCost decimals="-3" contextRef="y2013" unitRef="Sterling">32000</IFRSF:DepreciationnPublicationsAndRelatedCost>
+  <IFRSF:DepreciationnPublicationsAndRelatedCost decimals="-3" contextRef="y2012" unitRef="Sterling">39000</IFRSF:DepreciationnPublicationsAndRelatedCost>
+  <IFRSF:OtherCostsInPublicationsAndRelatedCost decimals="-3" contextRef="y2013" unitRef="Sterling">962000</IFRSF:OtherCostsInPublicationsAndRelatedCost>
+  <IFRSF:OtherCostsInPublicationsAndRelatedCost decimals="-3" contextRef="y2012" unitRef="Sterling">910000</IFRSF:OtherCostsInPublicationsAndRelatedCost>
+  <IFRSF:DirectCostOfPublicationsAndRelatedActivities decimals="-3" contextRef="y2013" unitRef="Sterling">3399000</IFRSF:DirectCostOfPublicationsAndRelatedActivities>
+  <IFRSF:DirectCostOfPublicationsAndRelatedActivities decimals="-3" contextRef="y2012" unitRef="Sterling">3208000</IFRSF:DirectCostOfPublicationsAndRelatedActivities>
+  <ifrs-full:AverageNumberOfEmployees decimals="0" contextRef="y2013" unitRef="Pure">136</ifrs-full:AverageNumberOfEmployees>
+  <ifrs-full:AverageNumberOfEmployees decimals="0" contextRef="y2012" unitRef="Pure">127</ifrs-full:AverageNumberOfEmployees>
+  <IFRSF:StaffCostsStandardSettingAndRelatedActivities decimals="-3" contextRef="y2013" unitRef="Sterling">16186000</IFRSF:StaffCostsStandardSettingAndRelatedActivities>
+  <IFRSF:StaffCostsStandardSettingAndRelatedActivities decimals="-3" contextRef="y2012" unitRef="Sterling">14964000</IFRSF:StaffCostsStandardSettingAndRelatedActivities>
+  <IFRSF:ContributionsToDefinedContributionPensionPlans decimals="-3" contextRef="y2013" unitRef="Sterling">761000</IFRSF:ContributionsToDefinedContributionPensionPlans>
+  <IFRSF:ContributionsToDefinedContributionPensionPlans decimals="-3" contextRef="y2012" unitRef="Sterling">607000</IFRSF:ContributionsToDefinedContributionPensionPlans>
+  <IFRSF:SalariesWagesAndBenefits decimals="-3" contextRef="y2013" unitRef="Sterling">16947000</IFRSF:SalariesWagesAndBenefits>
+  <IFRSF:SalariesWagesAndBenefits decimals="-3" contextRef="y2012" unitRef="Sterling">15571000</IFRSF:SalariesWagesAndBenefits>
+  <IFRSF:SalariesAndOtherCostsFromPublication decimals="-3" contextRef="y2013" unitRef="Sterling">1828000</IFRSF:SalariesAndOtherCostsFromPublication>
+  <IFRSF:SalariesAndOtherCostsFromPublication decimals="-3" contextRef="y2012" unitRef="Sterling">1604000</IFRSF:SalariesAndOtherCostsFromPublication>
+  <IFRSF:ContributionsToDefinedContributionPensionPlansFromPublications decimals="-3" contextRef="y2013" unitRef="Sterling">126000</IFRSF:ContributionsToDefinedContributionPensionPlansFromPublications>
+  <IFRSF:ContributionsToDefinedContributionPensionPlansFromPublications decimals="-3" contextRef="y2012" unitRef="Sterling">113000</IFRSF:ContributionsToDefinedContributionPensionPlansFromPublications>
+  <IFRSF:EmployeeRelatedCostsInPublicationsAndRelatedCost decimals="-3" contextRef="y2013" unitRef="Sterling">1954000</IFRSF:EmployeeRelatedCostsInPublicationsAndRelatedCost>
+  <IFRSF:EmployeeRelatedCostsInPublicationsAndRelatedCost decimals="-3" contextRef="y2012" unitRef="Sterling">1717000</IFRSF:EmployeeRelatedCostsInPublicationsAndRelatedCost>
+  <ifrs-full:EmployeeBenefitsExpense decimals="-3" contextRef="y2013" unitRef="Sterling">18901000</ifrs-full:EmployeeBenefitsExpense>
+  <ifrs-full:EmployeeBenefitsExpense decimals="-3" contextRef="y2012" unitRef="Sterling">17288000</ifrs-full:EmployeeBenefitsExpense>
+  <IFRSF:GrossSalaryIASBChair decimals="0" contextRef="y2013" unitRef="Sterling">548600</IFRSF:GrossSalaryIASBChair>
+  <IFRSF:GrossSalaryIASBChair decimals="0" contextRef="y2012" unitRef="Sterling">537800</IFRSF:GrossSalaryIASBChair>
+  <IFRSF:GrossSalaryIASBViceChair decimals="0" contextRef="y2013" unitRef="Sterling">483600</IFRSF:GrossSalaryIASBViceChair>
+  <IFRSF:GrossSalaryIASBViceChair decimals="0" contextRef="y2012" unitRef="Sterling">474100</IFRSF:GrossSalaryIASBViceChair>
+  <IFRSF:GrossSalaryIASBFulltimeMembers decimals="0" contextRef="y2013" unitRef="Sterling">451400</IFRSF:GrossSalaryIASBFulltimeMembers>
+  <IFRSF:GrossSalaryIASBFulltimeMembers decimals="0" contextRef="y2012" unitRef="Sterling">440200</IFRSF:GrossSalaryIASBFulltimeMembers>
+  <IFRSF:GrossSalaryExecutiveDirector decimals="0" contextRef="y2013" unitRef="Sterling">220000</IFRSF:GrossSalaryExecutiveDirector>
+  <IFRSF:GrossSalaryExecutiveDirector decimals="0" contextRef="y2012" unitRef="Sterling">200000</IFRSF:GrossSalaryExecutiveDirector>
+  <IFRSF:ContributionsToGroupPersonalPensionScheme decimals="2" contextRef="y2013_BottomOfRangeMember" unitRef="Pure">0.08</IFRSF:ContributionsToGroupPersonalPensionScheme>
+  <IFRSF:ContributionsToGroupPersonalPensionScheme decimals="2" contextRef="y2013_TopOfRangeMember" unitRef="Pure">0.10</IFRSF:ContributionsToGroupPersonalPensionScheme>
+  <IFRSF:NumberOfTrustees decimals="0" contextRef="y2013" unitRef="Pure">22</IFRSF:NumberOfTrustees>
+  <IFRSF:NumberOfTrustees decimals="0" contextRef="y2012" unitRef="Pure">21</IFRSF:NumberOfTrustees>
+  <IFRSF:FeeForTheChairOfTrustee decimals="0" contextRef="y2013" unitRef="Sterling">200000</IFRSF:FeeForTheChairOfTrustee>
+  <IFRSF:FeeForTheChairOfTrustee decimals="0" contextRef="y2012" unitRef="Sterling">200000</IFRSF:FeeForTheChairOfTrustee>
+  <IFRSF:OtherTrusteesMembersFee decimals="0" contextRef="y2013" unitRef="Sterling">20000</IFRSF:OtherTrusteesMembersFee>
+  <IFRSF:FeeForCommitteeChairs decimals="0" contextRef="y2013" unitRef="Sterling">7000</IFRSF:FeeForCommitteeChairs>
+  <IFRSF:IASBMeetings decimals="-3" contextRef="y2013" unitRef="Sterling">537000</IFRSF:IASBMeetings>
+  <IFRSF:IASBMeetings decimals="-3" contextRef="y2012" unitRef="Sterling">674000</IFRSF:IASBMeetings>
+  <IFRSF:TrusteesMeetings decimals="-3" contextRef="y2013" unitRef="Sterling">454000</IFRSF:TrusteesMeetings>
+  <IFRSF:TrusteesMeetings decimals="-3" contextRef="y2012" unitRef="Sterling">543000</IFRSF:TrusteesMeetings>
+  <IFRSF:IFRSInterpretationsCommiteeAndIFRSACMeetings decimals="-3" contextRef="y2013" unitRef="Sterling">389000</IFRSF:IFRSInterpretationsCommiteeAndIFRSACMeetings>
+  <IFRSF:IFRSInterpretationsCommiteeAndIFRSACMeetings decimals="-3" contextRef="y2012" unitRef="Sterling">409000</IFRSF:IFRSInterpretationsCommiteeAndIFRSACMeetings>
+  <IFRSF:TravelForOtherConsultationAndLiaison decimals="-3" contextRef="y2013" unitRef="Sterling">478000</IFRSF:TravelForOtherConsultationAndLiaison>
+  <IFRSF:TravelForOtherConsultationAndLiaison decimals="-3" contextRef="y2012" unitRef="Sterling">487000</IFRSF:TravelForOtherConsultationAndLiaison>
+  <IFRSF:CostOfMeetingsAssociatedTravelAndAccomodation decimals="-3" contextRef="y2013" unitRef="Sterling">1858000</IFRSF:CostOfMeetingsAssociatedTravelAndAccomodation>
+  <IFRSF:CostOfMeetingsAssociatedTravelAndAccomodation decimals="-3" contextRef="y2012" unitRef="Sterling">2113000</IFRSF:CostOfMeetingsAssociatedTravelAndAccomodation>
+  <IFRSF:RentAccommodationExpenses decimals="-3" contextRef="y2013" unitRef="Sterling">786000</IFRSF:RentAccommodationExpenses>
+  <IFRSF:RentAccommodationExpenses decimals="-3" contextRef="y2012" unitRef="Sterling">786000</IFRSF:RentAccommodationExpenses>
+  <IFRSF:ServiceChargesAccommodationExpenses decimals="-3" contextRef="y2013" unitRef="Sterling">205000</IFRSF:ServiceChargesAccommodationExpenses>
+  <IFRSF:ServiceChargesAccommodationExpenses decimals="-3" contextRef="y2012" unitRef="Sterling">205000</IFRSF:ServiceChargesAccommodationExpenses>
+  <IFRSF:RatesInsuranceAndEnergyAccommodationExpenses decimals="-3" contextRef="y2013" unitRef="Sterling">446000</IFRSF:RatesInsuranceAndEnergyAccommodationExpenses>
+  <IFRSF:RatesInsuranceAndEnergyAccommodationExpenses decimals="-3" contextRef="y2012" unitRef="Sterling">450000</IFRSF:RatesInsuranceAndEnergyAccommodationExpenses>
+  <ifrs-full:DepreciationPropertyPlantAndEquipment decimals="-3" contextRef="y2013" unitRef="Sterling">241000</ifrs-full:DepreciationPropertyPlantAndEquipment>
+  <ifrs-full:DepreciationPropertyPlantAndEquipment decimals="-3" contextRef="y2012" unitRef="Sterling">211000</ifrs-full:DepreciationPropertyPlantAndEquipment>
+  <IFRSF:TotalWithAmountsIncludedInPublicationsCosts decimals="-3" contextRef="y2013" unitRef="Sterling">1678000</IFRSF:TotalWithAmountsIncludedInPublicationsCosts>
+  <IFRSF:TotalWithAmountsIncludedInPublicationsCosts decimals="-3" contextRef="y2012" unitRef="Sterling">1652000</IFRSF:TotalWithAmountsIncludedInPublicationsCosts>
+  <IFRSF:AmountsIncludedInPublicationsCosts decimals="-3" contextRef="y2013" unitRef="Sterling">278000</IFRSF:AmountsIncludedInPublicationsCosts>
+  <IFRSF:AmountsIncludedInPublicationsCosts decimals="-3" contextRef="y2012" unitRef="Sterling">285000</IFRSF:AmountsIncludedInPublicationsCosts>
+  <IFRSF:Accommodation decimals="-3" contextRef="y2013" unitRef="Sterling">1400000</IFRSF:Accommodation>
+  <IFRSF:Accommodation decimals="-3" contextRef="y2012" unitRef="Sterling">1367000</IFRSF:Accommodation>
+  <IFRSF:CommunicationAndTechnology decimals="-3" contextRef="y2013" unitRef="Sterling">465000</IFRSF:CommunicationAndTechnology>
+  <IFRSF:CommunicationAndTechnology decimals="-3" contextRef="y2012" unitRef="Sterling">520000</IFRSF:CommunicationAndTechnology>
+  <IFRSF:AuditLegalAndTaxationFees decimals="-3" contextRef="y2013" unitRef="Sterling">196000</IFRSF:AuditLegalAndTaxationFees>
+  <IFRSF:AuditLegalAndTaxationFees decimals="-3" contextRef="y2012" unitRef="Sterling">254000</IFRSF:AuditLegalAndTaxationFees>
+  <IFRSF:ExternalRelations decimals="-3" contextRef="y2013" unitRef="Sterling">49000</IFRSF:ExternalRelations>
+  <IFRSF:ExternalRelations decimals="-3" contextRef="y2012" unitRef="Sterling">90000</IFRSF:ExternalRelations>
+  <IFRSF:Recruitment decimals="-3" contextRef="y2013" unitRef="Sterling">102000</IFRSF:Recruitment>
+  <IFRSF:Recruitment decimals="-3" contextRef="y2012" unitRef="Sterling">158000</IFRSF:Recruitment>
+  <IFRSF:OtherOtherCosts decimals="-3" contextRef="y2013" unitRef="Sterling">234000</IFRSF:OtherOtherCosts>
+  <IFRSF:OtherOtherCosts decimals="-3" contextRef="y2012" unitRef="Sterling">214000</IFRSF:OtherOtherCosts>
+  <ifrs-full:OtherExpenseByNature decimals="-3" contextRef="y2013" unitRef="Sterling">1046000</ifrs-full:OtherExpenseByNature>
+  <ifrs-full:OtherExpenseByNature decimals="-3" contextRef="y2012" unitRef="Sterling">1236000</ifrs-full:OtherExpenseByNature>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2012_GrossCarryingAmountMember_LeaseholdImprovementsMember" unitRef="Sterling">1246000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2012_GrossCarryingAmountMember_FurnitureEquipmentMember" unitRef="Sterling">1041000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2012_GrossCarryingAmountMember" unitRef="Sterling">2287000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment decimals="-3" contextRef="y2013_GrossCarryingAmountMember_LeaseholdImprovementsMember" unitRef="Sterling">150000</ifrs-full:AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment>
+  <ifrs-full:AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment decimals="-3" contextRef="y2013_GrossCarryingAmountMember_FurnitureEquipmentMember" unitRef="Sterling">66000</ifrs-full:AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment>
+  <ifrs-full:AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment decimals="-3" contextRef="y2013_GrossCarryingAmountMember" unitRef="Sterling">216000</ifrs-full:AdditionsOtherThanThroughBusinessCombinationsPropertyPlantAndEquipment>
+  <ifrs-full:DisposalsAndRetirementsPropertyPlantAndEquipment decimals="-3" contextRef="y2013_GrossCarryingAmountMember_FurnitureEquipmentMember" unitRef="Sterling">64000</ifrs-full:DisposalsAndRetirementsPropertyPlantAndEquipment>
+  <ifrs-full:DisposalsAndRetirementsPropertyPlantAndEquipment decimals="-3" contextRef="y2013_GrossCarryingAmountMember" unitRef="Sterling">64000</ifrs-full:DisposalsAndRetirementsPropertyPlantAndEquipment>
+  <ifrs-full:IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment decimals="-3" contextRef="y2013_GrossCarryingAmountMember_LeaseholdImprovementsMember" unitRef="Sterling">-24000</ifrs-full:IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment>
+  <ifrs-full:IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment decimals="-3" contextRef="y2013_GrossCarryingAmountMember_FurnitureEquipmentMember" unitRef="Sterling">-46000</ifrs-full:IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment>
+  <ifrs-full:IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment decimals="-3" contextRef="y2013_GrossCarryingAmountMember" unitRef="Sterling">-70000</ifrs-full:IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2013_GrossCarryingAmountMember_LeaseholdImprovementsMember" unitRef="Sterling">1372000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2013_GrossCarryingAmountMember_FurnitureEquipmentMember" unitRef="Sterling">997000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2013_GrossCarryingAmountMember" unitRef="Sterling">2369000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember_LeaseholdImprovementsMember" unitRef="Sterling">-862000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember_FurnitureEquipmentMember" unitRef="Sterling">-632000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2012_AccumulatedDepreciationAmortisationAndImpairmentMember" unitRef="Sterling">-1494000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:DepreciationPropertyPlantAndEquipment decimals="-3" contextRef="y2013_AccumulatedDepreciationAmortisationAndImpairmentMember_LeaseholdImprovementsMember" unitRef="Sterling">83000</ifrs-full:DepreciationPropertyPlantAndEquipment>
+  <ifrs-full:DepreciationPropertyPlantAndEquipment decimals="-3" contextRef="y2013_AccumulatedDepreciationAmortisationAndImpairmentMember_FurnitureEquipmentMember" unitRef="Sterling">158000</ifrs-full:DepreciationPropertyPlantAndEquipment>
+  <ifrs-full:DepreciationPropertyPlantAndEquipment decimals="-3" contextRef="y2013_AccumulatedDepreciationAmortisationAndImpairmentMember" unitRef="Sterling">241000</ifrs-full:DepreciationPropertyPlantAndEquipment>
+  <ifrs-full:DisposalsAndRetirementsPropertyPlantAndEquipment decimals="-3" contextRef="y2013_AccumulatedDepreciationAmortisationAndImpairmentMember_FurnitureEquipmentMember" unitRef="Sterling">-64000</ifrs-full:DisposalsAndRetirementsPropertyPlantAndEquipment>
+  <ifrs-full:DisposalsAndRetirementsPropertyPlantAndEquipment decimals="-3" contextRef="y2013_AccumulatedDepreciationAmortisationAndImpairmentMember" unitRef="Sterling">-64000</ifrs-full:DisposalsAndRetirementsPropertyPlantAndEquipment>
+  <ifrs-full:IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment decimals="-3" contextRef="y2013_AccumulatedDepreciationAmortisationAndImpairmentMember_LeaseholdImprovementsMember" unitRef="Sterling">2000</ifrs-full:IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment>
+  <ifrs-full:IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment decimals="-3" contextRef="y2013_AccumulatedDepreciationAmortisationAndImpairmentMember_FurnitureEquipmentMember" unitRef="Sterling">9000</ifrs-full:IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment>
+  <ifrs-full:IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment decimals="-3" contextRef="y2013_AccumulatedDepreciationAmortisationAndImpairmentMember" unitRef="Sterling">11000</ifrs-full:IncreaseDecreaseThroughNetExchangeDifferencesPropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2013_AccumulatedDepreciationAmortisationAndImpairmentMember_LeaseholdImprovementsMember" unitRef="Sterling">-943000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2013_AccumulatedDepreciationAmortisationAndImpairmentMember_FurnitureEquipmentMember" unitRef="Sterling">-717000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2013_AccumulatedDepreciationAmortisationAndImpairmentMember" unitRef="Sterling">-1660000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2013_LeaseholdImprovementsMember" unitRef="Sterling">429000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2013_FurnitureEquipmentMember" unitRef="Sterling">280000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2013" unitRef="Sterling">709000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2012_LeaseholdImprovementsMember" unitRef="Sterling">384000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2012_FurnitureEquipmentMember" unitRef="Sterling">409000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment decimals="-3" contextRef="e2012" unitRef="Sterling">793000</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease decimals="-3" contextRef="e2013_NotLaterThanOneYearMember" unitRef="Sterling">839000</ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease decimals="-3" contextRef="e2012_NotLaterThanOneYearMember" unitRef="Sterling">855000</ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease decimals="-3" contextRef="e2013_LaterThanOneYearAndNotLaterThanFiveYearsMember" unitRef="Sterling">3161000</ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease decimals="-3" contextRef="e2012_LaterThanOneYearAndNotLaterThanFiveYearsMember" unitRef="Sterling">3419000</ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease decimals="-3" contextRef="e2013_LaterThanFiveYearsMember" unitRef="Sterling">217000</ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease decimals="-3" contextRef="e2012_LaterThanFiveYearsMember" unitRef="Sterling">947000</ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease decimals="-3" contextRef="e2013" unitRef="Sterling">4217000</ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease decimals="-3" contextRef="e2012" unitRef="Sterling">5221000</ifrs-full:MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease>
+  <IFRSF:IncreaseInReinstatementProvision decimals="0" contextRef="y2013" unitRef="Sterling">149000</IFRSF:IncreaseInReinstatementProvision>
+  <ifrs-full:RevenueFromInterest decimals="-3" contextRef="y2013" unitRef="Sterling">103000</ifrs-full:RevenueFromInterest>
+  <ifrs-full:RevenueFromInterest decimals="-3" contextRef="y2012" unitRef="Sterling">127000</ifrs-full:RevenueFromInterest>
+  <IFRSF:FairValueChangeOnForwardForeignExchangeContractsIncome decimals="-3" contextRef="y2013" unitRef="Sterling">145000</IFRSF:FairValueChangeOnForwardForeignExchangeContractsIncome>
+  <IFRSF:FairValueChangeOnForwardForeignExchangeContractsIncome decimals="-3" contextRef="y2012" unitRef="Sterling">647000</IFRSF:FairValueChangeOnForwardForeignExchangeContractsIncome>
+  <IFRSF:FairValueChangeOnBondsIncome decimals="-3" contextRef="y2012" unitRef="Sterling">35000</IFRSF:FairValueChangeOnBondsIncome>
+  <ifrs-full:NetForeignExchangeGain decimals="-3" contextRef="y2013" unitRef="Sterling">142000</ifrs-full:NetForeignExchangeGain>
+  <ifrs-full:NetForeignExchangeGain decimals="-3" contextRef="y2012" unitRef="Sterling">74000</ifrs-full:NetForeignExchangeGain>
+  <ifrs-full:FinanceIncome decimals="-3" contextRef="y2013" unitRef="Sterling">390000</ifrs-full:FinanceIncome>
+  <ifrs-full:FinanceIncome decimals="-3" contextRef="y2012" unitRef="Sterling">883000</ifrs-full:FinanceIncome>
+  <IFRSF:FairValueChangeOnForwardForeignExchangeContractsCosts decimals="-3" contextRef="y2013" unitRef="Sterling">77000</IFRSF:FairValueChangeOnForwardForeignExchangeContractsCosts>
+  <IFRSF:FairValueChangeOnForwardForeignExchangeContractsCosts decimals="-3" contextRef="y2012" unitRef="Sterling">126000</IFRSF:FairValueChangeOnForwardForeignExchangeContractsCosts>
+  <IFRSF:FairValueChangeOnBondsCosts decimals="-3" contextRef="y2013" unitRef="Sterling">85000</IFRSF:FairValueChangeOnBondsCosts>
+  <ifrs-full:FinanceCosts decimals="-3" contextRef="y2013" unitRef="Sterling">162000</ifrs-full:FinanceCosts>
+  <ifrs-full:FinanceCosts decimals="-3" contextRef="y2012" unitRef="Sterling">126000</ifrs-full:FinanceCosts>
+  <ifrs-full:FinancialAssetsAtFairValue decimals="-3" contextRef="e2013_BondsMember_Level1OfFairValueHierarchyMember" unitRef="Sterling">6357000</ifrs-full:FinancialAssetsAtFairValue>
+  <IFRSF:NotionalValueForFinancialAssets decimals="-3" contextRef="e2013_BondsMember_Level1OfFairValueHierarchyMember" unitRef="Sterling">6333000</IFRSF:NotionalValueForFinancialAssets>
+  <ifrs-full:FinancialAssetsAtFairValue decimals="-3" contextRef="e2012_BondsMember_Level1OfFairValueHierarchyMember" unitRef="Sterling">4783000</ifrs-full:FinancialAssetsAtFairValue>
+  <IFRSF:NotionalValueForFinancialAssets decimals="-3" contextRef="e2012_BondsMember_Level1OfFairValueHierarchyMember" unitRef="Sterling">4673000</IFRSF:NotionalValueForFinancialAssets>
+  <ifrs-full:FinancialAssetsAtFairValue decimals="-3" contextRef="e2013_ForwardContractsUSDollarMember_Level2OfFairValueHierarchyMember" unitRef="Sterling">453000</ifrs-full:FinancialAssetsAtFairValue>
+  <IFRSF:NotionalValueForFinancialAssets decimals="-3" contextRef="e2013_ForwardContractsUSDollarMember_Level2OfFairValueHierarchyMember" unitRef="USD">24800000</IFRSF:NotionalValueForFinancialAssets>
+  <ifrs-full:FinancialAssetsAtFairValue decimals="-3" contextRef="e2012_ForwardContractsUSDollarMember_Level2OfFairValueHierarchyMember" unitRef="Sterling">230000</ifrs-full:FinancialAssetsAtFairValue>
+  <IFRSF:NotionalValueForFinancialAssets decimals="-3" contextRef="e2012_ForwardContractsUSDollarMember_Level2OfFairValueHierarchyMember" unitRef="USD">19500000</IFRSF:NotionalValueForFinancialAssets>
+  <ifrs-full:FinancialAssetsAtFairValue decimals="-3" contextRef="e2013_ForwardContractsEuroMember_Level2OfFairValueHierarchyMember" unitRef="Sterling">77000</ifrs-full:FinancialAssetsAtFairValue>
+  <IFRSF:NotionalValueForFinancialAssets decimals="-3" contextRef="e2013_ForwardContractsEuroMember_Level2OfFairValueHierarchyMember" unitRef="EUR">5000000</IFRSF:NotionalValueForFinancialAssets>
+  <ifrs-full:FinancialAssetsAtFairValue decimals="-3" contextRef="e2012_ForwardContractsEuroMember_Level2OfFairValueHierarchyMember" unitRef="Sterling">181000</ifrs-full:FinancialAssetsAtFairValue>
+  <IFRSF:NotionalValueForFinancialAssets decimals="-3" contextRef="e2012_ForwardContractsEuroMember_Level2OfFairValueHierarchyMember" unitRef="EUR">3300000</IFRSF:NotionalValueForFinancialAssets>
+  <ifrs-full:FinancialLiabilitiesAtFairValue decimals="-3" contextRef="e2012_ForwardContractsUSDollarMember_Level2OfFairValueHierarchyMember" unitRef="Sterling">5000</ifrs-full:FinancialLiabilitiesAtFairValue>
+  <IFRSF:NotionalValueForFinancialLiabilities decimals="-3" contextRef="e2012_ForwardContractsUSDollarMember_Level2OfFairValueHierarchyMember" unitRef="USD">5800000</IFRSF:NotionalValueForFinancialLiabilities>
+  <ifrs-full:FinancialLiabilitiesAtFairValue decimals="-3" contextRef="e2013_ForwardContractsEuroMember_Level2OfFairValueHierarchyMember" unitRef="Sterling">66000</ifrs-full:FinancialLiabilitiesAtFairValue>
+  <IFRSF:NotionalValueForFinancialLiabilities decimals="-3" contextRef="e2013_ForwardContractsEuroMember_Level2OfFairValueHierarchyMember" unitRef="EUR">3300000</IFRSF:NotionalValueForFinancialLiabilities>
+  <ifrs-full:FinancialLiabilitiesAtFairValue decimals="-3" contextRef="e2012_ForwardContractsEuroMember_Level2OfFairValueHierarchyMember" unitRef="Sterling">10000</ifrs-full:FinancialLiabilitiesAtFairValue>
+  <IFRSF:NotionalValueForFinancialLiabilities decimals="-3" contextRef="e2012_ForwardContractsEuroMember_Level2OfFairValueHierarchyMember" unitRef="EUR">3300000</IFRSF:NotionalValueForFinancialLiabilities>
+  <ifrs-full:AllowanceAccountForCreditLossesOfFinancialAssets decimals="0" contextRef="e2013" unitRef="Sterling">68000</ifrs-full:AllowanceAccountForCreditLossesOfFinancialAssets>
+  <ifrs-full:AllowanceAccountForCreditLossesOfFinancialAssets decimals="0" contextRef="e2012" unitRef="Sterling">55000</ifrs-full:AllowanceAccountForCreditLossesOfFinancialAssets>
+  <IFRSF:ForwardSellsOfNetUsDollarContributions decimals="2" contextRef="y2013" unitRef="Pure">0.90</IFRSF:ForwardSellsOfNetUsDollarContributions>
+  <IFRSF:ForwardSellsOfNetEuroContributions decimals="2" contextRef="y2013" unitRef="Pure">0.50</IFRSF:ForwardSellsOfNetEuroContributions>
+  <IFRSF:ForwardContractsSell decimals="0" contextRef="e2013_ForwardContractsUSDollarMember" unitRef="USD">24800000</IFRSF:ForwardContractsSell>
+  <IFRSF:ForwardContractsAverageRate decimals="3" contextRef="e2013_ForwardContractsUSDollarMember" unitRef="USD.GBP">1.598</IFRSF:ForwardContractsAverageRate>
+  <IFRSF:ForwardContractsSell decimals="0" contextRef="e2012_ForwardContractsUSDollarMember" unitRef="USD">25300000</IFRSF:ForwardContractsSell>
+  <IFRSF:ForwardContractsAverageRate decimals="3" contextRef="e2012_ForwardContractsUSDollarMember" unitRef="USD.GBP">1.602</IFRSF:ForwardContractsAverageRate>
+  <IFRSF:ForwardContractsSell decimals="0" contextRef="e2013_ForwardContractsEuroMember" unitRef="EUR">8300000</IFRSF:ForwardContractsSell>
+  <IFRSF:ForwardContractsAverageRate decimals="3" contextRef="e2013_ForwardContractsEuroMember" unitRef="EUR.GBP">1.009</IFRSF:ForwardContractsAverageRate>
+  <IFRSF:ForwardContractsSell decimals="0" contextRef="e2012_ForwardContractsEuroMember" unitRef="EUR">6600000</IFRSF:ForwardContractsSell>
+  <IFRSF:ForwardContractsAverageRate decimals="3" contextRef="e2012_ForwardContractsEuroMember" unitRef="EUR.GBP">1.186</IFRSF:ForwardContractsAverageRate>
+  <IFRSF:PercentOfContributions decimals="2" contextRef="y2013_ContributionsNotCoveredByForwardContractsInUSD" unitRef="Pure">0.10</IFRSF:PercentOfContributions>
+  <IFRSF:PercentOfContributions decimals="2" contextRef="y2013_ContributionsNotCoveredByForwardContractsInEUR" unitRef="Pure">0.50</IFRSF:PercentOfContributions>
+  <IFRSF:ProfitAndLossEffectIfSterlingStrengthensTenPercent decimals="0" contextRef="y2013_ContributionsNotCoveredByForwardContractsInUSD" unitRef="Sterling">-127000</IFRSF:ProfitAndLossEffectIfSterlingStrengthensTenPercent>
+  <IFRSF:ProfitAndLossEffectIfSterlingStrengthensTenPercent decimals="0" contextRef="y2013_ContributionsNotCoveredByForwardContractsInEUR" unitRef="Sterling">-296000</IFRSF:ProfitAndLossEffectIfSterlingStrengthensTenPercent>
+  <ifrs-full:IncomeTaxExpenseContinuingOperations decimals="0" contextRef="y2013" unitRef="Sterling">0</ifrs-full:IncomeTaxExpenseContinuingOperations>
+  <ifrs-full:IncomeTaxExpenseContinuingOperations decimals="0" contextRef="y2012" unitRef="Sterling">0</ifrs-full:IncomeTaxExpenseContinuingOperations>
+  <ifrs-full:UnusedTaxLossesForWhichNoDeferredTaxAssetRecognised decimals="0" contextRef="e2013" unitRef="Sterling">4496000</ifrs-full:UnusedTaxLossesForWhichNoDeferredTaxAssetRecognised>
+  <ifrs-full:UnusedTaxLossesForWhichNoDeferredTaxAssetRecognised decimals="0" contextRef="e2012" unitRef="Sterling">3626000</ifrs-full:UnusedTaxLossesForWhichNoDeferredTaxAssetRecognised>
+  <IFRSF:PaymentOnAccountforHMRC decimals="0" contextRef="y2013" unitRef="Sterling">82000</IFRSF:PaymentOnAccountforHMRC>
+  <IFRSF:PaymentOnAccountforHMRC decimals="0" contextRef="y2012" unitRef="Sterling">76000</IFRSF:PaymentOnAccountforHMRC>
+  <IFRSF:RemainingCostForHMRC decimals="0" contextRef="e2011" unitRef="Sterling">460000</IFRSF:RemainingCostForHMRC>
+  <IFRSF:ProvisionForHMRCTaxSettlement decimals="0" contextRef="y2012" unitRef="Sterling">-290000</IFRSF:ProvisionForHMRCTaxSettlement>
+  <IFRSF:FinalHMRCsettlement decimals="0" contextRef="y2013" unitRef="Sterling">82000</IFRSF:FinalHMRCsettlement>
+  <IFRSF:ProvisionForHMRCTaxSettlement decimals="0" contextRef="y2013" unitRef="Sterling">-88000</IFRSF:ProvisionForHMRCTaxSettlement>
+  <IFRSF:ProvisionForHMRCTaxSettlement decimals="0" contextRef="y2012" unitRef="Sterling">-290000</IFRSF:ProvisionForHMRCTaxSettlement>
+  <ifrs-full:DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory contextRef="y2013">
+            
+               &lt;p&gt; Incorporated in the State of Delaware, USA, on 6 &lt;sup&gt; &lt;/sup&gt;February 2001, the
+                     International Financial Reporting Standards Foundation (IFRS
+                     Foundation) is a not-for-profit charitable organisation with its
+                  primary operations based in London. &lt;/p&gt;
+
+
+               &lt;br/&gt;
+
+               
+                  &lt;p&gt; The objectives of the IFRS Foundation are: &lt;/p&gt;
+
+                  &lt;p&gt; (a) to develop, in the public interest, a single set of high quality,
+understandable, enforceable and globally accepted financial
+reporting standards based upon clearly articulated
+principles. These Standards should require high quality,
+transparent and comparable information in financial
+statements and other financial reporting to help investors,
+other participants in the world's capital markets and other
+users of financial information make economic decisions. &lt;/p&gt;
+
+
+                  &lt;br/&gt;
+
+
+                  &lt;p&gt; (b) to promote the use and rigorous application of those Standards. &lt;/p&gt;
+
+
+                  &lt;br/&gt;
+
+
+                  &lt;p&gt; (c) in fulfilling the objectives associated with (a) and (b)
+to take account of, as appropriate, the needs of a range of
+sizes and types of entities in diverse economic settings. &lt;/p&gt;
+
+                  &lt;br/&gt;
+                  &lt;p&gt;(d) to promote and facilitate adoption of IFRS, being the
+Standards and Interpretations issued by the International
+Accounting Standards Board (IASB), through the
+convergence of national accounting standards and IFRS. &lt;/p&gt;
+               
+
+               &lt;br/&gt;
+
+
+               &lt;p&gt;The governance and key management responsibilities of
+the IFRS Foundation rest primarily with its Trustees,
+who provide oversight of the IASB and its related bodies,
+the IFRS Interpretations Committee and the IFRS Advisory
+Council. A Monitoring Board, consisting of capital market
+authorities for financial reporting, provides a formal public
+accountability link between the Trustees and public authorities. &lt;/p&gt;
+
+            </ifrs-full:DisclosureOfGeneralInformationAboutFinancialStatementsExplanatory>
+  <ifrs-full:CountryOfIncorporation contextRef="y2013">USA</ifrs-full:CountryOfIncorporation>
+  <ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification contextRef="y2013">International Financial Reporting Standards Foundation (IFRS
+                     Foundation)</ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification>
+  <ifrs-full:LegalFormOfEntity contextRef="y2013">not-for-profit charitable organisation</ifrs-full:LegalFormOfEntity>
+  <ifrs-full:DomicileOfEntity contextRef="y2013">London</ifrs-full:DomicileOfEntity>
+  <ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities contextRef="y2013">
+                  &lt;p&gt; The objectives of the IFRS Foundation are: &lt;/p&gt;
+
+                  &lt;p&gt; (a) to develop, in the public interest, a single set of high quality,
+understandable, enforceable and globally accepted financial
+reporting standards based upon clearly articulated
+principles. These Standards should require high quality,
+transparent and comparable information in financial
+statements and other financial reporting to help investors,
+other participants in the world's capital markets and other
+users of financial information make economic decisions. &lt;/p&gt;
+
+
+                  &lt;br/&gt;
+
+
+                  &lt;p&gt; (b) to promote the use and rigorous application of those Standards. &lt;/p&gt;
+
+
+                  &lt;br/&gt;
+
+
+                  &lt;p&gt; (c) in fulfilling the objectives associated with (a) and (b)
+to take account of, as appropriate, the needs of a range of
+sizes and types of entities in diverse economic settings. &lt;/p&gt;
+
+                  &lt;br/&gt;
+                  &lt;p&gt;(d) to promote and facilitate adoption of IFRS, being the
+Standards and Interpretations issued by the International
+Accounting Standards Board (IASB), through the
+convergence of national accounting standards and IFRS. &lt;/p&gt;
+               </ifrs-full:DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities>
+  <ifrs-full:DisclosureOfSummaryOfSignificantAccountingPoliciesExplanatory contextRef="y2013">
+               &lt;p&gt;
+
+                  &lt;span class="bold"&gt; (a) Basis of preparation &lt;/span&gt;
+
+               &lt;/p&gt;
+               
+                  &lt;p&gt; These financial statements have been prepared in compliance
+with International Financial Reporting Standards. The policies
+have been consistently applied to all years presented, unless
+otherwise stated.&lt;/p&gt;
+                  &lt;br/&gt;
+
+                  &lt;p&gt; In 2009 the IFRS Foundation elected to apply IFRS 9 &lt;i&gt;Financial
+			Instruments&lt;/i&gt; earlier than the effective date. &lt;/p&gt;
+               
+               &lt;br/&gt;
+               &lt;p&gt;
+
+                  &lt;span class="bold"&gt; (b) Contributions &lt;/span&gt;
+
+               &lt;/p&gt;
+               
+                  &lt;p&gt; Contributions are recognised as income in the year designated
+by the contributor. The estimated fair value of donated
+services, if any, is recognised as contribution income provided
+the services can be reliably measured and would normally
+have otherwise been purchased. &lt;/p&gt;
+               
+               &lt;br/&gt;
+               &lt;p&gt;
+                  &lt;span class="bold"&gt; (c) Publications&lt;/span&gt;
+
+               &lt;/p&gt;
+               
+                  &lt;p&gt;  Subscriptions to the IFRS Foundation's comprehensive
+package and eIFRS products are recognised as revenue on
+a time-apportioned basis over the period covered by the
+subscriptions. Royalties and permission fees are recognised
+as revenue on an accrual basis. Publications cost of sales
+comprises printing, salaries, promotion, technology and
+various related overhead costs. &lt;/p&gt;
+               
+               &lt;br/&gt;
+               &lt;p&gt;
+
+                  &lt;span class="bold"&gt; (d) Inventories &lt;/span&gt;
+
+               &lt;/p&gt;
+               
+                  &lt;p&gt; Inventories comprise IFRS publications, which are carried at the
+lower of the cost of printing, on a first-in-first-out basis, and their
+net realisable value. Inventories of publications that have been
+superseded by new editions are written off.&lt;/p&gt;
+               
+               &lt;br/&gt;
+               &lt;p&gt;
+
+                  &lt;span class="bold"&gt; (e) Depreciation &lt;/span&gt;
+
+               &lt;/p&gt;
+               
+                  &lt;p&gt; Leasehold improvements, furniture and equipment are initially
+			measured at cost, and then depreciated on a straight-line basis.
+			Leasehold improvements are depreciated over the period of the
+			lease. All other assets are depreciated over 5 years, except
+			computer equipment, which is depreciated over 3 years.&lt;/p&gt;
+               
+               &lt;br/&gt;
+               
+               &lt;p&gt;
+               &lt;span class="bold"&gt; (f) Office accommodation - operating leases &lt;/span&gt;
+               &lt;/p&gt;
+               
+               &lt;p&gt;The IFRS Foundation's leases of office space are classified and
+accounted for as operating leases. Lease payments for office
+space, including amounts for the cost of reinstating a building
+on expiration of the lease, are recognised as an expense on a
+straight-line basis over the non-cancellable term of the lease. The
+aggregate benefit of lease incentives is recognised as a reduction
+of the rental expense over the lease term on a straight-line basis.&lt;/p&gt;
+               
+               &lt;br/&gt;
+               
+               &lt;p&gt;
+
+                  &lt;span class="bold"&gt; (g) Foreign currency translation &lt;/span&gt;
+
+               &lt;/p&gt;
+               
+                  &lt;p&gt;The IFRS Foundation's presentation and functional currency is
+sterling. Transactions denominated in currencies other than
+sterling are recorded at the exchange rate at the date of the transaction. Monetary assets and liabilities are translated into
+sterling at the exchange rate at the end of the reporting period.
+Exchange differences are recognised in the statement of
+comprehensive income.&lt;/p&gt;
+               
+               &lt;br/&gt;
+
+               &lt;p&gt;
+
+                  &lt;span class="bold"&gt; (h) Financial instruments &lt;/span&gt;
+
+               &lt;/p&gt;
+               
+                  &lt;p&gt;Bonds and derivatives (forward currency contracts) are
+recognised at fair value and subsequently measured at fair
+value through profit or loss. The IFRS Foundation manages and
+receives information on its investments in bonds on a fair
+value basis. The IFRS Foundation uses forward currency
+contracts to manage its foreign currency risk.&lt;/p&gt;
+                  &lt;br/&gt;
+                  &lt;p&gt; All other financial instruments are recognised at fair value
+			plus transaction costs and subsequently measured at
+			amortised cost.&lt;/p&gt;
+               
+               &lt;br/&gt;
+
+               &lt;p&gt;
+
+                  &lt;span class="bold"&gt; (i) Provisions and contingencies &lt;/span&gt;
+
+               &lt;/p&gt;
+               
+                  &lt;p&gt; Provisions are recognised when the following three conditions
+are met: (1) the IFRS Foundation has a present obligation (legal
+or constructive) as a result of a past event, (2) it is probable
+that an outflow of resources with economic benefits will be
+required to settle the obligation, and (3) a reliable estimate can
+be made of the amount of the obligation.&lt;/p&gt;
+                  &lt;br/&gt;
+                  &lt;p&gt; The amount of a provision represents the best estimate of the
+expenditure required to settle the obligation at the end of the
+reporting period. &lt;/p&gt;
+               
+               &lt;br/&gt;
+           &lt;p&gt;
+
+                  &lt;span class="bold"&gt; (j) New standards and interpretations issued &lt;/span&gt;
+
+               &lt;/p&gt;
+               
+                  &lt;p&gt; The financial statements have been drawn up on the basis of
+accounting standards, interpretations and amendments
+effective or early adopted at the beginning of the accounting
+period on 1 January 2013. &lt;/p&gt;
+		&lt;p&gt;
+		IFRS 13 became effective on 1 January 2013 and has been
+		applied. The IFRS Foundation has concluded that there are no
+		other relevant Standards or Interpretations in issue that are
+		not yet adopted that will have a material impact on the IFRS
+Foundation's financial statements.
+		&lt;/p&gt;
+               
+               &lt;br/&gt;
+
+            </ifrs-full:DisclosureOfSummaryOfSignificantAccountingPoliciesExplanatory>
+  <ifrs-full:StatementOfIFRSCompliance contextRef="y2013">
+                  &lt;p&gt; These financial statements have been prepared in compliance
+with International Financial Reporting Standards. The policies
+have been consistently applied to all years presented, unless
+otherwise stated.&lt;/p&gt;
+                  &lt;br/&gt;
+
+                  &lt;p&gt; In 2009 the IFRS Foundation elected to apply IFRS 9 &lt;i&gt;Financial
+			Instruments&lt;/i&gt; earlier than the effective date. &lt;/p&gt;
+               </ifrs-full:StatementOfIFRSCompliance>
+  <IFRSF:DescriptionOfAccountingPolicyForContributions contextRef="y2013">
+                  &lt;p&gt; Contributions are recognised as income in the year designated
+by the contributor. The estimated fair value of donated
+services, if any, is recognised as contribution income provided
+the services can be reliably measured and would normally
+have otherwise been purchased. &lt;/p&gt;
+               </IFRSF:DescriptionOfAccountingPolicyForContributions>
+  <IFRSF:DescriptionOfAccountingPolicyForPublicationsAndRelatedRevenue contextRef="y2013">
+                  &lt;p&gt;  Subscriptions to the IFRS Foundation's comprehensive
+package and eIFRS products are recognised as revenue on
+a time-apportioned basis over the period covered by the
+subscriptions. Royalties and permission fees are recognised
+as revenue on an accrual basis. Publications cost of sales
+comprises printing, salaries, promotion, technology and
+various related overhead costs. &lt;/p&gt;
+               </IFRSF:DescriptionOfAccountingPolicyForPublicationsAndRelatedRevenue>
+  <ifrs-full:DescriptionOfAccountingPolicyForMeasuringInventories contextRef="y2013">
+                  &lt;p&gt; Inventories comprise IFRS publications, which are carried at the
+lower of the cost of printing, on a first-in-first-out basis, and their
+net realisable value. Inventories of publications that have been
+superseded by new editions are written off.&lt;/p&gt;
+               </ifrs-full:DescriptionOfAccountingPolicyForMeasuringInventories>
+  <ifrs-full:DescriptionOfAccountingPolicyForDepreciationExpenseExplanatory contextRef="y2013">
+                  &lt;p&gt; Leasehold improvements, furniture and equipment are initially
+			measured at cost, and then depreciated on a straight-line basis.
+			Leasehold improvements are depreciated over the period of the
+			lease. All other assets are depreciated over 5 years, except
+			computer equipment, which is depreciated over 3 years.&lt;/p&gt;
+               </ifrs-full:DescriptionOfAccountingPolicyForDepreciationExpenseExplanatory>
+  <ifrs-full:UsefulLivesOrDepreciationRatesPropertyPlantAndEquipment contextRef="y2013_LeaseholdImprovementsMember">over the period of the
+			lease</ifrs-full:UsefulLivesOrDepreciationRatesPropertyPlantAndEquipment>
+  <ifrs-full:UsefulLivesOrDepreciationRatesPropertyPlantAndEquipment contextRef="y2013_OtherPropertyPlantAndEquipmentMember">5 years</ifrs-full:UsefulLivesOrDepreciationRatesPropertyPlantAndEquipment>
+  <ifrs-full:UsefulLivesOrDepreciationRatesPropertyPlantAndEquipment contextRef="y2013_ComputerEquipmentMember">3 years</ifrs-full:UsefulLivesOrDepreciationRatesPropertyPlantAndEquipment>
+  <ifrs-full:DescriptionOfAccountingPolicyForLeasesExplanatory contextRef="y2013">
+               &lt;p&gt;The IFRS Foundation's leases of office space are classified and
+accounted for as operating leases. Lease payments for office
+space, including amounts for the cost of reinstating a building
+on expiration of the lease, are recognised as an expense on a
+straight-line basis over the non-cancellable term of the lease. The
+aggregate benefit of lease incentives is recognised as a reduction
+of the rental expense over the lease term on a straight-line basis.&lt;/p&gt;
+               </ifrs-full:DescriptionOfAccountingPolicyForLeasesExplanatory>
+  <ifrs-full:DescriptionOfAccountingPolicyForForeignCurrencyTranslationExplanatory contextRef="y2013">
+                  &lt;p&gt;The IFRS Foundation's presentation and functional currency is
+sterling. Transactions denominated in currencies other than
+sterling are recorded at the exchange rate at the date of the transaction. Monetary assets and liabilities are translated into
+sterling at the exchange rate at the end of the reporting period.
+Exchange differences are recognised in the statement of
+comprehensive income.&lt;/p&gt;
+               </ifrs-full:DescriptionOfAccountingPolicyForForeignCurrencyTranslationExplanatory>
+  <ifrs-full:DescriptionOfAccountingPolicyForFinancialInstrumentsExplanatory contextRef="y2013">
+                  &lt;p&gt;Bonds and derivatives (forward currency contracts) are
+recognised at fair value and subsequently measured at fair
+value through profit or loss. The IFRS Foundation manages and
+receives information on its investments in bonds on a fair
+value basis. The IFRS Foundation uses forward currency
+contracts to manage its foreign currency risk.&lt;/p&gt;
+                  &lt;br/&gt;
+                  &lt;p&gt; All other financial instruments are recognised at fair value
+			plus transaction costs and subsequently measured at
+			amortised cost.&lt;/p&gt;
+               </ifrs-full:DescriptionOfAccountingPolicyForFinancialInstrumentsExplanatory>
+  <IFRSF:DescriptionOfAccountingPolicyForProvisionsAndContingencies contextRef="y2013">
+                  &lt;p&gt; Provisions are recognised when the following three conditions
+are met: (1) the IFRS Foundation has a present obligation (legal
+or constructive) as a result of a past event, (2) it is probable
+that an outflow of resources with economic benefits will be
+required to settle the obligation, and (3) a reliable estimate can
+be made of the amount of the obligation.&lt;/p&gt;
+                  &lt;br/&gt;
+                  &lt;p&gt; The amount of a provision represents the best estimate of the
+expenditure required to settle the obligation at the end of the
+reporting period. &lt;/p&gt;
+               </IFRSF:DescriptionOfAccountingPolicyForProvisionsAndContingencies>
+  <IFRSF:DescriptionOfAccountingPolicyForNewStandardsAndInterpretationsIssued contextRef="y2013">
+                  &lt;p&gt; The financial statements have been drawn up on the basis of
+accounting standards, interpretations and amendments
+effective or early adopted at the beginning of the accounting
+period on 1 January 2013. &lt;/p&gt;
+		&lt;p&gt;
+		IFRS 13 became effective on 1 January 2013 and has been
+		applied. The IFRS Foundation has concluded that there are no
+		other relevant Standards or Interpretations in issue that are
+		not yet adopted that will have a material impact on the IFRS
+Foundation's financial statements.
+		&lt;/p&gt;
+               </IFRSF:DescriptionOfAccountingPolicyForNewStandardsAndInterpretationsIssued>
+  <IFRSF:DisclosureOfContributions contextRef="y2013">
+
+               &lt;p&gt; Since 2006, the Trustees have sought to establish national
+financing regimes, proportionate to a country's relative GDP,
+that establish a levy on companies or provide an element of publicly supported financing. However, voluntary systems
+remain in place in some jurisdictions.&lt;/p&gt;
+
+        
+               &lt;br/&gt;
+               
+               &lt;p&gt;
+               Contributions received before 31 December 2013, amounting
+	       to  £350,000 (2012:  £2,695,000), which were specifically
+	       designated by the contributors for use by the IFRS Foundation
+	       in subsequent years, were recognised as current and
+	       non-current liabilities, depending upon the designation
+	       by the contributor. Contributions received after 31 December
+	       2013, amounting to a total of £1,339,000 (2012: £1,674,000),
+	       specifically designated by the contributors for use by the IFRS
+	       Foundation in 2013, were recognised as revenues at the end of
+		2013 and included as contributions receivable. A full list of contributors can be
+found on pages 45-48 of the full annual report.
+               &lt;/p&gt;
+               
+
+               &lt;br/&gt;
+               &lt;p&gt; Separate funding of £315,000/¥50,000,000 (2012: £613,000/¥81,000,000) was received towards the set-up and
+		operations of the Asia-Oceania office located in Tokyo; £352,000 (2012:  £130,000) has been
+		recognised in other income to offset the current year's operating expenses. &lt;/p&gt;
+
+            </IFRSF:DisclosureOfContributions>
+  <IFRSF:PublicationsAndRelatedActivitiesExplanatory contextRef="y2013">
+
+
+               &lt;table cellspacing="0" cellpadding="0" class="left"&gt;
+                  &lt;tr&gt;
+                     &lt;td class="desc" colspan="3"&gt;
+                        &lt;p&gt; (a)&lt;span class="bold"&gt; Revenue from publications and related activities&lt;/span&gt;
+                        &lt;/p&gt;
+                     &lt;/td&gt;
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2013 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2012 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; Sales of subscriptions &lt;br/&gt; and publications &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           3,238
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           3,065
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="subtotal desc"&gt;
+
+                        &lt;p&gt; Royalties and permission fees &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           2,137
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           2,031
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class=" desc"&gt;
+
+                        &lt;p&gt; Other income&lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight "&gt;
+
+                        &lt;p&gt;
+                           246
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+                           228
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc darkHighlight"&gt;
+
+                        &lt;p class="caps"&gt;
+                           TOTAL
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              5,621
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              5,324
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+               &lt;/table&gt;
+               
+               &lt;table cellspacing="0" cellpadding="0" class="right"&gt;
+                  &lt;tr&gt;
+                     &lt;td class="desc" colspan="3"&gt;
+                        &lt;p&gt;
+                           &lt;span class="bold"&gt; (b) Cost of publications and related activities&lt;/span&gt;
+                        &lt;/p&gt;
+                     &lt;/td&gt;
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2013 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2012 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; Staff salaries and related costs 
+                        (see note 5)&lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           1,954
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           1,717
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; Cost of goods sold &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           451
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           542
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; Depreciation &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           32
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           39
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc"&gt;
+
+                        &lt;p&gt; Other costs, including occupancy expenses &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+                           962
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+                           910
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+                  &lt;tr&gt;
+
+                     &lt;td class="desc darkHighlight"&gt;
+
+                        &lt;p class="caps"&gt;
+                          TOTAL
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              3,399
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              3,208
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+
+
+               &lt;/table&gt;
+               &lt;p&gt;*Related activities include the Education and IFRS Taxonomy Initiatives.&lt;/p&gt;
+
+            </IFRSF:PublicationsAndRelatedActivitiesExplanatory>
+  <IFRSF:SalariesWagesAndBenefitsNotes contextRef="y2013">
+            
+            &lt;p&gt; The IFRS Foundation had an average of 136 employees (including IASB members and interns) during 2013 (2012: 127). &lt;/p&gt;
+
+               &lt;br/&gt;
+
+               &lt;table cellspacing="0" cellpadding="0"&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2013 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2012 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="subtotal "&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+                  
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;Staff costs, included in standard-setting expenses:&lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="subtotal greyHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"/&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;  &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+  
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; Salaries and other costs, including IASB members&lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           16,186
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           14,964
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; Contributions to defined contribution pension plans &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           761
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           607
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                  &lt;/tr&gt;
+
+
+                  &lt;tr&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt; &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              16,947
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              15,571
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; &lt;/p&gt;
+
+                        &lt;p&gt; &lt;span class="bold"&gt;Staff costs included in publications expenses (see note 4) &lt;/span&gt;&lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt; &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt; &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; Salaries and other costs &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           1,828
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           1,604
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; Contributions to defined contribution pension plans &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           126
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           113
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                  &lt;/tr&gt;
+
+
+                  &lt;tr&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt; &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              1,954
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              1,717
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; Total &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              18,901
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              17,288
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+               &lt;/table&gt;
+
+
+               &lt;p&gt; &lt;/p&gt;
+               &lt;br/&gt;
+
+               &lt;p&gt; The Trustees' Human Capital Committee is responsible for reviewing, bench-marking and making recommendations on salary and benefit levels. These recommendations are reviewed and
+                  approved annually by the Trustees as a whole. Effective April 2013, the Trustees approved annual remuneration levels resulting in the following IASB gross salaries covering all compensation and benefits: £548,600 for the IASB Chairman (2012:
+                     £537,800);
+                     £483,600 for the IASB
+                  Vice Chair (2012: £ 474,100), and; an average of £451,400 for other full-time members (2012: £440,200). &lt;span class="bold"&gt; &lt;/span&gt;
+               &lt;/p&gt;
+               &lt;p&gt;
+               In addition to the Trustees, the IASB Chairman and the IASB
+	       Vice-Chairman, the key management personnel includes the
+	       Executive Director at an annual gross salary of £220,000 (2012:
+	       £200,000). The IFRS Foundation pays monthly contributions, at
+	       rates between 8 per cent and 10 per cent of gross salary, into a
+	group personal pension scheme for participating staff.
+               &lt;/p&gt;
+
+            </IFRSF:SalariesWagesAndBenefitsNotes>
+  <IFRSF:TrusteesFee contextRef="y2013">
+
+               &lt;p&gt; The Trustees are remunerated by an annual fee and are reimbursed for the expenses of their travel on IFRS Foundation business; there were 22 Trustees in 2013 (2012: 21). 
+                    
+                    In 2013 the
+		    fee for the Chairman of the Trustees was £200,000 (2012: £200,000).
+		   Trustees are renumerated by an annual fixed fee of
+		    £20,000 with an additional £7,000 paid to the committee
+		    Chairs.
+                     &lt;/p&gt;
+            </IFRSF:TrusteesFee>
+  <IFRSF:CostOfMeetingsAssociatedTravelAndAccommodations contextRef="y2013">
+
+               &lt;table cellspacing="0" cellpadding="0"&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;                          
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2013 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2012 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p class="caps"&gt;
+
+                         COST INCURRED BY:
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt;IASB Members&lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight  subtotal"&gt;
+
+                        &lt;p&gt;
+                           537
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class=" subtotal"&gt;
+
+                        &lt;p&gt;
+                           674
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt;Trustees&lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight  subtotal"&gt;
+
+                        &lt;p&gt;
+                           454
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class=" subtotal"&gt;
+
+                        &lt;p&gt;
+                           543
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt;IFRS Interpretations Committee, IFRS Advisory Council and other advisory bodies &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight  subtotal"&gt;
+
+                        &lt;p&gt;
+                           389
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class=" subtotal"&gt;
+
+                        &lt;p&gt;
+                           409
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+			&lt;tr&gt;
+
+             &lt;td class="desc"&gt;
+
+                        &lt;p&gt;Other IFRS Foundation staff&lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+                           478
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+                           487
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc darkHighlight"&gt;
+
+                        &lt;p class="caps"&gt;
+
+                          TOTAL 
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              1,858
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              2,113
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+               &lt;/table&gt;
+            </IFRSF:CostOfMeetingsAssociatedTravelAndAccommodations>
+  <IFRSF:OccupancyExpenses contextRef="y2013">
+     
+
+               &lt;table cellspacing="0" cellpadding="0"&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td&gt;
+
+                        &lt;p&gt; &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2013 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2012 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt; &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;  £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; Rent &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           786
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           786
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; Service charges &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           205
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           205
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; Rates, insurance and energy &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           446
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           450
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="subtotal desc"&gt;
+
+                        &lt;p&gt; Depreciation &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           241
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           211
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+
+
+                  &lt;tr&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt; &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+                           1,678
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+                           1,652
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc"&gt;
+
+                        &lt;p&gt; Less amounts included in publications costs &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt; (278) &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td&gt;
+
+                        &lt;p&gt; (285) &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc darkHighlight"&gt;
+
+                        &lt;p class="caps"&gt;TOTAL &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              1,400
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              1,367
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+               &lt;/table&gt;
+
+
+               &lt;br/&gt;
+
+            </IFRSF:OccupancyExpenses>
+  <IFRSF:OtherCostsNotes contextRef="y2013">
+               &lt;table cellspacing="0" cellpadding="0"&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2013 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2012 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt;Communication and technology&lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           465
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           520
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt;Audit, legal and taxation fees&lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           196
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           254
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt;External relations&lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           49
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           90
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt;Recruitment activities&lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           102
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           158
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc"&gt;
+
+                        &lt;p&gt;Other &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+                           234
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+                           214
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc darkHighlight"&gt;
+
+                        &lt;p class="caps"&gt;
+
+                          TOTAL 
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              1,046
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              1,236
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+               &lt;/table&gt;
+            </IFRSF:OtherCostsNotes>
+  <IFRSF:Leases contextRef="y2013">
+	   
+	&lt;span class="bold"&gt;(a) Leasehold improvements, furniture and equipment&lt;/span&gt;
+	
+	               &lt;table cellspacing="0" cellpadding="0"&gt;
+	
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc"&gt;
+	
+	                        &lt;p&gt;
+		                          
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt; Leasehold &lt;br/&gt;improvements &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt; Furniture, &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt; equipment &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="greyHighlight"&gt;
+	
+	
+	                        &lt;p class="caps"&gt;
+					TOTAL
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	                  &lt;tr&gt;
+	                     &lt;td class="subtotal"/&gt;
+	
+	                     &lt;td class="subtotal"&gt;
+	                        &lt;p&gt;
+	                           &lt;span class="bold"&gt;£'000&lt;/span&gt;
+	                        &lt;/p&gt;
+	                     &lt;/td&gt;
+	
+	                     &lt;td class="subtotal"&gt;
+	                        &lt;p&gt;
+	                           &lt;span class="bold"&gt;£'000&lt;/span&gt;
+	                        &lt;/p&gt;
+	                     &lt;/td&gt;
+	
+	                     &lt;td class="subtotal greyHighlight"&gt;
+	                        &lt;p&gt;
+	                           &lt;span class="bold"&gt;£'000&lt;/span&gt;
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	                  &lt;/tr&gt;
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc subtotal"&gt;
+	
+	                        &lt;p class="caps"&gt;
+	
+	                           &lt;span class="bold"&gt; COST &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class=" subtotal"&gt;
+	
+	                        &lt;p&gt; &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class=" subtotal"&gt;
+	
+	                        &lt;p&gt; &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class=" subtotal greyHighlight"&gt;
+	
+	                        &lt;p&gt; &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc subtotal"&gt;
+	
+	                        &lt;p&gt; At 1 January 2013 &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class=" subtotal"&gt;
+	
+	                        &lt;p&gt;
+	                           1,246
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal"&gt;
+	
+	                        &lt;p&gt;
+	                           1,041
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="greyHighlight subtotal"&gt;
+	
+	                        &lt;p&gt;
+	                           2,287
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc  subtotal"&gt;
+	
+	                        &lt;p&gt; Additions &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class=" subtotal"&gt;
+	
+	                        &lt;p&gt;
+	                           150
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class=" subtotal"&gt;
+	
+	                        &lt;p&gt;
+	                           66
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="greyHighlight subtotal"&gt;
+	
+	                        &lt;p&gt;
+	                           216
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc subtotal"&gt;
+	
+	                        &lt;p&gt; Disposals/retirements &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal"&gt;
+	
+	                        &lt;p&gt; - &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal"&gt;
+	
+	                        &lt;p&gt; (64) &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="greyHighlight subtotal"&gt;
+	
+	                        &lt;p&gt; (64) &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	                  	                  &lt;tr&gt;
+			  	
+			  	                     &lt;td class="desc"&gt;
+			  	
+			  	                        &lt;p&gt; Exchange rate movements &lt;/p&gt;
+			  	
+			  	                     &lt;/td&gt;
+			  	
+			  	
+			  	
+			  	                     &lt;td&gt;
+			  	
+			  	                        &lt;p&gt;
+			  	                           (24)
+			  	                        &lt;/p&gt;
+			  	
+			  	                     &lt;/td&gt;
+			  	
+			  	
+			  	
+			  	                     &lt;td&gt;
+			  	
+			  	                        &lt;p&gt;
+			  	                           (46)
+			  	                        &lt;/p&gt;
+			  	
+			  	                     &lt;/td&gt;
+			  	
+			  	
+			  	
+			  	                     &lt;td class="greyHighlight"&gt;
+			  	
+			  	                        &lt;p&gt;
+			  	                           (70)
+			  	                        &lt;/p&gt;
+			  	
+			  	                     &lt;/td&gt;
+			  	
+	                  &lt;/tr&gt;
+	
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc greyHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt; At 31 December 2013 &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="greyHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt;
+	                              1,372
+	                           &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="greyHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt;
+	                              997
+	                           &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="greyHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt;
+	                              2,369
+	                           &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	
+	
+	
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc subtotal"&gt;
+	
+	                        &lt;p class="caps"&gt;
+	
+	                           ACCUMULATED DEPRECIATION 
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal"&gt;
+	
+	                        &lt;p&gt; &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal"&gt;
+	
+	                        &lt;p&gt; &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal greyHighlight"&gt;
+	
+	                        &lt;p&gt; &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc subtotal"&gt;
+	
+	                        &lt;p&gt; At 1 January 2013 &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal"&gt;
+	
+	                        &lt;p&gt;
+	                           862
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal"&gt;
+	
+	                        &lt;p&gt;
+	                           632
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal greyHighlight"&gt;
+	
+	                        &lt;p&gt;
+	                           1,494
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc subtotal"&gt;
+	
+	                        &lt;p&gt; Charge for the year &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal"&gt;
+	
+	                        &lt;p&gt;
+	                           83
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal"&gt;
+	
+	                        &lt;p&gt;
+	                           158
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal greyHighlight"&gt;
+	
+	                        &lt;p&gt;
+	                           241
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc subtotal"&gt;
+	
+	                        &lt;p&gt; Disposals/retirements &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal"&gt;
+	
+	                        &lt;p&gt; - &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="subtotal"&gt;
+	
+	                        &lt;p&gt; (64) &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="greyHighlight subtotal"&gt;
+	
+	                        &lt;p&gt; (64) &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	                  	                  &lt;tr&gt;
+			  	
+			  	                     &lt;td class="desc"&gt;
+			  	
+			  	                        &lt;p&gt; Exchange rate movements &lt;/p&gt;
+			  	
+			  	                     &lt;/td&gt;
+			  	
+			  	
+			  	
+			  	                     &lt;td&gt;
+			  	
+			  	                        &lt;p&gt;(2) &lt;/p&gt; 
+			  	
+			  	                     &lt;/td&gt;
+			  	
+			  	
+			  	
+			  	                     &lt;td&gt;
+			  	
+			  	                        &lt;p&gt; (9) &lt;/p&gt;
+			  	
+			  	                     &lt;/td&gt;
+			  	
+			  	
+			  	
+			  	                     &lt;td class="greyHighlight"&gt;
+			  	
+			  	                        &lt;p&gt; (11) &lt;/p&gt;
+			  	
+			  	                     &lt;/td&gt;
+			  	
+	                  &lt;/tr&gt;
+	
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc greyHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt; At 31 December 2013 &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="greyHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt;
+	                              943
+	                           &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="greyHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt;
+	                              717
+	                           &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="greyHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt;
+	                              1,660
+	                           &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc darkHighlight"&gt;
+	
+	                        &lt;p class="caps"&gt;
+	
+	                           NET CARRYING AMOUNT AT 31 DECEMBER 2013
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="darkHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt;
+	                              429
+	                           &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="darkHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt;
+	                              280
+	                           &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="darkHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt;
+	                              709
+	                           &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	                  &lt;tr&gt;
+	                     &lt;td colspan="4"&gt;
+	                        &lt;p&gt; &lt;/p&gt;
+	                     &lt;/td&gt;
+	                  &lt;/tr&gt;
+	                  &lt;tr&gt;
+	
+	                     &lt;td class="desc darkHighlight"&gt;
+	
+	                        &lt;p class="caps"&gt;
+	
+	                           NET CARRYING AMOUNT AT 31 DECEMBER 2012
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="darkHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt;
+	                              384
+	                           &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="darkHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt;
+	                              409
+	                           &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	
+	
+	                     &lt;td class="darkHighlight"&gt;
+	
+	                        &lt;p&gt;
+	
+	                           &lt;span class="bold"&gt;
+	                              793
+	                           &lt;/span&gt;
+	
+	                        &lt;/p&gt;
+	
+	                     &lt;/td&gt;
+	
+	                  &lt;/tr&gt;
+	
+	               &lt;/table&gt;
+	               &lt;br/&gt;
+	
+               &lt;p&gt;
+
+                  &lt;span class="bold"&gt; (b) Lease commitments &lt;/span&gt;
+
+               &lt;/p&gt;
+
+               &lt;br/&gt;
+
+               &lt;p&gt; Lease commitments relate to operating leases for office space with lease terms expiring in September 2018 in London and 2022 in Tokyo, and with options to extend for a further 10
+                  years in London. All operating lease contracts contain market review clauses. Payments on the leases, excluding service charges and property rates, are as follows: &lt;/p&gt;
+               &lt;br/&gt;
+
+               &lt;table cellspacing="0" cellpadding="0"&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2013 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; 2012 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p class="caps"&gt;
+
+                           PAYMENTS
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class=" subtotal"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc  subtotal"&gt;
+
+                        &lt;p&gt; Within one year &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight  subtotal"&gt;
+
+                        &lt;p&gt;
+                           839
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+                     &lt;td class=" subtotal"&gt;
+
+                        &lt;p&gt;
+                           855
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc subtotal"&gt;
+
+                        &lt;p&gt; In two to five years &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight subtotal"&gt;
+
+                        &lt;p&gt;
+                           3,161
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="subtotal"&gt;
+
+                        &lt;p&gt;
+                           3,419
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc"&gt;
+
+                        &lt;p&gt; More than five years &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="greyHighlight"&gt;
+
+                        &lt;p&gt;
+                           217
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td&gt;
+
+                        &lt;p&gt;
+                           947
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+                  &lt;tr&gt;
+
+                     &lt;td class="desc darkHighlight"&gt;
+
+                        &lt;p class="caps"&gt;
+
+                            TOTAL
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              4,217
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+
+
+                     &lt;td class="darkHighlight"&gt;
+
+                        &lt;p&gt;
+
+                           &lt;span class="bold"&gt;
+                              5,221
+                           &lt;/span&gt;
+
+                        &lt;/p&gt;
+
+                     &lt;/td&gt;
+
+                  &lt;/tr&gt;
+
+               &lt;/table&gt;
+
+               &lt;br/&gt;
+         
+		
+		&lt;p&gt;
+		The IFRS Foundation is committed to make payments to cover
+		the cost of reinstating the London and Tokyo buildings when
+		the leases expire in September 2018 and September 2022
+		respectively. The estimated amount assumes that the London
+		reinstatement work would take place in 2018, subject to the
+		option to extend the lease for a further 10 years, which could
+		affect the timing of any outflow. In 2013 the lease
+		reinstatement provision was increased by approximately
+		£149,000 to make adjustments for estimated increases for the
+		London and Tokyo offices. Also in 2013, the IFRS Foundation
+		terminated renting office space in New York. Temporary space
+                is now rented as required.
+		&lt;/p&gt;
+		</IFRSF:Leases>
+  <IFRSF:FinanceIncomeAndFinanceCosts contextRef="y2013">
+		            
+		               &lt;table cellspacing="0" cellpadding="0" class="left"&gt;
+		
+		                  &lt;tr&gt;
+		
+		                     &lt;td class="desc"&gt; 
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="greyHighlight"&gt;
+		
+		                        &lt;p&gt;
+		
+		                           &lt;span class="bold"&gt; 2013 &lt;/span&gt;
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		
+		
+		                     &lt;td&gt;
+		
+		                        &lt;p&gt;
+		
+		                           &lt;span class="bold"&gt; 2012 &lt;/span&gt;
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                  &lt;/tr&gt;
+		
+		                  &lt;tr&gt;
+		
+		                     &lt;td class="subtotal desc"&gt;
+		
+		                        &lt;p class="caps"&gt;
+		
+		                            FINANCE INCOME 
+		                        &lt;/p&gt;
+		
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="greyHighlight subtotal"&gt;
+		
+		                        &lt;p&gt;
+		
+		                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		
+		
+		                     &lt;td class="subtotal"&gt;
+		
+		                        &lt;p&gt;
+		
+		                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                  &lt;/tr&gt;
+		
+		                  &lt;tr&gt;
+		
+		                     &lt;td class="desc subtotal"&gt;
+		
+		                        &lt;p&gt; Interest income &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="greyHighlight subtotal"&gt;
+		
+		                        &lt;p&gt;
+		                           103
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		
+		
+		                     &lt;td class="subtotal"&gt;
+		
+		                        &lt;p&gt;
+		                           127
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                  &lt;/tr&gt;
+		
+		                  &lt;tr&gt;
+		
+		                     &lt;td class="desc subtotal"&gt;
+		
+		                        &lt;p&gt; Fair value gains on forward foreign exchange contracts &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="greyHighlight subtotal"&gt;
+		
+		                        &lt;p&gt;
+		                           145
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		
+		
+		                     &lt;td class="subtotal"&gt;
+		
+		                        &lt;p&gt;
+		                           647
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                  &lt;/tr&gt;
+		
+		                  &lt;tr&gt;
+		
+		                     &lt;td class="desc subtotal"&gt;
+		
+		                        &lt;p&gt; Fair value gains on bonds &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="greyHighlight subtotal"&gt;
+		
+		                        &lt;p&gt;
+		                           -
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="subtotal"&gt;
+		
+		                        &lt;p&gt;
+		                           35
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                  &lt;/tr&gt;
+				    &lt;tr&gt;
+		
+				       &lt;td class="desc"&gt;
+		
+					  &lt;p&gt; Exchange gains &lt;/p&gt;
+		
+				       &lt;/td&gt;
+		
+				       &lt;td class="greyHighlight "&gt;
+		
+					  &lt;p&gt;
+					     142 
+					  &lt;/p&gt;
+		
+				       &lt;/td&gt;
+		
+				       &lt;td class="subtotal"&gt;
+		
+					  &lt;p&gt;
+					     74 
+					  &lt;/p&gt;
+		
+				       &lt;/td&gt;
+		
+				    &lt;/tr&gt;
+		
+		
+		                  &lt;tr&gt;
+		
+		                     &lt;td class="darkHighlight desc"&gt;
+		                        &lt;p class="caps"&gt;
+		                           TOTAL
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="darkHighlight"&gt;
+		
+		                        &lt;p&gt;
+		
+		                           &lt;span class="bold"&gt;
+		                              390
+		                           &lt;/span&gt;
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		
+		
+		                     &lt;td class="darkHighlight"&gt;
+		
+		                        &lt;p&gt;
+		
+		                           &lt;span class="bold"&gt;
+		                              883
+		                           &lt;/span&gt;
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                  &lt;/tr&gt;
+		
+		               &lt;/table&gt;
+		
+		               &lt;br/&gt;
+		
+		               &lt;table cellspacing="0" cellpadding="0" class="right"&gt;
+		
+		                  &lt;tr&gt;
+		
+		                     &lt;td class="desc"&gt; &lt;/td&gt;
+		
+		                     &lt;td class="greyHighlight"&gt;
+		
+		                        &lt;p&gt;
+		
+		                           &lt;span class="bold"&gt; 2013 &lt;/span&gt;
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		
+		
+		                     &lt;td&gt;
+		
+		                        &lt;p&gt;
+		
+		                           &lt;span class="bold"&gt; 2012 &lt;/span&gt;
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                  &lt;/tr&gt;
+		
+		                  &lt;tr&gt;
+		
+		                     &lt;td class="subtotal desc"&gt;
+		
+		                        &lt;p class="caps"&gt;
+		
+		                          FINANCE COSTS 
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="greyHighlight subtotal"&gt;
+		
+		                        &lt;p&gt;
+		
+		                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="subtotal"&gt;
+		
+		                        &lt;p&gt;
+		
+		                           &lt;span class="bold"&gt; £'000 &lt;/span&gt;
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                  &lt;/tr&gt;
+		
+		                  &lt;tr&gt;
+		
+		                     &lt;td class="desc subtotal"&gt;
+		
+		                        &lt;p&gt; Fair value losses on forward foreign exchange contracts &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="greyHighlight subtotal"&gt;
+		
+		                        &lt;p&gt; (77) &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="subtotal"&gt;
+		
+		                        &lt;p&gt; (126) &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                  &lt;/tr&gt;
+		
+		                  &lt;tr&gt;
+		
+		                     &lt;td class="desc"&gt;
+		
+		                        &lt;p&gt; Fair value losses on bonds &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="greyHighlight"&gt;
+		                     &lt;p&gt; (85) &lt;/p&gt;
+		
+		                      
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td&gt;
+		  &lt;p&gt; - &lt;/p&gt;
+		                        
+		
+		                     &lt;/td&gt;
+		
+		                  &lt;/tr&gt;
+		
+		                  &lt;tr&gt;
+		
+		                     &lt;td class="darkHighlight desc"&gt;
+		
+		                        &lt;p class="caps"&gt;
+		
+		                           TOTAL
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                     &lt;td class="darkHighlight"&gt;
+		
+		                        &lt;p&gt;
+		
+		                           &lt;span class="bold"&gt; (162) &lt;/span&gt;
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		
+		
+		                     &lt;td class="darkHighlight"&gt;
+		
+		                        &lt;p&gt;
+		
+		                           &lt;span class="bold"&gt; (126) &lt;/span&gt;
+		
+		                        &lt;/p&gt;
+		
+		                     &lt;/td&gt;
+		
+		                  &lt;/tr&gt;
+		
+		               &lt;/table&gt;
+			</IFRSF:FinanceIncomeAndFinanceCosts>
+  <ifrs-full:DisclosureOfFinancialInstrumentsExplanatory contextRef="y2013">        
+            
+            &lt;p&gt;
+            For accounting purposes, the IFRS Foundation categorises its financial instruments based on their measurement, namely
+	    financial instruments at fair value through profit or loss or financial instruments at amortised cost. Bond values are quoted on
+	    active markets, described as Level 1. The fair value of forward foreign exchange contracts is bank-provided and based on price
+models using observable exchange rates, described as Level 2.
+            &lt;/p&gt;
+            
+            &lt;span class="bold"&gt;Financial instruments at fair value through profit or loss&lt;/span&gt;
+            
+            &lt;table cellspacing="0" cellpadding="0"&gt;
+            		&lt;tr&gt;
+            		&lt;td&gt;
+            		&lt;p/&gt;
+            		&lt;/td&gt;            
+            		&lt;td&gt;
+            			&lt;p&gt;
+            			&lt;span class="bold"&gt;Fair value&lt;/span&gt;
+            			&lt;/p&gt;
+            		&lt;/td&gt;            		
+            		&lt;td&gt;
+            			&lt;p&gt;
+            			&lt;span class="bold"&gt;Notional value&lt;/span&gt;
+            			&lt;/p&gt;
+            		&lt;/td&gt;
+            		&lt;td&gt;
+            			&lt;p&gt;
+            			&lt;span class="bold"&gt;Fair value&lt;/span&gt;
+            			&lt;/p&gt;
+            		&lt;/td&gt;            		
+            		&lt;td&gt;
+            			&lt;p&gt;
+            			&lt;span class="bold"&gt;Notional value&lt;/span&gt;
+            			&lt;/p&gt;
+            		&lt;/td&gt;
+            		&lt;/tr&gt;
+	                      &lt;tr&gt;	    
+	                         &lt;td&gt;
+	    
+	                            &lt;p&gt;	    	                           
+					&lt;span class="bold"/&gt;	    
+	                            &lt;/p&gt;
+	    
+	                         &lt;/td&gt;	    
+	                         &lt;td class="greyHighlight"&gt;
+	    
+	                            &lt;p&gt;
+	    
+	                               &lt;span class="bold"&gt; 2013 &lt;/span&gt;
+	    
+	                            &lt;/p&gt;
+	    
+	                         &lt;/td&gt;
+			        &lt;td class="greyHighlight"&gt;
+	    	    
+				    &lt;p&gt;
+
+				       &lt;span class="bold"&gt; 2013 &lt;/span&gt;
+
+				    &lt;/p&gt;
+	    	    
+	                         &lt;/td&gt;
+	    
+	    
+	                         &lt;td&gt;
+	    
+	                            &lt;p&gt;
+	    
+	                               &lt;span class="bold"&gt; 2012 &lt;/span&gt;
+	    
+	                            &lt;/p&gt;
+	    
+	                         &lt;/td&gt;
+				 &lt;td&gt;
+
+				    &lt;p&gt;
+
+				       &lt;span class="bold"&gt; 2012 &lt;/span&gt;
+
+				    &lt;/p&gt;
+
+				 &lt;/td&gt;
+	    
+      		            &lt;/tr&gt;
+	                      &lt;tr&gt;	    
+	                         &lt;td class="desc subtotal"&gt;
+	    
+	                            &lt;p class="caps"&gt;	    	                           
+					FINANCIAL ASSETS    
+	                            &lt;/p&gt;	    
+	                         &lt;/td&gt;	    
+	                         &lt;td class="greyHighlight subtotal"&gt;
+	    
+	                            &lt;p&gt;
+	    
+	                               &lt;span class="bold"&gt;'000&lt;/span&gt;
+	    
+	                            &lt;/p&gt;
+	    
+	                         &lt;/td&gt;
+			        &lt;td class="greyHighlight subtotal"&gt;
+	    	    
+				    &lt;p&gt;
+
+				       &lt;span class="bold"&gt;'000&lt;/span&gt;
+
+				    &lt;/p&gt;
+	    	    
+	                         &lt;/td&gt;
+	    
+	    
+	                         &lt;td class="subtotal"&gt;
+	    
+	                            &lt;p&gt;
+	    
+	                               &lt;span class="bold"&gt;'000&lt;/span&gt;
+	    
+	                            &lt;/p&gt;
+	    
+	                         &lt;/td&gt;
+				 &lt;td class="subtotal"&gt;
+
+				    &lt;p&gt;
+
+				       &lt;span class="bold"&gt;'000&lt;/span&gt;
+
+				    &lt;/p&gt;
+
+				 &lt;/td&gt;
+	    
+                  &lt;/tr&gt;
+		      &lt;tr&gt;	    
+			 &lt;td class="desc subtotal"&gt;
+
+			    &lt;p&gt;	    	                           
+				Bonds, including acccrued interest (Level 1)
+			    &lt;/p&gt;	    
+			 &lt;/td&gt;	    
+			 &lt;td class="greyHighlight subtotal"&gt;
+
+			    &lt;p&gt;
+				£6,357
+
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+			&lt;td class="greyHighlight subtotal"&gt;
+
+			    &lt;p&gt;
+				£6,333
+
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+
+
+			 &lt;td class="subtotal"&gt;
+
+			    &lt;p&gt;
+£4,783
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+			 &lt;td class="subtotal"&gt;
+
+			    &lt;p&gt;
+				£4,673
+
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+
+&lt;/tr&gt;
+		      &lt;tr&gt;	    
+			 &lt;td class="desc subtotal"&gt;
+
+			    &lt;p&gt;	    	                           
+				Forward foreign exchange contracts USD (Level 2)
+			    &lt;/p&gt;	    
+			 &lt;/td&gt;	    
+			 &lt;td class="greyHighlight subtotal"&gt;
+
+			    &lt;p&gt;
+				£453
+
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+			&lt;td class="greyHighlight subtotal"&gt;
+
+			    &lt;p&gt;
+				$24,800
+
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+
+
+			 &lt;td class="subtotal"&gt;
+
+			    &lt;p&gt;
+				£230
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+			 &lt;td class="subtotal"&gt;
+
+			    &lt;p&gt;
+				$19,500
+
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+
+&lt;/tr&gt;
+		      &lt;tr&gt;	    
+			 &lt;td class="desc subtotal"&gt;
+
+			    &lt;p&gt;	    	                           
+				Forward foreign exchange contracts Euro (Level 2)
+			    &lt;/p&gt;	    
+			 &lt;/td&gt;	    
+			 &lt;td class="greyHighlight subtotal"&gt;
+
+			    &lt;p&gt;
+				£77
+
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+			&lt;td class="greyHighlight subtotal"&gt;
+
+			    &lt;p&gt;
+				€5,000
+
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+
+
+			 &lt;td class="subtotal"&gt;
+
+			    &lt;p&gt;
+				£181
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+			 &lt;td class="subtotal"&gt;
+
+			    &lt;p&gt;
+				€3,300
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+
+&lt;/tr&gt;
+		      &lt;tr&gt;	    
+			 &lt;td class="desc"&gt;
+
+			    &lt;p&gt;	   
+			     
+			    &lt;/p&gt;	    
+			 &lt;/td&gt;	    
+			 &lt;td class="greyHighlight"&gt;
+
+			    &lt;p&gt;
+
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+			&lt;td class="greyHighlight"&gt;
+
+			    &lt;p&gt;
+
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+
+
+			 &lt;td&gt;
+
+			    &lt;p&gt;			
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+			 &lt;td&gt;
+
+			    &lt;p&gt;
+
+			    &lt;/p&gt;
+
+			 &lt;/td&gt;
+
+&lt;/tr&gt;
+	                      &lt;tr&gt;	    
+	                         &lt;td class="desc subtotal"&gt;
+	    
+	                            &lt;p class="caps"&gt;	    	                           
+					FINANCIAL LIABILITIES    
+	                            &lt;/p&gt;	    
+	                         &lt;/td&gt;	    
+	                         &lt;td class="greyHighlight subtotal"&gt;
+	    
+	                            &lt;p&gt;
+	    
+	    
+	                            &lt;/p&gt;
+	    
+	                         &lt;/td&gt;
+			        &lt;td class="greyHighlight subtotal"&gt;
+	    	    
+				    &lt;p&gt;
+
+
+				    &lt;/p&gt;
+	    	    
+	                         &lt;/td&gt;
+	    
+	    
+	                         &lt;td class="subtotal"&gt;
+	    
+	                            &lt;p&gt;
+	    
+	    
+	                            &lt;/p&gt;
+	    
+	                         &lt;/td&gt;
+				 &lt;td class="subtotal"&gt;
+
+				    &lt;p&gt;
+
+				    &lt;/p&gt;
+
+				 &lt;/td&gt;
+	    
+                  &lt;/tr&gt;   
+           		      &lt;tr&gt;	    
+	   			 &lt;td class="desc subtotal"&gt;
+	   
+	   			    &lt;p&gt;	    	                           
+	   				Forward foreign exchange contracts USD (Level 2)
+	   			    &lt;/p&gt;	    
+	   			 &lt;/td&gt;	    
+	   			 &lt;td class="greyHighlight subtotal"&gt;
+
+	                          -
+	   			 &lt;/td&gt;
+	   			&lt;td class="greyHighlight subtotal"&gt;
+	   
+	   			  -
+	   
+	   			 &lt;/td&gt;
+	   
+	   
+	   			 &lt;td class="subtotal"&gt;
+	   
+	   			    &lt;p&gt;
+	   				£(5)
+	   
+	   			    &lt;/p&gt;
+	   
+	   			 &lt;/td&gt;
+	   			 &lt;td class="subtotal"&gt;
+	   
+  &lt;p&gt;
+	   				$5,800
+	   
+	   			    &lt;/p&gt;
+	   			 &lt;/td&gt;
+	   
+	   &lt;/tr&gt;
+	   		      &lt;tr&gt;	    
+	   			 &lt;td class="desc subtotal"&gt;
+	   
+	   			    &lt;p&gt;	    	                           
+	   				Forward foreign exchange contracts Euro (Level 2)
+	   			    &lt;/p&gt;	    
+	   			 &lt;/td&gt;	    
+	   			 &lt;td class="greyHighlight subtotal"&gt;
+	   
+	   			    &lt;p&gt;
+	   				£(66)
+	   
+	   			    &lt;/p&gt;
+	   
+	   			 &lt;/td&gt;
+	   			&lt;td class="greyHighlight subtotal"&gt;
+	   
+	   			    &lt;p&gt;
+	   				€3,300
+	   
+	   			    &lt;/p&gt;
+	   
+	   			 &lt;/td&gt;
+	   
+	   
+	   			 &lt;td class="subtotal"&gt;
+	   
+	   			    &lt;p&gt;
+	   				£(10)
+	   			    &lt;/p&gt;
+	   
+	   			 &lt;/td&gt;
+	   			 &lt;td class="subtotal"&gt;
+	   
+	   			    &lt;p&gt;
+	   				€3,300
+	   
+	   			    &lt;/p&gt;
+	   
+	   			 &lt;/td&gt;
+	   
+&lt;/tr&gt;
+
+                  &lt;/table&gt;
+                  &lt;br/&gt;
+                  
+                  &lt;p&gt;The IFRS Foundation measures all other financial instruments at amortised cost. The carrying amount of these instruments is a
+reasonable approximation of their fair value. These financial instruments include:&lt;/p&gt;
+		&lt;ul&gt;
+		&lt;li&gt;&lt;span class="bold"&gt;Financial assets:&lt;/span&gt; cash and cash equivalents; contributions receivable; and publication related receivables.&lt;/li&gt;
+		&lt;li&gt;&lt;span class="bold"&gt;Financial liabilities:&lt;/span&gt; trade and other payables.&lt;/li&gt;
+		&lt;/ul&gt;
+            
+            </ifrs-full:DisclosureOfFinancialInstrumentsExplanatory>
+  <IFRSF:FinancialRiskManagement contextRef="y2013">
+                
+            &lt;p&gt;The IFRS Foundation's activities and holdings of financial
+		instruments, expose it to financial risks namely liquidity,
+		interest rate, credit and currency risks. This note describes the
+		organisation's objectives, policies and processes for managing
+		those risks and the methods used to measure them.&lt;/p&gt;
+		&lt;br/&gt;
+		&lt;p&gt;&lt;span class="bold"&gt;(a) Liquidity and interest rate risk&lt;/span&gt;&lt;br/&gt;
+		The IFRS Foundation manages its working capital to ensure
+		sufficient cash resources are maintained to meet short-term
+		liabilities. The IFRS Foundation has no bank borrowings.
+		&lt;/p&gt;
+		&lt;br/&gt;
+		
+		&lt;p&gt;&lt;span class="bold"&gt;Cash holdings:&lt;/span&gt; Management seeks to keep an amount in cash
+			equal to or exceeding the upcoming quarter's expenditure. Cash
+			is held either on current or on short-term deposits at floating
+			rates of interest. Part of the cash at bank is held in Euros,
+			Japanese Yen and US Dollar accounts.
+		&lt;/p&gt;
+		&lt;br/&gt;
+		&lt;p&gt;&lt;span class="bold"&gt;Bond holdings:&lt;/span&gt; The Trustees have invested surplus funds of the
+			IFRS Foundation in sterling-denominated, fixed rate bonds of
+			international organisations, with AAA ratings at the time of
+			purchase; these funds are reserves for continuing operations.
+			The IFRS Foundation manages and receives information, from
+			its advisors, on its investments in bonds on a fair value basis
+			that includes value changes attributable to interest rate risk.
+			Information is provided on that basis to the Trustees and key
+			management personnel. Bonds can be converted into cash
+			if necessary.
+		&lt;/p&gt;
+		&lt;br/&gt;
+		&lt;p&gt;&lt;span class="bold"&gt;b) Credit risk&lt;/span&gt;&lt;br/&gt;
+		The IFRS Foundation is not exposed to material credit risk as
+investments are with highly rated and established institutions
+and contributions are due primarily from large regulatory or
+governmental bodies. For publications and subscriptions sales
+the IFRS Foundation does not generally offer credit. For licensing
+and royalty arrangements some credit risk arises. If accounts
+receivable are unpaid six months or more after the invoice date,
+the IFRS Foundation considers the amount impaired and
+recognises a bad debt provision. At 31 December 2013 the
+		amount provided for was £68,000 (2012: £55,000).
+		&lt;/p&gt;
+		&lt;br/&gt;
+		&lt;p&gt;&lt;span class="bold"&gt;(c) Foreign currency risk&lt;/span&gt;&lt;br/&gt;
+
+		The IFRS Foundation's expenses arise largely in sterling,
+		whereas the organisation receives funding and future
+		financing commitments, under various funding regimes,
+		primarily in US Dollars and Euros. Some expenses are incurred
+		and paid in US Dollars and Euros after which the net
+		contributions in those currencies are exchanged for sterling.
+		This exposes the organisation to currency risk.
+		&lt;/p&gt;
+		&lt;br/&gt;
+		&lt;p&gt;The Trustees have implemented a strategy to mitigate the
+		foreign exchange fluctuations and timing risks connected
+		with these expected future net contributions. The IFRS
+		Foundation generally forward sells approximately 90 per cent
+		of its expected net US Dollar contributions and 50 per cent of
+		its expected net Euro contributions to fix a sterling equivalent.
+		Foreign currency is sold forward on a two-year rolling basis.
+		&lt;/p&gt;
+		&lt;br/&gt;
+		&lt;p&gt;As at 31 December 2013 the IFRS Foundation had sold forward,
+		on a two-year rolling basis, US Dollar $24,800,000 at a
+		weighted average rate of 1.598 (2012: $25,300,000 at a weighted
+		average rate of 1.602). It had also sold forward, on a two-year
+		rolling basis euro €8,300,000 at a weighted average rate of
+		1.009 to sterling (2012: euro €6,600,000 at a weighted average rate of 1.186).&lt;/p&gt;
+		&lt;br/&gt;
+		&lt;p&gt;All non-current forward contracts expire in 2015
+		(2012: expire in 2014).&lt;/p&gt;
+		&lt;br/&gt;
+		&lt;p&gt;&lt;span class="bold"&gt;(d) Foreign currency sensitivity&lt;/span&gt;&lt;br/&gt;
+		As a result of its use of forward contracts as described above,
+		the IFRS Foundation is exposed to the currency risk associated
+		with the expected remaining 10 per cent of projected net US Dollar
+		contributions and 50 per cent of projected net Euro
+		contributions that are not covered by the forward contracts.
+		&lt;/p&gt;
+		&lt;br/&gt;
+		&lt;p&gt;
+		A potential 10 per cent increase in average exchange rates
+		for sterling would have produced estimated losses on the
+		remaining actual net US dollar contributions received during
+		the year of £127,000, and on the remaining actual net euro
+		contributions received during the year of £296,000. To the
+		extent that projected contributions in either currency change,
+		the IFRS Foundation actively manages the amount of each
+currency forward sold.	
+		&lt;/p&gt;
+		</IFRSF:FinancialRiskManagement>
+  <IFRSF:DisclosureOfTaxation contextRef="y2013">
+           
+               &lt;p&gt;For US tax purposes, the IFRS Foundation is classified as a not-for-profit, tax-exempt organisation. &lt;/p&gt;
+
+               &lt;br/&gt;
+
+               &lt;p&gt;In 2006 the IFRS Foundation reached an agreement with the UK authorities regarding the status of taxation on its publications and related revenues. For 2013 the taxation expense is
+                  calculated on that basis, and is estimated to be £0 (2012: £0). On the basis of activity for 2013 and from previous years, at the end of 2013 the IFRS Foundation is carrying
+                  forward a loss for UK tax purposes of £4,496,000 (2012: £3,626,000). Consistently with IAS 12 &lt;i&gt;Income Taxes&lt;/i&gt;,
+                  the IFRS Foundation does not recognise this loss as a deferred tax asset, because of the uncertainty of being able to utilise these losses in the future. &lt;/p&gt;
+            </IFRSF:DisclosureOfTaxation>
+  <IFRSF:ProvisionForHMRCTaxSettlementExplanatory contextRef="y2013">
+            
+            &lt;p&gt;In May 2011 the UK tax authority (HMRC) began a review of the
+	    IFRS Foundation's records related to the employment taxation
+	    of staff and secondees from other jurisdictions, as well as for
+	    other more general taxation matters. The HMRC requested and the IFRS
+	    Foundation agreed to, total payments on account of £82,000
+	    (2012: £76,000), on a without prejudice basis pending final
+	    resolution and settlement.&lt;/p&gt;
+	    &lt;br/&gt;
+	    &lt;p&gt;
+	    An initial estimate of the total liability in 2011 was £460,000.
+	    In 2012 this provision was reduced by £290,000 after HMRC
+	    agreed with the IFRS Foundation's tax treatment of one
+	    significant issue. During 2013 the review was brought to a
+	    final conclusion. The HMRC determined a final tax liability
+	    of £82,000, without penalty, on the remaining issues and
+	    accepted the payments on account in full settlement. As a
+	    result, a reduction in provision of £88,000 (2012: £290,000) has
+been recognised in the Statement of Comprehensive Income.
+	   &lt;/p&gt;
+                      </IFRSF:ProvisionForHMRCTaxSettlementExplanatory>
+  <IFRSF:ApprovalOfFinancialStatement contextRef="y2013">
+               &lt;p&gt; These financial statements were approved by the Trustees of the IFRS
+                  Foundation on 10 April 2014 and authorised for issue on 10 April 2014, and at that date there were no significant events after the reporting period. &lt;/p&gt;
+            </IFRSF:ApprovalOfFinancialStatement>
+  <ifrs-full:ExplanationOfBodyOfAuthorisation contextRef="y2013">Trustees of the IFRS
+                  Foundation</ifrs-full:ExplanationOfBodyOfAuthorisation>
+  <ifrs-full:DateOfAuthorisationForIssueOfFinancialStatements2013 contextRef="y2013">2014-04-10</ifrs-full:DateOfAuthorisationForIssueOfFinancialStatements2013>
+</xbrli:xbrl>

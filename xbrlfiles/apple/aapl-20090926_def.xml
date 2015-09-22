@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!--  EDGAR Online I-Metrix Xcelerate Taxonomy Definition Linkbase, based on XBRL 2.1  http://www.edgar-online.com/  -->
+<!--  Version: 6.1.12 -->
+<!--  Creation date: 2009-10-27T03:52Z -->
+<!--  Copyright (c) 2005-2009 EDGAR Online, Inc. All Rights Reserved. -->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+  xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_StatementOfFinancialPositionClassified" roleURI="http://www.apple.com/taxonomy/role/StatementOfFinancialPositionClassified"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_StatementOfFinancialPositionClassifiedParen" roleURI="http://www.apple.com/taxonomy/role/StatementOfFinancialPositionClassifiedParenthetical"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_StatementOfIncome" roleURI="http://www.apple.com/taxonomy/role/StatementOfIncome"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#Imetrix_ci-StatementOfShareholdersEquityAndOtherComprehensiveIncome" roleURI="http://www.apple.com/taxonomy/role/StatementOfShareholdersEquityAndOtherComprehensiveIncome"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_StatementOfCashFlowsIndirect" roleURI="http://www.apple.com/taxonomy/role/StatementOfCashFlowsIndirect"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_NotesToFinancialStatementsSignificantAccountingPoliciesTextBlock" roleURI="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsSignificantAccountingPoliciesTextBlock"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_NotesToFinancialStatementsFinancialInstrumentsTextBlock" roleURI="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsFinancialInstrumentsTextBlock"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_NotesToFinancialStatementsFairValueMeasurementInputsDisclosureTextBlock" roleURI="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsFairValueMeasurementInputsDisclosureTextBlock"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_NotesToFinancialStatementsDetailsOfCertainBalanceSheetAccountsDisclosureTextBlock" roleURI="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsDetailsOfCertainBalanceSheetAccountsDisclosureTextBlock"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_NotesToFinancialStatementsGoodwillAndIntangibleAssetsDisclosureTextBlock" roleURI="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsGoodwillAndIntangibleAssetsDisclosureTextBlock"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_NotesToFinancialStatementsIncomeTaxDisclosureTextBlock" roleURI="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsIncomeTaxDisclosureTextBlock"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_NotesToFinancialStatementsStockholdersEquityAndStockBasedCompensationDisclosureTextBlock" roleURI="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsStockholdersEquityAndStockBasedCompensationDisclosureTextBlock"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_NotesToFinancialStatementsCommitmentsAndContingenciesDisclosureTextBlock" roleURI="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsCommitmentsAndContingenciesDisclosureTextBlock"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_NotesToFinancialStatementsSegmentReportingDisclosureTextBlock" roleURI="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsSegmentReportingDisclosureTextBlock"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_NotesToFinancialStatementsRelatedPartyTransactionsDisclosureTextBlock" roleURI="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsRelatedPartyTransactionsDisclosureTextBlock"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_NotesToFinancialStatementsQuarterlyFinancialInformationTextBlock" roleURI="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsQuarterlyFinancialInformationTextBlock"/>
+  <roleRef xlink:type="simple" xlink:href="aapl-20090926.xsd#IMetrix_EntityInformation" roleURI="http://www.apple.com/taxonomy/role/EntityInformation"/>
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all"/>
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default"/>
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain"/>
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member"/>
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension"/>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/StatementOfFinancialPositionClassified">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/StatementOfFinancialPositionClassifiedParenthetical">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/StatementOfIncome">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/StatementOfShareholdersEquityAndOtherComprehensiveIncome">
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AccumulatedOtherComprehensiveIncomeMember" xlink:label="us-gaap_AccumulatedOtherComprehensiveIncomeMember"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue" xlink:label="us-gaap_AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation" xlink:label="us-gaap_AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_CommonStockMember" xlink:label="us-gaap_CommonStockMember"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ComprehensiveIncomeNetOfTax" xlink:label="us-gaap_ComprehensiveIncomeNetOfTax"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ComprehensiveIncomeNetOfTaxAbstract" xlink:label="us-gaap_ComprehensiveIncomeNetOfTaxAbstract"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_CumulativeEffectOfInitialAdoptionOfNewAccountingPrinciple" xlink:label="us-gaap_CumulativeEffectOfInitialAdoptionOfNewAccountingPrinciple"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_EquityComponentDomain" xlink:label="us-gaap_EquityComponentDomain"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_EquityComponentDomain" xlink:label="us-gaap_EquityComponentDomain_2"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_NetIncomeLoss" xlink:label="us-gaap_NetIncomeLoss"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherComprehensiveIncomeAvailableForSaleSecuritiesAdjustmentNetOfTaxPeriodIncreaseDecrease" xlink:label="us-gaap_OtherComprehensiveIncomeAvailableForSaleSecuritiesAdjustmentNetOfTaxPeriodIncreaseDecrease"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherComprehensiveIncomeDerivativesQualifyingAsHedgesNetOfTaxPeriodIncreaseDecrease" xlink:label="us-gaap_OtherComprehensiveIncomeDerivativesQualifyingAsHedgesNetOfTaxPeriodIncreaseDecrease"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease" xlink:label="us-gaap_OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_RetainedEarningsMember" xlink:label="us-gaap_RetainedEarningsMember"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_SharesIssued" xlink:label="us-gaap_SharesIssued"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementEquityComponentsAxis" xlink:label="us-gaap_StatementEquityComponentsAxis"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementLineItems" xlink:label="us-gaap_StatementLineItems"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementTable" xlink:label="us-gaap_StatementTable"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StockholdersEquity" xlink:label="us-gaap_StockholdersEquity"/>
+    <loc xlink:type="locator" xlink:href="aapl-20090926.xsd#aapl_StockholdersEquityStatementAbstract" xlink:label="aapl_StockholdersEquityStatementAbstract"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StockIssuedDuringPeriodSharesAcquisitions" xlink:label="us-gaap_StockIssuedDuringPeriodSharesAcquisitions"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StockIssuedDuringPeriodSharesShareBasedCompensation" xlink:label="us-gaap_StockIssuedDuringPeriodSharesShareBasedCompensation"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StockIssuedDuringPeriodValueAcquisitions" xlink:label="us-gaap_StockIssuedDuringPeriodValueAcquisitions"/>
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StockIssuedDuringPeriodValueShareBasedCompensation" xlink:label="us-gaap_StockIssuedDuringPeriodValueShareBasedCompensation"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ComprehensiveIncomeNetOfTaxAbstract" xlink:to="us-gaap_NetIncomeLoss" order="1.0100" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ComprehensiveIncomeNetOfTaxAbstract" xlink:to="us-gaap_OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease" order="1.0200" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ComprehensiveIncomeNetOfTaxAbstract" xlink:to="us-gaap_OtherComprehensiveIncomeAvailableForSaleSecuritiesAdjustmentNetOfTaxPeriodIncreaseDecrease" order="1.0300" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ComprehensiveIncomeNetOfTaxAbstract" xlink:to="us-gaap_OtherComprehensiveIncomeDerivativesQualifyingAsHedgesNetOfTaxPeriodIncreaseDecrease" order="1.0400" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ComprehensiveIncomeNetOfTaxAbstract" xlink:to="us-gaap_ComprehensiveIncomeNetOfTax" order="1.0500" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_EquityComponentDomain" xlink:to="us-gaap_CommonStockMember" order="1.0600" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_EquityComponentDomain" xlink:to="us-gaap_RetainedEarningsMember" order="1.0700" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_EquityComponentDomain" xlink:to="us-gaap_AccumulatedOtherComprehensiveIncomeMember" order="1.0800" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="us-gaap_StatementEquityComponentsAxis" xlink:to="us-gaap_EquityComponentDomain" order="0.0000" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="us-gaap_StatementEquityComponentsAxis" xlink:to="us-gaap_EquityComponentDomain_2" order="0.0000" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StatementTable" order="1.0000" xbrldt:closed="true" xbrldt:contextElement="segment" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="aapl_StockholdersEquityStatementAbstract" order="1.0900" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_SharesIssued" order="1.1000" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_CumulativeEffectOfInitialAdoptionOfNewAccountingPrinciple" order="1.1100" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StockholdersEquity" order="1.1200" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_ComprehensiveIncomeNetOfTaxAbstract" order="1.1300" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue" order="1.1400" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StockIssuedDuringPeriodSharesShareBasedCompensation" order="1.1500" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StockIssuedDuringPeriodValueShareBasedCompensation" order="1.1600" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StockIssuedDuringPeriodSharesAcquisitions" order="1.1700" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StockIssuedDuringPeriodValueAcquisitions" order="1.1800" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_AdjustmentsToAdditionalPaidInCapitalTaxEffectFromShareBasedCompensation" order="1.1900" priority="2" use="optional"/>
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="us-gaap_StatementTable" xlink:to="us-gaap_StatementEquityComponentsAxis" order="1.0000" priority="2" use="optional"/>
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/StatementOfCashFlowsIndirect">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsSignificantAccountingPoliciesTextBlock">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsFinancialInstrumentsTextBlock">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsFairValueMeasurementInputsDisclosureTextBlock">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsDetailsOfCertainBalanceSheetAccountsDisclosureTextBlock">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsGoodwillAndIntangibleAssetsDisclosureTextBlock">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsIncomeTaxDisclosureTextBlock">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsStockholdersEquityAndStockBasedCompensationDisclosureTextBlock">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsCommitmentsAndContingenciesDisclosureTextBlock">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsSegmentReportingDisclosureTextBlock">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsRelatedPartyTransactionsDisclosureTextBlock">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/NotesToFinancialStatementsQuarterlyFinancialInformationTextBlock">
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://www.apple.com/taxonomy/role/EntityInformation">
+  </definitionLink>
+</linkbase>

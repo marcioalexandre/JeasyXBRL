@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Produced by EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2013 [PPXC34V14J7C]. www.edgarsuite.com -->
+<link:linkbase xmlns="http://www.xbrl.org/2003/linkbase"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"
+		xmlns:fil="http://www.oxfo.com/20130930"
+		xmlns:link="http://www.xbrl.org/2003/linkbase"
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+		xmlns:xbrli="http://www.xbrl.org/2003/instance">
+	<link:roleRef roleURI="http://www.oxfo.com/20130930/role/idr_OXFORDTECHNOLOGIESINCCondensedConsolidatedBalanceSheetsFiguresAt9302013Unaudited" xlink:type="simple" xlink:href="oxfo-20130930.xsd#idr_OXFORDTECHNOLOGIESINCCondensedConsolidatedBalanceSheetsFiguresAt9302013Unaudited"/>
+	<link:calculationLink xlink:type="extended" xlink:role="http://www.oxfo.com/20130930/role/idr_OXFORDTECHNOLOGIESINCCondensedConsolidatedBalanceSheetsFiguresAt9302013Unaudited">
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_Assets' xlink:label='us-gaap_Assets'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_CashAndCashEquivalentsAtCarryingValue' xlink:label='us-gaap_CashAndCashEquivalentsAtCarryingValue'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Assets' xlink:to='us-gaap_CashAndCashEquivalentsAtCarryingValue' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_AccountsReceivableNetCurrent' xlink:label='us-gaap_AccountsReceivableNetCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Assets' xlink:to='us-gaap_AccountsReceivableNetCurrent' use='optional' order='2.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_InventoryNet' xlink:label='us-gaap_InventoryNet'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Assets' xlink:to='us-gaap_InventoryNet' use='optional' order='3.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_LinesOfCreditCurrent' xlink:label='us-gaap_LinesOfCreditCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Assets' xlink:to='us-gaap_LinesOfCreditCurrent' use='optional' order='4.0' weight='-1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_OtherAssetsCurrent' xlink:label='us-gaap_OtherAssetsCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Assets' xlink:to='us-gaap_OtherAssetsCurrent' use='optional' order='5.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_PropertyPlantAndEquipmentNet' xlink:label='us-gaap_PropertyPlantAndEquipmentNet'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Assets' xlink:to='us-gaap_PropertyPlantAndEquipmentNet' use='optional' order='6.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_DeferredTaxAssetsLiabilitiesNetNoncurrent' xlink:label='us-gaap_DeferredTaxAssetsLiabilitiesNetNoncurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Assets' xlink:to='us-gaap_DeferredTaxAssetsLiabilitiesNetNoncurrent' use='optional' order='7.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_DepositsAssetsNoncurrent' xlink:label='us-gaap_DepositsAssetsNoncurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Assets' xlink:to='us-gaap_DepositsAssetsNoncurrent' use='optional' order='8.0' weight='1.0'/>
+		
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_AssetsCurrent' xlink:label='us-gaap_AssetsCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_AssetsCurrent' xlink:to='us-gaap_CashAndCashEquivalentsAtCarryingValue' use='optional' order='1.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_AssetsCurrent' xlink:to='us-gaap_AccountsReceivableNetCurrent' use='optional' order='2.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_AssetsCurrent' xlink:to='us-gaap_InventoryNet' use='optional' order='3.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_AssetsCurrent' xlink:to='us-gaap_LinesOfCreditCurrent' use='optional' order='4.0' weight='-1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_AssetsCurrent' xlink:to='us-gaap_OtherAssetsCurrent' use='optional' order='5.0' weight='1.0'/>
+		
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_Liabilities' xlink:label='us-gaap_Liabilities'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_AccountsPayableCurrent' xlink:label='us-gaap_AccountsPayableCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Liabilities' xlink:to='us-gaap_AccountsPayableCurrent' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_AccountsPayableRelatedPartiesCurrent' xlink:label='us-gaap_AccountsPayableRelatedPartiesCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Liabilities' xlink:to='us-gaap_AccountsPayableRelatedPartiesCurrent' use='optional' order='2.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_TaxesPayableCurrent' xlink:label='us-gaap_TaxesPayableCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Liabilities' xlink:to='us-gaap_TaxesPayableCurrent' use='optional' order='3.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_AccruedLiabilitiesCurrentAndNoncurrent' xlink:label='us-gaap_AccruedLiabilitiesCurrentAndNoncurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Liabilities' xlink:to='us-gaap_AccruedLiabilitiesCurrentAndNoncurrent' use='optional' order='4.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_CapitalLeaseObligationsCurrent' xlink:label='us-gaap_CapitalLeaseObligationsCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Liabilities' xlink:to='us-gaap_CapitalLeaseObligationsCurrent' use='optional' order='5.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_NotesPayableRelatedPartiesClassifiedCurrent' xlink:label='us-gaap_NotesPayableRelatedPartiesClassifiedCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Liabilities' xlink:to='us-gaap_NotesPayableRelatedPartiesClassifiedCurrent' use='optional' order='6.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_DeferredRevenueAndCreditsCurrent' xlink:label='us-gaap_DeferredRevenueAndCreditsCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Liabilities' xlink:to='us-gaap_DeferredRevenueAndCreditsCurrent' use='optional' order='7.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_CapitalLeaseObligationsNoncurrent' xlink:label='us-gaap_CapitalLeaseObligationsNoncurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_Liabilities' xlink:to='us-gaap_CapitalLeaseObligationsNoncurrent' use='optional' order='8.0' weight='1.0'/>
+		
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_LiabilitiesCurrent' xlink:label='us-gaap_LiabilitiesCurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesCurrent' xlink:to='us-gaap_AccountsPayableCurrent' use='optional' order='1.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesCurrent' xlink:to='us-gaap_AccountsPayableRelatedPartiesCurrent' use='optional' order='2.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesCurrent' xlink:to='us-gaap_TaxesPayableCurrent' use='optional' order='3.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesCurrent' xlink:to='us-gaap_AccruedLiabilitiesCurrentAndNoncurrent' use='optional' order='4.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesCurrent' xlink:to='us-gaap_CapitalLeaseObligationsCurrent' use='optional' order='5.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesCurrent' xlink:to='us-gaap_NotesPayableRelatedPartiesClassifiedCurrent' use='optional' order='6.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesCurrent' xlink:to='us-gaap_DeferredRevenueAndCreditsCurrent' use='optional' order='7.0' weight='1.0'/>
+		
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_LiabilitiesNoncurrent' xlink:label='us-gaap_LiabilitiesNoncurrent'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesNoncurrent' xlink:to='us-gaap_CapitalLeaseObligationsNoncurrent' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest' xlink:label='us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_PreferredStockValue' xlink:label='us-gaap_PreferredStockValue'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest' xlink:to='us-gaap_PreferredStockValue' use='optional' order='1.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_CommonStockValue' xlink:label='us-gaap_CommonStockValue'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest' xlink:to='us-gaap_CommonStockValue' use='optional' order='2.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_AdditionalPaidInCapitalCommonStock' xlink:label='us-gaap_AdditionalPaidInCapitalCommonStock'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest' xlink:to='us-gaap_AdditionalPaidInCapitalCommonStock' use='optional' order='3.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax' xlink:label='us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest' xlink:to='us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax' use='optional' order='4.0' weight='1.0'/>
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_RetainedEarningsAccumulatedDeficit' xlink:label='us-gaap_RetainedEarningsAccumulatedDeficit'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest' xlink:to='us-gaap_RetainedEarningsAccumulatedDeficit' use='optional' order='5.0' weight='1.0'/>
+		
+		<link:loc xlink:type='locator' xlink:href='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd#us-gaap_LiabilitiesAndStockholdersEquity' xlink:label='us-gaap_LiabilitiesAndStockholdersEquity'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_AccountsPayableCurrent' use='optional' order='1.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_AccountsPayableRelatedPartiesCurrent' use='optional' order='2.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_TaxesPayableCurrent' use='optional' order='3.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_AccruedLiabilitiesCurrentAndNoncurrent' use='optional' order='4.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_CapitalLeaseObligationsCurrent' use='optional' order='5.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_NotesPayableRelatedPartiesClassifiedCurrent' use='optional' order='6.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_DeferredRevenueAndCreditsCurrent' use='optional' order='7.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_CapitalLeaseObligationsNoncurrent' use='optional' order='8.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_PreferredStockValue' use='optional' order='9.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_CommonStockValue' use='optional' order='10.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_AdditionalPaidInCapitalCommonStock' use='optional' order='11.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_AccumulatedOtherComprehensiveIncomeLossNetOfTax' use='optional' order='12.0' weight='1.0'/>
+		<link:calculationArc xlink:type='arc' xlink:arcrole='http://www.xbrl.org/2003/arcrole/summation-item' xlink:from='us-gaap_LiabilitiesAndStockholdersEquity' xlink:to='us-gaap_RetainedEarningsAccumulatedDeficit' use='optional' order='13.0' weight='1.0'/>
+	</link:calculationLink>
+</link:linkbase>

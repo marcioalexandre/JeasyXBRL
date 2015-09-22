@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<!-- Produced by EDGARsuite software, Advanced Computer Innovations, Inc., Copyright (C) 2008-2013 [PPXC34V14J7C]. www.edgarsuite.com -->
+<schema xmlns:nonnum='http://www.xbrl.org/dtr/type/non-numeric' xmlns='http://www.w3.org/2001/XMLSchema' xmlns:us-gaap='http://fasb.org/us-gaap/2013-01-31' xmlns:link='http://www.xbrl.org/2003/linkbase' xmlns:fil='http://www.oxfo.com/20130930' elementFormDefault='qualified' targetNamespace='http://www.oxfo.com/20130930' xmlns:dei='http://xbrl.sec.gov/dei/2013-01-31' xmlns:xbrli='http://www.xbrl.org/2003/instance' attributeFormDefault='unqualified' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:xbrldt='http://xbrl.org/2005/xbrldt'>
+	<annotation>
+		<appinfo>
+			<link:linkbaseRef xlink:type="simple" xlink:href="oxfo-20130930_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="oxfo-20130930_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="oxfo-20130930_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:linkbaseRef xlink:type="simple" xlink:href="oxfo-20130930_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesInventoryPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesInventoryPolicies">
+				<link:definition>000150 - Disclosure - 2. Summary of Significant Accounting Policies: Inventory (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_OxfordTechnologiesIncCondensedConsolidatedStatementsOfOperationsAndComprehensiveIncomeLossUnaudited" id="idr_OxfordTechnologiesIncCondensedConsolidatedStatementsOfOperationsAndComprehensiveIncomeLossUnaudited">
+				<link:definition>000030 - Statement - Oxford Technologies, Inc. - Condensed Consolidated Statements of Operations and Comprehensive Income (Loss) - Unaudited</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesRecentlyIssuedAccountingPronouncementsPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesRecentlyIssuedAccountingPronouncementsPolicies">
+				<link:definition>000210 - Disclosure - 2. Summary of Significant Accounting Policies: Recently Issued Accounting Pronouncements (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesPropertyPlantAndEquipmentPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesPropertyPlantAndEquipmentPolicies">
+				<link:definition>000160 - Disclosure - 2. Summary of Significant Accounting Policies: Property, Plant and Equipment (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesRevenueRecognitionPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesRevenueRecognitionPolicies">
+				<link:definition>000130 - Disclosure - 2. Summary of Significant Accounting Policies: Revenue Recognition (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesDetails" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesDetails">
+				<link:definition>000260 - Disclosure - 2. Summary of Significant Accounting Policies (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesNetIncomeLossPerCommonSharePolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesNetIncomeLossPerCommonSharePolicies">
+				<link:definition>000100 - Disclosure - 2. Summary of Significant Accounting Policies: Net Income / (loss) Per Common Share (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesScheduleOfLineOfCreditFacilitiesDetails" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesScheduleOfLineOfCreditFacilitiesDetails">
+				<link:definition>000270 - Disclosure - 2. Summary of Significant Accounting Policies: Schedule of Line of Credit Facilities (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPolicies">
+				<link:definition>000060 - Disclosure - 2. Summary of Significant Accounting Policies</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesTradeReceivablesPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesTradeReceivablesPolicies">
+				<link:definition>000140 - Disclosure - 2. Summary of Significant Accounting Policies: Trade Receivables (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure3CommitmentsScheduleOfFutureMinimumLeasePaymentsForCapitalLeasesTables" id="idr_Disclosure3CommitmentsScheduleOfFutureMinimumLeasePaymentsForCapitalLeasesTables">
+				<link:definition>000240 - Disclosure - 3. Commitments: Schedule of Future Minimum Lease Payments for Capital Leases (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesFundingArrangementsPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesFundingArrangementsPolicies">
+				<link:definition>000200 - Disclosure - 2. Summary of Significant Accounting Policies: Funding Arrangements (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesScheduleOfLineOfCreditFacilitiesTables" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesScheduleOfLineOfCreditFacilitiesTables">
+				<link:definition>000230 - Disclosure - 2. Summary of Significant Accounting Policies: Schedule of Line of Credit Facilities (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure4SubsequentEvents" id="idr_Disclosure4SubsequentEvents">
+				<link:definition>000080 - Disclosure - 4. Subsequent Events</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure1NatureOfOperations" id="idr_Disclosure1NatureOfOperations">
+				<link:definition>000050 - Disclosure - 1. Nature of Operations</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesIncomeTaxesPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesIncomeTaxesPolicies">
+				<link:definition>000170 - Disclosure - 2. Summary of Significant Accounting Policies: Income Taxes (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesBasisOfFinancialStatementsPresentationPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesBasisOfFinancialStatementsPresentationPolicies">
+				<link:definition>000090 - Disclosure - 2. Summary of Significant Accounting Policies: Basis of Financial Statements Presentation (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesInventoryScheduleOfInventoryCurrentTables" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesInventoryScheduleOfInventoryCurrentTables">
+				<link:definition>000220 - Disclosure - 2. Summary of Significant Accounting Policies: Inventory: Schedule of Inventory, Current (Tables)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure3Commitments" id="idr_Disclosure3Commitments">
+				<link:definition>000070 - Disclosure - 3. Commitments</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_DocumentDocumentAndEntityInformation" id="idr_DocumentDocumentAndEntityInformation">
+				<link:definition>000010 - Document - Document and Entity Information</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesForeignCurrencyTranslationPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesForeignCurrencyTranslationPolicies">
+				<link:definition>000110 - Disclosure - 2. Summary of Significant Accounting Policies: Foreign Currency Translation (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesUseOfEstimatesPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesUseOfEstimatesPolicies">
+				<link:definition>000120 - Disclosure - 2. Summary of Significant Accounting Policies: Use of Estimates (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_OxfordTechnologiesIncCondensedConsolidatedStatementsOfCashFlowsUnaudited" id="idr_OxfordTechnologiesIncCondensedConsolidatedStatementsOfCashFlowsUnaudited">
+				<link:definition>000040 - Statement - Oxford Technologies, Inc. - Condensed Consolidated Statements of Cash Flows (Unaudited)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesFairValueOfFinancialInstrumentsPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesFairValueOfFinancialInstrumentsPolicies">
+				<link:definition>000180 - Disclosure - 2. Summary of Significant Accounting Policies: Fair Value of Financial Instruments (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_OXFORDTECHNOLOGIESINCCondensedConsolidatedBalanceSheetsFiguresAt9302013Unaudited" id="idr_OXFORDTECHNOLOGIESINCCondensedConsolidatedBalanceSheetsFiguresAt9302013Unaudited">
+				<link:definition>000020 - Statement - OXFORD TECHNOLOGIES, INC. - Condensed Consolidated Balance Sheets - Figures at 9/30/2013 Unaudited</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesScheduleOfInventoryCurrentDetails" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesScheduleOfInventoryCurrentDetails">
+				<link:definition>000250 - Disclosure - 2. Summary of Significant Accounting Policies: Schedule of Inventory, Current (Details)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+			<link:roleType roleURI="http://www.oxfo.com/20130930/role/idr_Disclosure2SummaryOfSignificantAccountingPoliciesConcentrationOfCreditRiskPolicies" id="idr_Disclosure2SummaryOfSignificantAccountingPoliciesConcentrationOfCreditRiskPolicies">
+				<link:definition>000190 - Disclosure - 2. Summary of Significant Accounting Policies: Concentration of Credit Risk (Policies)</link:definition>
+				<link:usedOn>link:presentationLink</link:usedOn>
+				<link:usedOn>link:definitionLink</link:usedOn>
+				<link:usedOn>link:calculationLink</link:usedOn>
+			</link:roleType>
+		</appinfo>
+	</annotation>
+	<import schemaLocation='http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd' namespace='http://www.xbrl.org/2003/instance'/>
+	<import schemaLocation='http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd' namespace='http://www.xbrl.org/dtr/type/numeric'/>
+	<import schemaLocation='http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd' namespace='http://www.xbrl.org/dtr/type/non-numeric'/>
+	<import schemaLocation='http://www.xbrl.org/2005/xbrldt-2005.xsd' namespace='http://xbrl.org/2005/xbrldt'/>
+	<import schemaLocation='http://xbrl.fasb.org/us-gaap/2013/elts/us-gaap-2013-01-31.xsd' namespace='http://fasb.org/us-gaap/2013-01-31' />
+	<import schemaLocation='http://xbrl.sec.gov/dei/2013/dei-2013-01-31.xsd' namespace='http://xbrl.sec.gov/dei/2013-01-31' />
+	<element abstract='true' id='fil_DocumentAndEntityInformationAbstract' nillable='true' name='DocumentAndEntityInformationAbstract' xbrli:periodType='duration' substitutionGroup='xbrli:item' type='xbrli:stringItemType' />
+	<element id='fil_IncreaseDecreaseInInterestPayableRelatedParty' nillable='true' name='IncreaseDecreaseInInterestPayableRelatedParty' xbrli:balance='debit' xbrli:periodType='duration' substitutionGroup='xbrli:item' type='xbrli:monetaryItemType' />
+	<element id='fil_CashPaidForInterest' nillable='true' name='CashPaidForInterest' xbrli:balance='debit' xbrli:periodType='duration' substitutionGroup='xbrli:item' type='xbrli:monetaryItemType' />
+	<element abstract='true' id='fil_SupplementalCashFlowInformation1Abstract' nillable='true' name='SupplementalCashFlowInformation1Abstract' xbrli:periodType='duration' substitutionGroup='xbrli:item' type='xbrli:stringItemType' />
+	<element id='fil_FundingArrangements' nillable='true' name='FundingArrangements' xbrli:periodType='duration' substitutionGroup='xbrli:item' type='nonnum:textBlockItemType' />
+	<element id='fil_CurrentAccount' nillable='true' name='CurrentAccount' xbrli:balance='debit' xbrli:periodType='instant' substitutionGroup='xbrli:item' type='xbrli:monetaryItemType' />
+	<element id='fil_DepositAccount' nillable='true' name='DepositAccount' xbrli:balance='debit' xbrli:periodType='instant' substitutionGroup='xbrli:item' type='xbrli:monetaryItemType' />
+	<element id='fil_NvoiceFinance' nillable='true' name='NvoiceFinance' xbrli:balance='debit' xbrli:periodType='instant' substitutionGroup='xbrli:item' type='xbrli:monetaryItemType' />
+	<element id='fil_UnpresentedChecks' nillable='true' name='UnpresentedChecks' xbrli:balance='debit' xbrli:periodType='instant' substitutionGroup='xbrli:item' type='xbrli:monetaryItemType' />
+</schema>
