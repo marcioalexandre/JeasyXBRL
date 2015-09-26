@@ -1,4 +1,11 @@
 /**
+ This software is subject to the terms of the GNU GENERAL PUBLIC LICENSE
+ Agreement, available at the following URL:
+ http://www.gnu.org/licenses/gpl.txt.
+ You must accept the terms of that agreement to use this software.
+
+ Copyright (C) 2015 Marcio Alexandre Pereira da Silva
+ All Rights Reserved.
  * @author Marcio Alexandre
  * @email marcio.alexandre83@gmail.com
  * @since 2015-09-19

@@ -1,17 +1,24 @@
 /**
+ This software is subject to the terms of the GNU GENERAL PUBLIC LICENSE
+ Agreement, available at the following URL:
+ http://www.gnu.org/licenses/gpl.txt.
+ You must accept the terms of that agreement to use this software.
+
+ Copyright (C) 2015 Marcio Alexandre Pereira da Silva
+ All Rights Reserved.
+ * 
  * @author Marcio Alexandre
  * @email marcio.alexandre83@gmail.com
  * @since 2015-09-22
  * @version beta0.0
  */
+
 package jeasyxbrl;
 
 import jeasyxbrl.instance.XbrlElement;
 import jeasyxbrl.linkbase.Label;
 
 import java.util.ArrayList;
-
-
 
 public class JeasyXbrl {
 	public ArrayList<ArrayList<XbrlElement>> getAllElements(
@@ -26,6 +33,28 @@ public class JeasyXbrl {
 			XbrlElement ele = new XbrlElement();
 			return ele.getAllElementsByFiles(instances, labels, calculations, references, presentations, definitions, others, trigger);
 		}
+	
+	public String printCopyright(){
+		String copyright = "\n\n"+
+				"===================================================\n"+
+				"Copyright 2015 Marcio Alexandre Pereira da Silva\n\n"+
+				"This file is part of jeasyXBRL\n\n"+
+				"jeasyXBRL is free software: you can redistribute it and/or modify\n"+
+				"it under the terms of the GNU General Public License as published by\n"+
+				"the Free Software Foundation, either version 3 of the License, or\n"+
+				"(at your option) any later version.\n\n"+
+				"jeasyXBRL is distributed in the hope that it will be useful,\n"+
+				"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"+
+				"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"+
+				"GNU General Public License for more details.\n\n"+
+				"You should have received a copy of the GNU General Public License\n"+
+				"along with Foobar.  If not, see <http://www.gnu.org/licenses/>.\n\n"+
+				"@author: Marcio A. P. da Silva\n"+
+				"@since: September 22nd, 2015\n"+
+				"@Email: marcio.alexandre83@gmail.com\n"+
+				"===================================================\n\n";
+		return copyright;
+	}
 	public void printElements(ArrayList<ArrayList<XbrlElement>> eles){
 		int i = 0;
 		for (ArrayList<XbrlElement> eleList: eles){
