@@ -74,7 +74,8 @@ public class index {
 			//Examples
 			//the user can print every xbrl instance from cache (memory)
 			jx.printElementsByCache(); 
-			//the user can get every xbrl instance from cache (memory)
+			//the user can get every xbrl instance from cache (memory) - 
+			// as a list - and after that send (the list) to printing method
 			instanceList = jx.getXbrlInstanceListByCache();
 			jx.printElements(instanceList);
 		} catch (Throwable e) {
