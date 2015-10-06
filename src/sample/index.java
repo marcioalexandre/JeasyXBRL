@@ -19,8 +19,8 @@ along with jeasyXBRL.  If not, see <http://www.gnu.org/licenses/>.
  
  * @author Marcio Alexandre
  * @email marcio.alexandre83@gmail.com
- * @since 2015-09-22
- * @version beta0.0
+ * @since 2015-09-22, update: 2015-10-05
+ * @version beta0.2
  */
 package sample;
 import jeasyxbrl.JeasyXbrl;
