@@ -76,7 +76,7 @@ public class index {
 			jx.printElementsByCache(); 
 			//the user can get every xbrl instance from cache (memory)
 			instanceList = jx.getXbrlInstanceListByCache();
-			//jx.printElements(instanceList);
+			jx.printElements(instanceList);
 		} catch (Throwable e) {
 			System.out.println("Exception [jeasyxbrl].[sample].[index.java]: ["+e.getMessage()+"]");
 			e.printStackTrace();
