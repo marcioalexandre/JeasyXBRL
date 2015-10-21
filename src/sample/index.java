@@ -35,10 +35,10 @@ public class index {
 		
 		for (int i=0;i<1;i++){
 			User user = new User();
-			user.setName("Marcio"); //pegar do usário final
-			user.setEmail("marcio.alexandre83@gmail.com"); //pegar do usário final
+			user.setName("Marcio");
+			user.setEmail("marcio.alexandre83@gmail.com");
 			if (user == null || user.equals(null)){
-				System.out.println("vazio");	
+				System.out.println("empty");	
 			}else{
 				jxd.setUser(user);
 			}
@@ -48,7 +48,6 @@ public class index {
 			instances.add("../xbrlfiles/fb/fb-20130630.xml");
 			instances.add("../xbrlfiles/fb/fb-20130930.xml");
 			instances.add("../xbrlfiles/mobq/mobq-20140930.xml");
-			instances.add("../xbrlfiles/mwog/mwog-20141031.xml");
 			instances.add("../xbrlfiles/fb/fb-20131231.xml");
 		
 			ArrayList<String> labels = new ArrayList<String>();
@@ -56,7 +55,6 @@ public class index {
 			labels.add("../xbrlfiles/fb/fb-20130630_lab.xml");
 			labels.add("../xbrlfiles/fb/fb-20130930_lab.xml");
 			labels.add("../xbrlfiles/mobq/mobq-20140930_lab.xml");
-			labels.add("../xbrlfiles/mwog/mwog-20141031_lab.xml");
 			labels.add("../xbrlfiles/fb/fb-20131231_lab.xml");
 				
 			long start = System.currentTimeMillis();
