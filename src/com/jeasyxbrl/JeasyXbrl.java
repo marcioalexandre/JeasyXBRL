@@ -87,24 +87,24 @@ public class JeasyXbrl {
 	
 	public String printCopyright(){
 		String copyright = "\n\n"+
-				"===================================================\n"+
-				"Copyright 2015 Marcio Alexandre Pereira da Silva\n\n"+
-				"This file is part of jeasyXBRL\n\n"+
-				"jeasyXBRL is free software: you can redistribute it and/or modify\n"+
-				"it under the terms of the GNU General Public License as published by\n"+
-				"the Free Software Foundation, either version 3 of the License, or\n"+
-				"(at your option) any later version.\n\n"+
-				"jeasyXBRL is distributed in the hope that it will be useful,\n"+
-				"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"+
-				"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"+
-				"GNU General Public License for more details.\n\n"+
-				"You should have received a copy of the GNU General Public License\n"+
-				"along with jeasyXBRL.  If not, see <http://www.gnu.org/licenses/>.\n\n"+
-				"@author: Marcio A. P. da Silva\n"+
-				"@since: September 22nd, 2015\n"+
-				"@Email: marcio.alexandre83@gmail.com\n"+
-				"===================================================\n\n";
-		return copyright;
+			"Copyright (C) 2015 Marcio Alexandre Pereira da Silva\n"
+			+ "All Rights Reserved.\n"
+			+ "This file is part of jeasyXBRL-0.3.\n"
+			+ "\n"
+			+ " jeasyXBRL-0.3 is free software: you can redistribute it and/or modify\n"
+			+ " it under the terms of the GNU General Public License as published by\n"
+			+ " the Free Software Foundation, either version 3 of the License, or\n"
+			+ " (at your option) any later version. jeasyXBRL-0.3 is distributed in the\n" 
+			+ " hope that it will be useful,but WITHOUT ANY WARRANTY; without even the \n"
+			+ " implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"  
+			+ " See the GNU General Public License for more details. You should check \n"
+			+ " the GNU General Public License in the link <http://www.gnu.org/licenses/>.\n"
+			+ "\n"
+			+ " @author Marcio Alexandre\n"
+			+ " @email marcio.alexandre83@gmail.com\n"
+			+ " @site xbrlframework.com | marcioalexandre.wordpress.com\n"
+			+ " @since 2015-09-19, updated 2015-10-10";
+	return copyright;
 	}
 	public void print(ArrayList<JeasyXbrlData> jxdList){
 		for (JeasyXbrlData jxd: jxdList){
