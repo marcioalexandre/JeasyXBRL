@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>jeasyxbrl</groupId>
   <artifactId>jeasyxbrl</artifactId>
-  <version>0.2</version>
+  <version>0.3</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
