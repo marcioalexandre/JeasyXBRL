@@ -28,6 +28,8 @@ import java.util.ArrayList;
  * RE specialist has to work here.
  */
 public class XbrlTaxonomyRe {
+	//Financial Reporting
+	private String date 			= "((\\d\\d\\d\\d\\d\\d\\d\\d)|(\\d\\d\\d\\d\\p{Punct}{1}\\d\\d\\p{Punct}{1}\\d\\d))";
 	//Instance
 	private String elementLine 		=	"^(?!<[link:.*|xbrl.*|\\p{Punct}.*|segment.*|context.*])((<.*[-]{1}.*:.*>.*)|(<.*:.*>.*))$";
 	private String elementTagName	=	"^<.*:.+\\s";
@@ -203,5 +205,10 @@ public class XbrlTaxonomyRe {
 	public void setTitle(String title) {
 		this.title = title;
 	}
+	public String getDate() {
+		return date;
+	}
+	
+	
 		
 }

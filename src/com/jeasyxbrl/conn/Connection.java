@@ -51,8 +51,7 @@ public class Connection {
 			return null;
 		}
 	}
-	
-	
+
 	public String getConnectionGuava(String filename){ //google guava cache idea
 		String contents = null;
 		try {

@@ -111,19 +111,15 @@ public class XbrlLabel implements XbrlLinkbaseElement {
 				currentLine = currentLine.trim();
 				XbrlLabel label = new XbrlLabel();
 
-				//getting label element
+				//setting label element
 				Pattern plabel = Pattern.compile(re.getLabel());
 				Matcher mlabel = plabel.matcher(currentLine);
 				if (mlabel.find()){
-					//getting position
+					//setting position
 					label.setPosition(j);
-					
 					//getting XML line
 					label.setXmlLine(mlabel.group());;
-					//System.out.println();
-					//System.out.println(this.xmlLine);
-				
-					//getting labelAttr
+					//setting labelAttr
 					Pattern plabelA = Pattern.compile(re.getLabelAttr());
 					Matcher mlabelA = plabelA.matcher(label.getXmlLine());
 					if (mlabelA.find()){
@@ -131,10 +127,8 @@ public class XbrlLabel implements XbrlLinkbaseElement {
 						labelA[0] 		= labelA[0].replace("\"","");
 						labelA[0] 		= labelA[0].replace("\'","");
 						label.setLabelattr(labelA[0]);
-						//System.out.println("label attribute: ["+this.labelattr+"]");
 					}
-					
-					//getting Id
+					//setting Id
 					Pattern pid = Pattern.compile(re.getId());
 					Matcher mid = pid.matcher(label.getXmlLine());
 					if (mid.find()){
@@ -142,10 +136,8 @@ public class XbrlLabel implements XbrlLinkbaseElement {
 						id[0] 		= id[0].replace("\"","");
 						id[0] 		= id[0].replace("\'","");
 						label.setId(id[0]);
-						//System.out.println("id attribute: ["+this.id+"]");
 					}
-					
-					//getting role
+					//setting role
 					Pattern prole = Pattern.compile(re.getRole());
 					Matcher mrole = prole.matcher(label.getXmlLine());
 					if (mrole.find()){
@@ -153,10 +145,8 @@ public class XbrlLabel implements XbrlLinkbaseElement {
 						role[0] = role[0].replace("\"","");
 						role[0] = role[0].replace("\'","");
 						label.setRole(role[0]);
-						//System.out.println("Role: ["+this.role+"]");
 					}
-					
-					//getting lang
+					//setting lang
 					Pattern plang = Pattern.compile(re.getLang());
 					Matcher mlang = plang.matcher(label.getXmlLine());
 					if (mlang.find()){
@@ -164,14 +154,11 @@ public class XbrlLabel implements XbrlLinkbaseElement {
 						lang[0] = lang[0].replace("\"","");
 						lang[0] = lang[0].replace("\'","");
 						label.setLang(lang[0]);
-						//System.out.println("lang: ["+this.lang+"]");
 					}
-					
-					//get Element Value
+					//setting Element Value
 					Pattern pv	= Pattern.compile(re.getValue()+".*label>)");
 					Matcher mv	= pv.matcher(label.getXmlLine());
 					if (mv.find()){
-						//System.out.println("Value: ["+mv.group()+"]");
 						label.setValue(mv.group());
 					}
 					j++;				

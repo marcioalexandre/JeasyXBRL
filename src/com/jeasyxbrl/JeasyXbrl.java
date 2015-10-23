@@ -111,19 +111,7 @@ public class JeasyXbrl {
 			jxd.print();
 		}
 	}
-	/*
-	public String allDataToJsonFromMemory(){
-		Gson gson = new Gson();
-		JsonElement je = gson.toJsonTree(xbrlCache.getXbrlInstanceListByCache());
-		return gson.toJson(je);
-	}
-	
-	public String ToJsonFromInstance(XbrlInstance ifile){
-		Gson gson = new Gson();
-		JsonElement je = gson.toJsonTree(ifile);
-		return gson.toJson(je);
-	}
-	*/
+
 	public void printCache(User user){
 		try {
 			xbrlCache.printFromCache(user);

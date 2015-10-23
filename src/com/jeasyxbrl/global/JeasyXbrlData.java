@@ -23,7 +23,7 @@ import com.jeasyxbrl.data.company.Company;
 import com.jeasyxbrl.data.user.User;
 
 public class JeasyXbrlData {
-	User user = null; //[has company, which has financial report, which has xbrlInstances and xbrllinkbases, and so on
+	User user = null;
 	Company company = null;
 	
 	public User getUser() {
@@ -40,9 +40,9 @@ public class JeasyXbrlData {
 	}
 	public void print(){
 		System.out.println("===================================================");
-		System.out.println("::::User data ::::");
+		System.out.println(":User data ::::");
 		this.user.print();
-		System.out.println("::::Company data ::::");
+		System.out.println(":Company data ::::");
 		this.company.print();
 		System.out.println("===================================================");
 	}

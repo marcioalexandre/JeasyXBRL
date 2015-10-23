@@ -47,19 +47,15 @@ public class ArcParser {
 			Arc arc = new Arc();
 			currentLine = currentLine.trim();
 			
-			//getting arc
+			//setting arc
 			Pattern parc = Pattern.compile(re.getArc());
 			Matcher marc = parc.matcher(currentLine);
 			if (marc.find()){
-				//getting arc position
+				//setting arc position
 				arc.setPosition(j);
-				
 				//getting XML line
 				arc.setXmlLine(marc.group());
-				//System.out.println();
-				//System.out.println(this.xmlLine);
-			
-				//getting role
+				//setting role
 				Pattern prole = Pattern.compile(re.getRole());
 				Matcher mrole = prole.matcher(arc.getXmlLine());
 				if (mrole.find()){
@@ -67,10 +63,8 @@ public class ArcParser {
 					role[0] = role[0].replace("\"","");
 					role[0] = role[0].replace("\'","");
 					arc.setRole(role[0]);
-					//System.out.println("Role: ["+this.role+"]");
 				}
-				
-				//getting order
+				//setting order
 				Pattern porder = Pattern.compile(re.getOrder());
 				Matcher morder = porder.matcher(arc.getXmlLine());
 				if (morder.find()){
@@ -78,11 +72,8 @@ public class ArcParser {
 					order[0] = order[0].replace("\"","");
 					order[0] = order[0].replace("\'","");
 					arc.setOrder(order[0]);
-					//System.out.println("order: ["+this.order+"]");
 				}
-					
-			    
-			    //getting from
+			    //setting from
 				Pattern pfrom = Pattern.compile(re.getFrom());
 				Matcher mfrom = pfrom.matcher(arc.getXmlLine());
 				if (mfrom.find()){
@@ -90,10 +81,8 @@ public class ArcParser {
 					from[0] = from[0].replace("\"","");
 					from[0] = from[0].replace("\'","");
 					arc.setFrom(from[0]);
-					//System.out.println("from: ["+this.from+"]");
 				}
-				
-			    //getting to
+			    //setting to
 				Pattern pto = Pattern.compile(re.getTo());
 				Matcher mto = pto.matcher(arc.getXmlLine());
 				if (mto.find()){
@@ -101,20 +90,16 @@ public class ArcParser {
 					to[0] = to[0].replace("\"","");
 					to[0] = to[0].replace("\'","");
 					arc.setTo(to[0]);
-					//System.out.println("to: ["+this.to+"]");
 				}
-				
-			    //getting title
+			    //setting title
 				Pattern ptitle = Pattern.compile(re.getTitle());
 				Matcher mtitle = ptitle.matcher(arc.getXmlLine());
 				if (mtitle.find()){
 					String title = mtitle.group().replace("\"","");
 					title = title.replace("\'","");
 					arc.setTitle(title);
-					//System.out.println("title: ["+this.title+"]");
 				}
-				
-			    //getting weight
+			    //setting weight
 				Pattern pweight = Pattern.compile(re.getWeight());
 				Matcher mweight = pweight.matcher(arc.getXmlLine());
 				if (mweight.find()){
@@ -122,10 +107,8 @@ public class ArcParser {
 					weight[0] = weight[0].replace("\"","");
 					weight[0] = weight[0].replace("\'","");
 					arc.setWeight(weight[0]);
-					//System.out.println("weight: ["+this.weight+"]");
 				}
-				
-			    //getting priority
+			    //setting priority
 				Pattern ppriority = Pattern.compile(re.getPriority());
 				Matcher mpriority = ppriority.matcher(arc.getXmlLine());
 				if (mpriority.find()){
@@ -133,10 +116,8 @@ public class ArcParser {
 					priority[0] = priority[0].replace("\"","");
 					priority[0] = priority[0].replace("\'","");
 					arc.setPriority(priority[0]);
-					//System.out.println("priority: ["+this.priority+"]");
 				}
-				
-			    //getting use
+			    //setting use
 				Pattern puse = Pattern.compile(re.getUse());
 				Matcher muse = puse.matcher(arc.getXmlLine());
 				if (muse.find()){
@@ -144,7 +125,6 @@ public class ArcParser {
 					use[0] = use[0].replace("\"","");
 					use[0] = use[0].replace("\'","");
 					arc.setUse(use[0]);
-					//System.out.println("use: ["+this.use+"]");
 				}
 				j++; //arc position
 				arcList.add(arc);

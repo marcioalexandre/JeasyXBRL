@@ -36,13 +36,13 @@ public class XbrlCache {
     private Cache<Integer, JeasyXbrlData> xbrlCache; //id key, value
 
     public XbrlCache() {
+    	//maximuSize is number of data in cache
         xbrlCache = CacheBuilder.newBuilder().maximumSize(100).build();
-        // mByteCache = CacheBuilder.newBuilder().maximumSize(15).build();
-        System.out.println("Initiated a cache with max 100");
-    }
+     }
 
     public void insert(Integer key, JeasyXbrlData value) {
     	xbrlCache.put(key, value);
+    	System.out.println("Setting data in cache...");
     }
 
     public void remove(User user) {

@@ -65,28 +65,15 @@ public class Company {
 		this.finRepList = finRepList;
 	}
 	
-	public ArrayList<Company> getCompanies(User user){
-		if (user.getEmail().equals("marcio.alexandre83@gmail.com")){
-			
-		}
-		return null;
-	}
 	public ArrayList<Company> getCompanies(User user, ArrayList<String> instanceNameList,
 		ArrayList<ArrayList<String>> doubleLinkList,int trigger) throws Throwable{
-			
 			ArrayList<Company> comList = new ArrayList<Company>();
 			if (instanceNameList.isEmpty() || instanceNameList.equals(null) || instanceNameList == null){
 				throw new Exception("There is no XBRL instance informed by user");
 			}else{
-				
-				//for each f.report get the company
-				//and checking if there already is this company
-				//company.add(fr);
 				int i = 0;
-				System.out.println("Company(ies) that has been laoding in memory: ");
 				for (String instanceName: instanceNameList){
 					FinancialReport fr = new FinancialReport();
-					
 					int flag = 0;
 					fr = fr.getFinancialReport(instanceName, doubleLinkList, trigger, i);
 					if (comList.isEmpty()){
@@ -95,7 +82,6 @@ public class Company {
 						company.setId(fr.getInstance().getIdCompany());
 						company.setName(fr.getInstance().getCompany());
 						company.setIdUser(user.getEmail());
-						System.out.println(company.getName());
 						newFRList.add(fr);
 						company.setFinRepList(newFRList);
 						comList.add(company);
@@ -114,7 +100,6 @@ public class Company {
 							company.setId(fr.getInstance().getIdCompany());
 							company.setName(fr.getInstance().getCompany());
 							company.setIdUser(user.getEmail());
-							System.out.println(company.getName());
 							newFRList.add(fr);
 							company.setFinRepList(newFRList);
 							comList.add(company);
@@ -192,17 +177,19 @@ public class Company {
 				}
 			}
 			return comList;
-		}
+	}
+	
 	public void print(){
 		try{
-			System.out.println("User id:      ["+this.getIdUser()+"]");
-			System.out.println("Company Name: ["+this.getName()+"]");
-			System.out.println("Company id:   ["+this.getId()+"]");
+			System.out.println(":User id:      ["+this.getIdUser()+"]");
+			System.out.println(":Company Name: ["+this.getName()+"]");
+			System.out.println(":Company id:   ["+this.getId()+"]");
 			for (FinancialReport fr: this.getFinRepList()){
 				fr.print();
 			}
 		}catch(Exception e){
 			System.out.println("No company or error["+e.getStackTrace()+"]");
 		}
+		System.out.println(":}//Company Data");
 	}
 }

@@ -46,19 +46,15 @@ public class LocatorParser {
 		while ((currentLine = br.readLine()) != null){
 			Locator loc = new Locator();
 			currentLine = currentLine.trim();
-			
-			//getting locator
+			//setting locator
 			Pattern ploc = Pattern.compile(re.getLoc());
 			Matcher mloc = ploc.matcher(currentLine);
 			if (mloc.find()){
-				//getting position
+				//setting position
 				loc.setPosition(j);
-				//getting XML line
+				//setting XML line
 				loc.setXmlLine(mloc.group());
-				//System.out.println();
-				//System.out.println(this.xmlLine);
-				
-				//get href
+				//setting href
 				Pattern phref = Pattern.compile(re.getHref());
 				Matcher mhref = phref.matcher(loc.getXmlLine());
 				if (mhref.find()){
@@ -66,10 +62,8 @@ public class LocatorParser {
 					href[0] = href[0].replace("\"", "");
 					href[0] = href[0].replace("\'", "");
 					loc.setHref(href[0]);
-					//System.out.println("href: ["+this.href+"]");
 				}
-					
-				//get label
+				//setting label
 				Pattern plabel = Pattern.compile(re.getLabelAttr());
 				Matcher mlabel = plabel.matcher(loc.getXmlLine());
 				if (mlabel.find()){
@@ -77,7 +71,6 @@ public class LocatorParser {
 					label[0] 	= label[0].replace("\"", "");
 					label[0] 	= label[0].replace("\'", "");
 					loc.setLabel(label[0]);
-					//System.out.println("label: ["+this.label+"]");
 				}
 				j++;
 				locList.add(loc);

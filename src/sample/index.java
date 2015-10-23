@@ -16,8 +16,6 @@
 //  @email marcio.alexandre83@gmail.com
 //  @site xbrlframework.com | marcioalexandre.wordpress.com
 //  @since 2015-09-19, updated 2015-10-10
-
-
 package sample;
 import java.util.ArrayList;
 
@@ -33,56 +31,55 @@ public class index {
 		JeasyXbrl jx = new JeasyXbrl();
 		JeasyXbrlData jxd = new JeasyXbrlData();
 		
-		User user = new User();
-		user.setName("Marcio");
-		user.setEmail("marcio.alexandre83@gmail.com");
-		if (user == null || user.equals(null)){
-			System.out.println("empty");	
-		}else{
-			jxd.setUser(user);
-		}
-		
-		ArrayList<String> instances = new ArrayList<String>();
-		instances.add("../xbrlfiles/mwog/mwog-20141031.xml");
-		instances.add("../xbrlfiles/fb/fb-20130630.xml");
-		instances.add("../xbrlfiles/fb/fb-20130930.xml");
-		instances.add("../xbrlfiles/mobq/mobq-20140930.xml");
-		instances.add("../xbrlfiles/fb/fb-20131231.xml");
-	
-		ArrayList<String> labels = new ArrayList<String>();
-		labels.add("../xbrlfiles/mwog/mwog-20141031_lab.xml");
-		labels.add("../xbrlfiles/fb/fb-20130630_lab.xml");
-		labels.add("../xbrlfiles/fb/fb-20130930_lab.xml");
-		labels.add("../xbrlfiles/mobq/mobq-20140930_lab.xml");
-		labels.add("../xbrlfiles/fb/fb-20131231_lab.xml");
-				
-		long start = System.currentTimeMillis();
-		long end = 0;
-		try {
-			jx.loadingXbrlData(
-				jxd.getUser(),
-				instances, 	//XBRL instances
-				labels, 	//XBRL labels files
-				null,
-				null,
-				null,
-				null,
-				null,
-				1); //[1]with linkbase analysis, [0] without linkbase analysis
-			end = System.currentTimeMillis();
-			//jx.printElementsByCache(); 
-			//ArrayList<JeasyXbrlData> jxdList = jx.getXbrlData(user);
-			//System.out.println("Size from cache:"+jxdList.size());
-			//jx.print(jxdList);
-			jx.printCache(user);
-		} catch (Throwable e) {
-			e.printStackTrace();
+		for (int i=0;i<1;i++){
+			User user = new User();
+			user.setName("Marcio");
+			user.setEmail("marcio.alexandre83@gmail.com");
+			if (user == null || user.equals(null)){
+				System.out.println("empty");	
+			}else{
+				jxd.setUser(user);
+			}
+
+			ArrayList<String> instances = new ArrayList<String>();
+			instances.add("../xbrlfiles/mwog/mwog-20141031.xml");
+			instances.add("../xbrlfiles/fb/fb-20130630.xml");
+			instances.add("../xbrlfiles/fb/fb-20130930.xml");
+			instances.add("../xbrlfiles/mobq/mobq-20140930.xml");
+			instances.add("../xbrlfiles/fb/fb-20131231.xml");
+			
+			ArrayList<String> labels = new ArrayList<String>();
+			labels.add("../xbrlfiles/mwog/mwog-20141031_lab.xml");
+			labels.add("../xbrlfiles/fb/fb-20130630_lab.xml");
+			labels.add("../xbrlfiles/fb/fb-20130930_lab.xml");
+			labels.add("../xbrlfiles/mobq/mobq-20140930_lab.xml");
+			labels.add("../xbrlfiles/fb/fb-20131231_lab.xml");
+						
+			long start = System.currentTimeMillis();
+			long end = 0;
+			try {
+				//<!-- Loading data in cache and print from cache -->
+				jx.loadingXbrlData(
+					jxd.getUser(),
+					instances, 	//XBRL instances
+					labels, 	//XBRL labels files
+					null,		//future work - calculation linkbase
+					null,		//future work - reference linkbase
+					null,		//future work - presentation linkbase
+					null,		//future work - definition linkbase
+					null,		//future work - generic linkbase
+					1); //[1]with linkbase analysis, [0] without linkbase analysis
+				end = System.currentTimeMillis();
+				jx.printCache(user);
+				//<!-- If you want to get data from cache and put them in a list: -->
+				//ArrayList<JeasyXbrlData> jxdList = jx.getXbrlData(user);
+				//jx.print(jxdList);
+			} catch (Throwable e) {
+				e.printStackTrace();
+			}
+			System.out.print("Performance Time (milliseconds): ");
+			System.out.println(end-start);
 		}
 
-		System.out.print("Performance Time (milliseconds): ");
-		System.out.println(end-start);
-				
-		System.out.println(jx.printCopyright());
-		
 	}
 }

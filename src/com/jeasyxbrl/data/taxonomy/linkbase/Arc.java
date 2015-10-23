@@ -32,7 +32,6 @@ public class Arc {
 	private String	from	=	null;
 	private String	to		=	null;
 	private String	title	=	null;
-    //calculationarc/definitionarc
     private String	weight	=	null;
     private String	priority	=	null;
     private String	use		=	null;

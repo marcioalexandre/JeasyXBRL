@@ -20,20 +20,37 @@
 package com.jeasyxbrl.data.FinancialReport;
 
 import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.jeasyxbrl.data.taxonomy.instance.XbrlInstance;
 import com.jeasyxbrl.data.taxonomy.linkbase.Arc;
 import com.jeasyxbrl.data.taxonomy.linkbase.Locator;
 import com.jeasyxbrl.data.taxonomy.linkbase.XbrlLinkbase;
 import com.jeasyxbrl.data.user.User;
+import com.jeasyxbrl.global.XbrlTaxonomyRe;
 import com.jeasyxbrl.parser.ArcParser;
 import com.jeasyxbrl.parser.LocatorParser;
 
 
 public class FinancialReport {
+	private String date = null; //[yyyy-mm-dd]
+	private String documentType = null;
 	private XbrlInstance instance = null;
 	private ArrayList<XbrlLinkbase> linkbaseList = null;
 	
+	public String getDate() {
+		return date;
+	}
+	public void setDate(String date) {
+		this.date = date;
+	}
+	public String getDocumentType() {
+		return documentType;
+	}
+	public void setDocumentType(String documentType) {
+		this.documentType = documentType;
+	}
 	public XbrlInstance getInstance() {
 		return instance;
 	}
@@ -56,7 +73,7 @@ public class FinancialReport {
 		int j = 0;
 		for (String inst: instanceNameList){
 			FinancialReport freport = new FinancialReport();
-			if (trigger== 1){ //there is linkbase for processing
+			if (trigger== 1){ //there is linkbases for processing
 				freport = freport.getFinancialReport(inst, doubleLinkList, trigger, j);
 				LocatorParser locParser = new LocatorParser();
 				ArrayList<Locator> locList = new ArrayList<Locator>();
@@ -77,19 +94,18 @@ public class FinancialReport {
 			frList.add(freport);
 		}
 		return frList;
-}//getFinancialReports
+	}//getFinancialReports
 	
 	public FinancialReport getFinancialReport(
 		String instanceName, 
 		ArrayList<ArrayList<String>> linkbaseNameList,
 		int trigger,
 		int position) throws Throwable{
-			
-		//getting instnace
+		//setting instnace
 		XbrlInstance ins = new XbrlInstance();
 		ArrayList<XbrlLinkbase> linkList = new ArrayList<XbrlLinkbase>();
 		if (trigger == 1){
-			//getting linkbases
+			//setting linkbases
 			for (ArrayList<String> linkNameList: linkbaseNameList){
 				XbrlLinkbase linkbase = new XbrlLinkbase();
 				if (linkNameList != null){
@@ -107,12 +123,36 @@ public class FinancialReport {
 			this.setLinkbaseList(linkList);
 		}
 		this.setInstance(ins.getInstance(instanceName, linkList, trigger, position));
+		//setting Financial Report date
+		this.setDate(this.findDate(this.getInstance().getFilename()));
+		//setting Financial Report type
+		this.setDocumentType(this.getInstance().getDocumentType());
 		return this;
 	}
 	
+	public String findDate(String filename){
+		String date = null;
+		XbrlTaxonomyRe xtr = new XbrlTaxonomyRe();
+		Pattern p = Pattern.compile(xtr.getDate());
+		Matcher m = p.matcher(filename);
+		if (m.find()){
+			date = m.group();
+			date = date.replace("-", "");
+		}
+		return date;
+	}
+	
 	public void print(){
+		System.out.println("::Financial Report data {");
+		System.out.println("::Financial Report Type: ["+this.getDocumentType()+"]");
+		System.out.println("::Financial Report Date: ["+this.getDate()+"]");
 		XbrlInstance xi = this.getInstance();
-		xi.print();
+		try{
+			xi.print();
+		}catch(Exception e){
+			System.out.println(e.getMessage());
+		}
+		System.out.println("::}//Financial Report Data");
 	}
 	
 }

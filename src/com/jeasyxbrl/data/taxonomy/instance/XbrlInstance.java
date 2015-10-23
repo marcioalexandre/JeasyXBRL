@@ -36,6 +36,7 @@ public class XbrlInstance {
 	private String idCompany = null;
 	private String filename = null;
 	private String company = null;
+	private String documentType = null;
 	private ArrayList<XbrlElement> eleList = null;
 	private Date date = null;
 	private long size = 0;
@@ -63,6 +64,12 @@ public class XbrlInstance {
 	public void setCompany(String company) {
 		this.company = company;
 	}
+	public String getDocumentType() {
+		return documentType;
+	}
+	public void setDocumentType(String documentType) {
+		this.documentType = documentType;
+	}
 	public ArrayList<XbrlElement> getEleList() {
 		return eleList;
 	}
@@ -85,14 +92,11 @@ public class XbrlInstance {
 	@SuppressWarnings("unchecked")
 	public XbrlInstance getInstance(String instance, ArrayList<XbrlLinkbase> linkList, int trigger,int position) throws Exception{
 		XbrlInstance ins = new XbrlInstance();
-
 		ins.setId(position+1); 
-
 		Connection 		conn 	= new Connection();
 		BufferedReader br = null;
 		String currentLine;
 		br 	= conn.getConnection(instance);
-		
 		//loading Locator, Arc and Label by sent linkbase.
 		XbrlLabel lab	=	new XbrlLabel();
 		ArrayList<XbrlElement> eleList = new ArrayList<XbrlElement>();
@@ -106,31 +110,22 @@ public class XbrlInstance {
 			Pattern p = Pattern.compile(re.getElementLine());
 			Matcher m = p.matcher(currentLine);
 			if (m.find()){
-				
 				ele.setPosition(j);
 				ele.setXmlLine(m.group());
 				ins.setFilename(instance);
-				
 				//setting element tag name
 				Pattern ptag = Pattern.compile(re.getElementTagName());
 				Matcher mtag = ptag.matcher(ele.getXmlLine());
 				if (mtag.find()){
-					//System.out.println("");
-					//System.out.println(m.group());
 					String tagname 	= mtag.group().replace("<"," ").trim();
 					String[] tname	= tagname.split("\\s");
-					//System.out.println("Tag Name: ["+tname[0]+"]");
 					ele.setTagName(tname[0].trim());
 				}else{	}
-				
-				//setting element name
 				Pattern pname = Pattern.compile(re.getElementName());
 				Matcher mname = pname.matcher(ele.getXmlLine());
 				if (mname.find()){
-					//System.out.println("Name: ["+mname.group().trim()+"]");
 					ele.setName(mname.group().trim());
 				}else{	}
-				
 				// setting element id
 				Pattern pid = Pattern.compile(re.getId());
 				Matcher mid = pid.matcher(ele.getXmlLine());
@@ -139,10 +134,8 @@ public class XbrlInstance {
 					rid[0] = rid[0].replace("\"","");
 					rid[0] = rid[0].replace("\'","");
 					rid[0] = rid[0].replace(">&lt;div",""); 
-					//System.out.println("Id: ["+rid[0].trim()+"]");
 					ele.setId(rid[0].trim());
 				}else{	}
-				
 				//setting Element Context_Ref
 				Pattern pcr = Pattern.compile(re.getElementCRef());
 				Matcher mcr = pcr.matcher(ele.getXmlLine());
@@ -150,10 +143,8 @@ public class XbrlInstance {
 					String[] rcr = mcr.group().split("\\s");
 					rcr[0] = rcr[0].replace("\"","");
 					rcr[0] = rcr[0].replace("\'","");
-					//System.out.println("ContextRef: ["+rcr[0]+"]");
 					ele.setContextRef(rcr[0].trim());
 				}else{  }
-				
 				//setting Element Unit_Ref
 				Pattern pur	= Pattern.compile(re.getElementURef());
 				Matcher mur	= pur.matcher(ele.getXmlLine());
@@ -161,7 +152,6 @@ public class XbrlInstance {
 					String[] rur	=	mur.group().split("\\s"); 
 					rur[0]	= rur[0].replace("\"","");
 					rur[0]	= rur[0].replace("\'","");
-					//System.out.println("UnitRef: ["+rur[0]+"]");
 					ele.setUnitRef(rur[0].trim());
 				}
 				
@@ -172,28 +162,26 @@ public class XbrlInstance {
 					String[] rd = md.group().split("\\s");
 					rd[0] = rd[0].replace("\"","");
 					rd[0] = rd[0].replace("\'","");
-					//System.out.println("Decimals: ["+rd[0]+"]");
 					ele.setDecimals(rd[0].trim());
 				}
 					//setting Element Value
 				Pattern pv	= Pattern.compile(re.getValue()+ele.getTagName()+")");
 				Matcher mv	= pv.matcher(ele.getXmlLine());
 				if (mv.find()){
-					//System.out.println("Value: ["+mv.group()+"]");
 					ele.setValue(mv.group().trim());
 				}
-				
 				//setting Company
 				if (ele.getTagName().equalsIgnoreCase("dei:EntityRegistrantName") || ele.getName().equals("EntityRegistrantName")){
-					//flag = ele.value.trim();
 					ins.setCompany(ele.getValue().trim());
 				}else{	}
-				
 				//setting id
-				if (ele.getTagName().equalsIgnoreCase("dei:EntityCentralIndexKey") || ele.getName().equals("EntityCentralIndexKey")){
+				if (ele.getTagName().equalsIgnoreCase("dei:EntityCentralIndexKey") || ele.getName().equalsIgnoreCase("EntityCentralIndexKey")){
 					ins.setIdCompany(ele.getValue().trim());
 				}else{}
-					
+				//setting DocumentType
+				if (ele.getTagName().equalsIgnoreCase("dei:DocumentType") || ele.getName().equalsIgnoreCase("DocumentType")){
+					ins.setDocumentType(ele.getValue().trim());
+				}else {}
 				//setting labels
 				if (linkList != null){
 					for (XbrlLinkbase xl: linkList){
@@ -219,8 +207,9 @@ public class XbrlInstance {
 	
 	public void print(){
 		try{
-			System.out.println("Instance Id:    ["+this.getId()+"]");	
-			System.out.println("Instance FName: ["+this.getFilename()+"]");
+			System.out.println(":::Instance data {");
+			System.out.println(":::Instance Id:    ["+this.getId()+"]");	
+			System.out.println(":::Instance FName: ["+this.getFilename()+"]");
 			int i=0;
 			allElement:{
 				for (XbrlElement xe: this.getEleList()){
@@ -234,6 +223,7 @@ public class XbrlInstance {
 		}catch(Exception e){
 			System.out.println("::::::::: Erro["+e.getMessage()+"]");
 		}
+		System.out.println(":::}//Instance data");
 	}
 
 	

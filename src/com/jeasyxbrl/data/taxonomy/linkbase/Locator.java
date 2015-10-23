@@ -30,8 +30,7 @@ public class Locator {
 	private String type		=	"locator";
 	private String href		=	null;
 	private String label	=	null;
-	
-	
+
 	//getters and setters
 	public String getType() {
 		return type;
@@ -105,28 +104,4 @@ public class Locator {
 		}
 		return a;
 	}
-
-	
-	/*
-	 * Locator tester
-	 * 
-	public static void main(String[] args) throws IOException{
-		//String file = "../../../../../xbrlfiles/apple/aapl-20150627_lab.xml";
-		//String file = "../../../../../xbrlfiles/msft/msft-20131231_lab.xml";
-		//String file = "../../../../../xbrlfiles/ifrs/lab_IFRSF_2014-05-22.xml";
-		//String file = "../../../../../xbrlfiles/bobs/bobs-20120930_lab.xml";
-		//String file = "../../../../../xbrlfiles/oxfo/oxfo-20130930_lab.xml";
-		String file = "../../../../../xbrlfiles/fb/fb-20131231_lab.xml";
-		Locator loc = new Locator();
-		ArrayList<Locator> locList = loc.getLocatorsFromFile(file);
-		for (Locator loc1: locList){
-			//System.out.println(loc1.getHref());
-			if (loc1.href.contains("_CapitalLeasesLesseeBalanceSheetAssetsByMajorClassAccumulatedDeprecation")){
-				System.out.println(loc1.getHref());
-			}
-		}
-	}
-	*/
-	
-	
 }

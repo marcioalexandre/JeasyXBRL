@@ -127,28 +127,21 @@ public class XbrlElement{
 			if (m.find()){
 				this.setPosition(position);
 				this.setXmlLine(m.group());
-				
-				//get element tag name
+				//setting element tag name
 				Pattern ptag = Pattern.compile(re.getElementTagName());
 				Matcher mtag = ptag.matcher(this.getXmlLine());
 				if (mtag.find()){
-					//System.out.println("");
-					//System.out.println(m.group());
 					String tagname 	= mtag.group().replace("<"," ").trim();
 					String[] tname	= tagname.split("\\s");
-					//System.out.println("Tag Name: ["+tname[0]+"]");
 					this.setTagName(tname[0].trim());
 				}else{	}
-				
-				//get element name
+				//setting element name
 				Pattern pname = Pattern.compile(re.getElementName());
 				Matcher mname = pname.matcher(this.getXmlLine());
 				if (mname.find()){
-					//System.out.println("Name: ["+mname.group().trim()+"]");
 					this.setName(mname.group().trim());
 				}else{	}
-				
-				// get element id
+				//setting element id
 				Pattern pid = Pattern.compile(re.getId());
 				Matcher mid = pid.matcher(this.getXmlLine());
 				if (mid.find()){
@@ -156,47 +149,39 @@ public class XbrlElement{
 					rid[0] = rid[0].replace("\"","");
 					rid[0] = rid[0].replace("\'","");
 					rid[0] = rid[0].replace(">&lt;div",""); 
-					//System.out.println("Id: ["+rid[0].trim()+"]");
 					this.setId(rid[0].trim());
 				}else{	}
-				//get Element Context_Ref
+				//setting Element Context_Ref
 				Pattern pcr = Pattern.compile(re.getElementCRef());
 				Matcher mcr = pcr.matcher(this.getXmlLine());
 				if (mcr.find()){
 					String[] rcr = mcr.group().split("\\s");
 					rcr[0] = rcr[0].replace("\"","");
 					rcr[0] = rcr[0].replace("\'","");
-					//System.out.println("ContextRef: ["+rcr[0]+"]");
 					this.setContextRef(rcr[0].trim());
 				}else{  }
-				
-				//get Element Unit_Ref
+				//setting Element Unit_Ref
 				Pattern pur	= Pattern.compile(re.getElementURef());
 				Matcher mur	= pur.matcher(this.getXmlLine());
 				if (mur.find()){
 					String[] rur	=	mur.group().split("\\s"); 
 					rur[0]	= rur[0].replace("\"","");
 					rur[0]	= rur[0].replace("\'","");
-					//System.out.println("UnitRef: ["+rur[0]+"]");
 					this.setUnitRef(rur[0].trim());
 				}else{}
-				
-				//get Element Decimals
+				//setting Element Decimals
 				Pattern pd	= Pattern.compile(re.getElementDecimals());
 				Matcher md	= pd.matcher(this.getXmlLine());
 				if (md.find()){
 					String[] rd = md.group().split("\\s");
 					rd[0] = rd[0].replace("\"","");
 					rd[0] = rd[0].replace("\'","");
-					//System.out.println("Decimals: ["+rd[0]+"]");
 					this.setDecimals(rd[0].trim());
 				}else{}
-				
-				//get Element Value
+				//setting Element Value
 				Pattern pv	= Pattern.compile(re.getValue()+this.getTagName()+")");
 				Matcher mv	= pv.matcher(this.getXmlLine());
 				if (mv.find()){
-					//System.out.println("Value: ["+mv.group()+"]");
 					this.setValue(mv.group().trim());
 				}else{}
 			}
@@ -205,15 +190,16 @@ public class XbrlElement{
 	}
 	public void print(){
 		try{
-			System.out.println("Elemento number: ["+this.getPosition()+"]");
-			System.out.println("XML line:        ["+this.getXmlLine()+"]");
-			System.out.println("Name:            ["+this.getName()+"]");
-			System.out.println("Value:           ["+this.getValue()+"]");
-			System.out.println("Unit:            ["+this.getUnitRef()+"]");
-			System.out.println("Context:         ["+this.getContextRef()+"]");
-			System.out.println("Id:              ["+this.getId()+"]");
-			System.out.println("Decimals:        ["+this.getDecimals()+"]");
-			System.out.println("Label(s){");
+			System.out.println("::::Element Data {");
+			System.out.println("::::Elemento number: ["+this.getPosition()+"]");
+			System.out.println("::::XML line:        ["+this.getXmlLine()+"]");
+			System.out.println("::::Name:            ["+this.getName()+"]");
+			System.out.println("::::Value:           ["+this.getValue()+"]");
+			System.out.println("::::Unit:            ["+this.getUnitRef()+"]");
+			System.out.println("::::Context:         ["+this.getContextRef()+"]");
+			System.out.println("::::Id:              ["+this.getId()+"]");
+			System.out.println("::::Decimals:        ["+this.getDecimals()+"]");
+			System.out.println("::::Label(s){");
 		}catch(Exception e){
 			System.out.println(":::::::::: Element Error["+e.getMessage()+"]");
 		}finally{
@@ -224,7 +210,8 @@ public class XbrlElement{
 			}catch(Exception e){
 				System.out.println(":::::::: No Label or error ["+e.getMessage()+"]");
 			}finally{
-				System.out.println("}");
+				System.out.println("  }//label data");
+				System.out.println("::::}//Element Data");
 			}
 		}
 
